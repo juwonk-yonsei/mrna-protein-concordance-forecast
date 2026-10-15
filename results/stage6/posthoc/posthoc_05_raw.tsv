@@ -1,0 +1,16 @@
+label	item	value
+사후	file	data/raw/apollo_luad/APOLLO1_Level3_GProt_RAW.txt
+사후	sha256	71210627045eb233613ce7e3035f44e5aecb2d24c7da5685dcb551bb0bb4f549
+사후	size_bytes	10954279
+사후	n_sample_columns	100
+사후	n_samples_used	87
+사후	unused_columns	AP.4HYT.P7,AP.4WDE.P3,AP.E9CK.P10,AP.FEPR.P5,AP.KNF9.P6,AP.M3W6.P5,AP.MUQL.P9,AP.NCLP.P9,AP.Q7SA.P10,AP.SC6Y.P4,AP.UNC9.P8,AP.WEHE.P1,AP.Y6T7.P5
+사후	duplicate_symbols_dropped	CUX1,HLA-A,HLA-B,HLA-C,HLA-DRB1,MIEF1,MOCS2,POLR2M,RABGAP1L,TMPO,nan
+사후	P1_n	7027
+사후	P1_mean	0.08471269281418256
+사후	P1_pvalue	0.0
+사후	P2_n	7194
+사후	P2_S_F	0.7524744780285314
+사후	P2_S_B	0.5212276131124902
+사후	P2_diff	0.23124686491604118
+사후	P2_pvalue	0.0004997501249375312

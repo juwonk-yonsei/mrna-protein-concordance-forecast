@@ -1,0 +1,4 @@
+key	path	sha256	size_bytes
+procan_protein	data/raw/procan/ProCan-DepMapSanger_protein_matrix_8498_averaged.txt	5e7adf7e8217e5a02389c299dce1266e74c7a3b786b8c177e56d12402fe783ac	94222540
+tcga_rppa	data/raw/tcga/TCGA-RPPA-pancan-clean.xena.gz	2dca46e09280d2c26f9f83e82ee98c8c41d1b896f2966918529e913bfad1868d	5602638
+apollo_luad_protein	data/raw/apollo_luad/APOLLO1_Level3_Gprot_v061418.n87.csv	621c04d7ee91d4a8295891c03513c872d731aeae772744045d3748040715f2f4	9060133

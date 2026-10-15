@@ -1,0 +1,7 @@
+dataset	role	assay	n_samples	n_units	unit	detail
+CPTAC	개발	proteome and RNA, 10 tumor types	1027	7432	P genes	tumor RNA∩protein samples summed over 10 cancers
+CCLE Lung	개발	cell-line proteome and RNA	74	6911	genes with S0	
+CCLE Skin	개발	cell-line proteome and RNA	33	5947	genes with S0	
+TCGA RPPA	외부	RPPA antibodies	7754	123	H1 antibodies in AR	confirmation pairs 4154
+ProCan	외부	mass spectrometry protein matrix	949	2623	H2 proteins	protein columns 8498; confirmation pairs 12159
+APOLLO LUAD	외부	TMT11plex protein and gene-level TPM RNA	87	7029	P1 proteins with defined d	U_P1 upper bound 7148; U_P2 upper bound 7318; P2 n 7196

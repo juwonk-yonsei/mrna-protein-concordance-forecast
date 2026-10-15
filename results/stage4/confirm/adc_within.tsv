@@ -1,0 +1,19 @@
+n_contexts	median_spearman	cohort	model	item	n_antibodies_ge_min	n_defined	median	frac_gt_0
+31.0	0.2	rppa	f0	within_context				
+		rppa	f0	within_antibody	4.0	0.0		
+31.0	0.0	rppa	f1_ridge	within_context				
+		rppa	f1_ridge	within_antibody	4.0	4.0	0.3528225806451613	1.0
+31.0	0.2	rppa	f1_lgbm	within_context				
+		rppa	f1_lgbm	within_antibody	4.0	4.0	0.3064516129032258	1.0
+31.0	0.0	rppa	f1s_ridge	within_context				
+		rppa	f1s_ridge	within_antibody	4.0	4.0	0.3616935483870968	1.0
+31.0	0.0	rppa	f1s_lgbm	within_context				
+		rppa	f1s_lgbm	within_antibody	4.0	4.0	0.28943230575159573	1.0
+31.0	-0.4	rppa	b_sd	within_context				
+		rppa	b_sd	within_antibody	4.0	4.0	0.14233870967741935	0.5
+1.0	0.4	procan	f0	within_context				
+1.0	0.8	procan	f1_ridge	within_context				
+1.0	0.8	procan	f1_lgbm	within_context				
+1.0	1.0	procan	f1s_ridge	within_context				
+1.0	1.0	procan	f1s_lgbm	within_context				
+1.0	0.0	procan	b_sd	within_context				

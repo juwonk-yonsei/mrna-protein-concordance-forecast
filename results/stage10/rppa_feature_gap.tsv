@@ -1,0 +1,10 @@
+feature	max_abs	n_differ_1e-8
+rho_mean	9.71445146547012e-17	0
+rho_sd	9.71445146547012e-17	0
+rho_min	5.551115123125783e-17	0
+rho_max	1.1102230246251565e-16	0
+n_defined_cancers	0.0	0
+holdout_rna_mean_percentile	1.4210854715202004e-14	0
+holdout_rna_sd_percentile	1.4210854715202004e-14	0
+train_rna_mean_percentile_mean	1.4210854715202004e-14	0
+train_protein_rate_mean	1.1102230246251565e-16	0

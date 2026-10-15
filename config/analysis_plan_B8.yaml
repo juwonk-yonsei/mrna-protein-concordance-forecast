@@ -1,0 +1,93 @@
+# Analysis plan B8. Commit this file before any L* or HYB calculation.
+# Do not edit the context map or the cascade after that commit.
+label: 사후
+seed: 20261001
+bootstrap_draws: 2000
+seed_restart: new_default_rng_for_each_contrast
+cpu_cap: none
+ram_gb: 48
+read_paths_yaml_n_threads: false
+import_04_models: false
+import_02_cptac_audit: false
+retrain: false
+
+units:
+  RPPA: xena_antibody
+  ProCan: protein_id
+  APOLLO: gene_symbol
+
+min_pairs_for_spearman: 3
+rank_ties: average
+constant_score_is_undefined: true
+auroc_positive: actual_rho_at_least_0.5
+interval: percentile_2.5_and_97.5_of_finite_draws
+
+# Stored RPPA context names are TCGA disease names, not the abbreviations in the instruction table.
+rppa_context_to_cptac:
+  "breast invasive carcinoma": BRCA
+  "kidney clear cell carcinoma": CCRCC
+  "colon adenocarcinoma": COAD
+  "rectum adenocarcinoma": COAD
+  "glioblastoma multiforme": GBM
+  "head & neck squamous cell carcinoma": HNSCC
+  "lung adenocarcinoma": LUAD
+  "lung squamous cell carcinoma": LSCC
+  "ovarian serous cystadenocarcinoma": OV
+  "pancreatic adenocarcinoma": PDAC
+  "uterine corpus endometrioid carcinoma": UCEC
+
+procan_context_to_cptac:
+  "Large Intestine": [COAD]
+  Lung: [LUAD, LSCC]
+  "Haematopoietic and Lymphoid": []
+
+apollo_context_to_cptac:
+  LUAD: [LUAD]
+
+# L1 value when several CPTAC cohorts are listed: mean of the finite stored rhos.
+# One finite cohort is enough. Requiring every listed cohort would drop a measured correlation.
+l1_partial_mean: true
+
+rho_sources:
+  - "results/s0_pairs.tsv with n >= 30 and finite s0"
+  - "results/adc_loco.tsv for ADC genes outside P, same n rule, via scripts/07_freeze.py load_defined_rho"
+  - "scripts/07_freeze.py extra_cptac_rho for evaluation genes that are still absent from that dictionary"
+rho_sources_note: "Extra cohort-level rho was not stored as a table. Recomputing uses the stage-2 function and does not refit models."
+
+l2: mean of defined CPTAC rho values for the gene across the ten CPTAC cancers in the rho dictionary above. Absent when that gene has none. The stored f0 column is not used as L2, because f0 is the global mean when n_defined_cancers is 0.
+l3: mean of finite ProCan lineage actual rho values for the gene. Present if at least one lineage is finite. Used only when the evaluation dataset is RPPA or APOLLO. Not used for ProCan evaluation.
+l4: global mean of CPTAC rho over P genes, from the same rho dictionary restricted to P genes.
+cascade: [L1, L2, L3, L4]
+layer: first step that has a value
+
+hyb: L1 if L1 is present, otherwise F1s-LightGBM. HYB does not use L2, L3, or L4.
+
+contrasts:
+  spearman_scores: [f1s_lgbm, f1s_ridge, f0, Lstar, HYB, b_sd]
+  spearman_differences:
+    - [f1s_lgbm, Lstar]
+    - [f1s_ridge, Lstar]
+    - [f1s_lgbm, f0]
+    - [f1s_ridge, f0]
+    - [HYB, f1s_lgbm]
+    - [HYB, Lstar]
+  strata: [all, L1, L2, L3, L4]
+  auroc_scores: [f1s_lgbm, f0, Lstar, HYB, b_sd]
+  auroc_differences:
+    - [f1s_lgbm, f0]
+    - [f1s_lgbm, Lstar]
+    - [f1s_lgbm, b_sd]
+  within_context:
+    RPPA: sign_test
+    ProCan: values_only
+    APOLLO: values_only
+  within_context_differences:
+    - [f1s_lgbm, f0]
+    - [f1s_lgbm, Lstar]
+    - [f1s_ridge, f0]
+    - [f1s_ridge, Lstar]
+  sign_test: two_sided_binomial_ties_dropped
+  within_context_interval: resample_contexts_with_replacement
+
+counts_per_stratum: [n_pairs, n_genes, n_units]
+headline_predictor: f1s_lgbm

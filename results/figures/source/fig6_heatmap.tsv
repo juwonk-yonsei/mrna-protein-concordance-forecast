@@ -1,0 +1,958 @@
+status	gene_symbol	disease	rho_hat
+사후	ERBB2	acute myeloid leukemia	0.4833893544158242
+사후	TACSTD2	acute myeloid leukemia	0.2748458672182646
+사후	NECTIN4	acute myeloid leukemia	0.395518249170804
+사후	FOLR1	acute myeloid leukemia	0.3422199307998645
+사후	F3	acute myeloid leukemia	0.3897858199548978
+사후	MET	acute myeloid leukemia	0.2850784106172128
+사후	CD276	acute myeloid leukemia	0.457638912924845
+사후	ERBB3	acute myeloid leukemia	0.2468197848515626
+사후	CEACAM5	acute myeloid leukemia	0.588226324043856
+사후	EGFR	acute myeloid leukemia	0.240874852703031
+사후	CDH6	acute myeloid leukemia	0.3128437058502384
+사후	PTK7	acute myeloid leukemia	0.7508948427042191
+사후	CLDN18	acute myeloid leukemia	0.4179113440801553
+사후	MSLN	acute myeloid leukemia	0.4622595191087895
+사후	ROR1	acute myeloid leukemia	0.357073628263085
+사후	SLC39A6	acute myeloid leukemia	0.2527285688588744
+사후	SLC34A2	acute myeloid leukemia	0.1789970650694043
+사후	VTCN1	acute myeloid leukemia	0.5348058352355372
+사후	ITGB6	acute myeloid leukemia	0.2616407332818243
+사후	AXL	acute myeloid leukemia	0.3126618511814814
+사후	CDH3	acute myeloid leukemia	0.2221815577408916
+사후	EPCAM	acute myeloid leukemia	0.3631035690408385
+사후	MUC16	acute myeloid leukemia	0.3099380493023631
+사후	MUC1	acute myeloid leukemia	0.5284879560031586
+사후	GPC3	acute myeloid leukemia	0.231702879765103
+사후	CA9	acute myeloid leukemia	0.5873903378967564
+사후	ENPP3	acute myeloid leukemia	0.2628857674673762
+사후	DLL3	acute myeloid leukemia	0.5141382606975198
+사후	STEAP1	acute myeloid leukemia	0.2960427350178854
+사후	ERBB2	adrenocortical cancer	0.6295118162438936
+사후	TACSTD2	adrenocortical cancer	0.5109975428969947
+사후	NECTIN4	adrenocortical cancer	0.3826382052818866
+사후	FOLR1	adrenocortical cancer	0.382388681349205
+사후	F3	adrenocortical cancer	0.7145611719082667
+사후	MET	adrenocortical cancer	0.6632390273123255
+사후	CD276	adrenocortical cancer	0.6019284655032211
+사후	ERBB3	adrenocortical cancer	0.3854037249000727
+사후	CEACAM5	adrenocortical cancer	0.2280480102507547
+사후	EGFR	adrenocortical cancer	0.6293525797645532
+사후	CDH6	adrenocortical cancer	0.5173309169421124
+사후	PTK7	adrenocortical cancer	0.6983549892099495
+사후	CLDN18	adrenocortical cancer	0.3845958036280585
+사후	MSLN	adrenocortical cancer	0.4680566567986854
+사후	ROR1	adrenocortical cancer	0.447364180184983
+사후	SLC39A6	adrenocortical cancer	0.3192681068593903
+사후	SLC34A2	adrenocortical cancer	0.1853735458463569
+사후	VTCN1	adrenocortical cancer	0.4083798697768596
+사후	ITGB6	adrenocortical cancer	0.2287327791746263
+사후	AXL	adrenocortical cancer	0.4800686579750761
+사후	CDH3	adrenocortical cancer	0.3825463861392988
+사후	EPCAM	adrenocortical cancer	0.6553455538740938
+사후	MUC16	adrenocortical cancer	0.2491208715740284
+사후	MUC1	adrenocortical cancer	0.488859382594849
+사후	GPC3	adrenocortical cancer	0.5118397455053243
+사후	CA9	adrenocortical cancer	0.758779035284873
+사후	ENPP3	adrenocortical cancer	0.6639193221581946
+사후	DLL3	adrenocortical cancer	0.6491697513319757
+사후	STEAP1	adrenocortical cancer	0.5856918245384266
+사후	ERBB2	bladder urothelial carcinoma	0.6829917511744111
+사후	TACSTD2	bladder urothelial carcinoma	0.7787736617175992
+사후	NECTIN4	bladder urothelial carcinoma	0.8515454192730927
+사후	FOLR1	bladder urothelial carcinoma	0.5203398386235625
+사후	F3	bladder urothelial carcinoma	0.7663263606829844
+사후	MET	bladder urothelial carcinoma	0.7641316917472744
+사후	CD276	bladder urothelial carcinoma	0.5949865479308963
+사후	ERBB3	bladder urothelial carcinoma	0.6405413966634504
+사후	CEACAM5	bladder urothelial carcinoma	0.7419019529616558
+사후	EGFR	bladder urothelial carcinoma	0.6684282986289689
+사후	CDH6	bladder urothelial carcinoma	0.4805858416112081
+사후	PTK7	bladder urothelial carcinoma	0.75593175850195
+사후	CLDN18	bladder urothelial carcinoma	0.5051688565457582
+사후	MSLN	bladder urothelial carcinoma	0.6537275387971853
+사후	ROR1	bladder urothelial carcinoma	0.3930000791949721
+사후	SLC39A6	bladder urothelial carcinoma	0.4243679500307838
+사후	SLC34A2	bladder urothelial carcinoma	0.3024599248815229
+사후	VTCN1	bladder urothelial carcinoma	0.8287127800550032
+사후	ITGB6	bladder urothelial carcinoma	0.8261137590234797
+사후	AXL	bladder urothelial carcinoma	0.5139435788068462
+사후	CDH3	bladder urothelial carcinoma	0.7687705582608155
+사후	EPCAM	bladder urothelial carcinoma	0.7413106396541131
+사후	MUC16	bladder urothelial carcinoma	0.4383157151561465
+사후	MUC1	bladder urothelial carcinoma	0.737619201175915
+사후	GPC3	bladder urothelial carcinoma	0.5007890226082371
+사후	CA9	bladder urothelial carcinoma	0.8143391827928854
+사후	ENPP3	bladder urothelial carcinoma	0.2667014469913713
+사후	DLL3	bladder urothelial carcinoma	0.5904623973563694
+사후	STEAP1	bladder urothelial carcinoma	0.697996041044459
+사후	ERBB2	brain lower grade glioma	0.5867168108115651
+사후	TACSTD2	brain lower grade glioma	0.2812228115258188
+사후	NECTIN4	brain lower grade glioma	0.3363069585999069
+사후	FOLR1	brain lower grade glioma	0.5444674761082386
+사후	F3	brain lower grade glioma	0.8074030830035366
+사후	MET	brain lower grade glioma	0.5786769461656474
+사후	CD276	brain lower grade glioma	0.5616133703110778
+사후	ERBB3	brain lower grade glioma	0.5332459860542575
+사후	CEACAM5	brain lower grade glioma	0.2617093118088261
+사후	EGFR	brain lower grade glioma	0.8031395841588588
+사후	CDH6	brain lower grade glioma	0.6099640239747698
+사후	PTK7	brain lower grade glioma	0.6728439939713473
+사후	CLDN18	brain lower grade glioma	0.4195523358321293
+사후	MSLN	brain lower grade glioma	0.604719037748874
+사후	ROR1	brain lower grade glioma	0.3973927282799666
+사후	SLC39A6	brain lower grade glioma	0.4147732722700303
+사후	SLC34A2	brain lower grade glioma	0.3394910113374735
+사후	VTCN1	brain lower grade glioma	0.5362059943410797
+사후	ITGB6	brain lower grade glioma	0.2368166932163199
+사후	AXL	brain lower grade glioma	0.569782327159704
+사후	CDH3	brain lower grade glioma	0.5442993147690387
+사후	EPCAM	brain lower grade glioma	0.3550203578412908
+사후	MUC16	brain lower grade glioma	0.2466470467122705
+사후	MUC1	brain lower grade glioma	0.5391769537151316
+사후	GPC3	brain lower grade glioma	0.3061208421727549
+사후	CA9	brain lower grade glioma	0.5477291391402285
+사후	ENPP3	brain lower grade glioma	0.2829462377487152
+사후	DLL3	brain lower grade glioma	0.8438042603703657
+사후	STEAP1	brain lower grade glioma	0.4806778648901074
+사후	ERBB2	breast invasive carcinoma	0.6937150621032787
+사후	TACSTD2	breast invasive carcinoma	0.7786298094931879
+사후	NECTIN4	breast invasive carcinoma	0.7850589263164492
+사후	FOLR1	breast invasive carcinoma	0.6656623845434293
+사후	F3	breast invasive carcinoma	0.6971588170966221
+사후	MET	breast invasive carcinoma	0.7282528887560198
+사후	CD276	breast invasive carcinoma	0.5830291881842745
+사후	ERBB3	breast invasive carcinoma	0.6228410817064738
+사후	CEACAM5	breast invasive carcinoma	0.6864771684958526
+사후	EGFR	breast invasive carcinoma	0.6544306239295862
+사후	CDH6	breast invasive carcinoma	0.4805858416112081
+사후	PTK7	breast invasive carcinoma	0.7805113028982034
+사후	CLDN18	breast invasive carcinoma	0.4183040960607073
+사후	MSLN	breast invasive carcinoma	0.5503315842981303
+사후	ROR1	breast invasive carcinoma	0.4479455511393972
+사후	SLC39A6	breast invasive carcinoma	0.4682133037162542
+사후	SLC34A2	breast invasive carcinoma	0.6324950954001233
+사후	VTCN1	breast invasive carcinoma	0.8696284911371
+사후	ITGB6	breast invasive carcinoma	0.8301035462982105
+사후	AXL	breast invasive carcinoma	0.5662041081075503
+사후	CDH3	breast invasive carcinoma	0.7514674324678124
+사후	EPCAM	breast invasive carcinoma	0.6879218155954487
+사후	MUC16	breast invasive carcinoma	0.5724859456628225
+사후	MUC1	breast invasive carcinoma	0.7354638200984233
+사후	GPC3	breast invasive carcinoma	0.5467976460058922
+사후	CA9	breast invasive carcinoma	0.588885873486337
+사후	ENPP3	breast invasive carcinoma	0.3457228913103851
+사후	DLL3	breast invasive carcinoma	0.5475283234723263
+사후	STEAP1	breast invasive carcinoma	0.6287981900650819
+사후	ERBB2	cervical & endocervical cancer	0.6644802521454853
+사후	TACSTD2	cervical & endocervical cancer	0.7756572801020031
+사후	NECTIN4	cervical & endocervical cancer	0.8211110543812327
+사후	FOLR1	cervical & endocervical cancer	0.6656623845434293
+사후	F3	cervical & endocervical cancer	0.8128455132084496
+사후	MET	cervical & endocervical cancer	0.7807997367193875
+사후	CD276	cervical & endocervical cancer	0.6189818007826802
+사후	ERBB3	cervical & endocervical cancer	0.6116634169667895
+사후	CEACAM5	cervical & endocervical cancer	0.8180581854538284
+사후	EGFR	cervical & endocervical cancer	0.7085889923319207
+사후	CDH6	cervical & endocervical cancer	0.4706637345065173
+사후	PTK7	cervical & endocervical cancer	0.7476475847973263
+사후	CLDN18	cervical & endocervical cancer	0.4522446410241065
+사후	MSLN	cervical & endocervical cancer	0.8028638287007678
+사후	ROR1	cervical & endocervical cancer	0.3973927282799666
+사후	SLC39A6	cervical & endocervical cancer	0.3172105395313997
+사후	SLC34A2	cervical & endocervical cancer	0.5466980690294294
+사후	VTCN1	cervical & endocervical cancer	0.8061984221434112
+사후	ITGB6	cervical & endocervical cancer	0.8192211428853676
+사후	AXL	cervical & endocervical cancer	0.5052492875990454
+사후	CDH3	cervical & endocervical cancer	0.7425721124137674
+사후	EPCAM	cervical & endocervical cancer	0.7394852931153252
+사후	MUC16	cervical & endocervical cancer	0.7755842065676387
+사후	MUC1	cervical & endocervical cancer	0.742002717233469
+사후	GPC3	cervical & endocervical cancer	0.5453476274898176
+사후	CA9	cervical & endocervical cancer	0.841133919004374
+사후	ENPP3	cervical & endocervical cancer	0.3510961840588993
+사후	DLL3	cervical & endocervical cancer	0.7167081563171084
+사후	STEAP1	cervical & endocervical cancer	0.6796113786092937
+사후	ERBB2	cholangiocarcinoma	0.6835817246889252
+사후	TACSTD2	cholangiocarcinoma	0.8090629083702743
+사후	NECTIN4	cholangiocarcinoma	0.866067049693326
+사후	FOLR1	cholangiocarcinoma	0.7629275185378498
+사후	F3	cholangiocarcinoma	0.7238659515897676
+사후	MET	cholangiocarcinoma	0.7754209108710627
+사후	CD276	cholangiocarcinoma	0.6017944114982965
+사후	ERBB3	cholangiocarcinoma	0.653758895508226
+사후	CEACAM5	cholangiocarcinoma	0.5520391704464614
+사후	EGFR	cholangiocarcinoma	0.6783151884235586
+사후	CDH6	cholangiocarcinoma	0.7717104532258954
+사후	PTK7	cholangiocarcinoma	0.791769468870169
+사후	CLDN18	cholangiocarcinoma	0.5830491721422384
+사후	MSLN	cholangiocarcinoma	0.6129392876251064
+사후	ROR1	cholangiocarcinoma	0.446884131506894
+사후	SLC39A6	cholangiocarcinoma	0.3822340371339515
+사후	SLC34A2	cholangiocarcinoma	0.8353105536554334
+사후	VTCN1	cholangiocarcinoma	0.8648620669698264
+사후	ITGB6	cholangiocarcinoma	0.610514570829689
+사후	AXL	cholangiocarcinoma	0.4634481913232982
+사후	CDH3	cholangiocarcinoma	0.4948402386356838
+사후	EPCAM	cholangiocarcinoma	0.732633111868839
+사후	MUC16	cholangiocarcinoma	0.386938405573304
+사후	MUC1	cholangiocarcinoma	0.7561777129768658
+사후	GPC3	cholangiocarcinoma	0.5236177162923019
+사후	CA9	cholangiocarcinoma	0.8434363071757629
+사후	ENPP3	cholangiocarcinoma	0.2921790250346328
+사후	DLL3	cholangiocarcinoma	0.4321763539406189
+사후	STEAP1	cholangiocarcinoma	0.6401286327610344
+사후	ERBB2	colon adenocarcinoma	0.6524096373684419
+사후	TACSTD2	colon adenocarcinoma	0.7184141560892305
+사후	NECTIN4	colon adenocarcinoma	0.7874542170406909
+사후	FOLR1	colon adenocarcinoma	0.6656623845434293
+사후	F3	colon adenocarcinoma	0.7705024502892355
+사후	MET	colon adenocarcinoma	0.7483099170023408
+사후	CD276	colon adenocarcinoma	0.6013108934504392
+사후	ERBB3	colon adenocarcinoma	0.5535874383318029
+사후	CEACAM5	colon adenocarcinoma	0.8059500720377818
+사후	EGFR	colon adenocarcinoma	0.5708199190183798
+사후	CDH6	colon adenocarcinoma	0.5239403599678057
+사후	PTK7	colon adenocarcinoma	0.791769468870169
+사후	CLDN18	colon adenocarcinoma	0.5939791502001978
+사후	MSLN	colon adenocarcinoma	0.8018123861580161
+사후	ROR1	colon adenocarcinoma	0.4092039642026134
+사후	SLC39A6	colon adenocarcinoma	0.2716612984916943
+사후	SLC34A2	colon adenocarcinoma	0.3020794371443827
+사후	VTCN1	colon adenocarcinoma	0.4952992253448445
+사후	ITGB6	colon adenocarcinoma	0.7417244477974702
+사후	AXL	colon adenocarcinoma	0.4771548711822962
+사후	CDH3	colon adenocarcinoma	0.7197960938184595
+사후	EPCAM	colon adenocarcinoma	0.5918430611719937
+사후	MUC16	colon adenocarcinoma	0.3812920973450681
+사후	MUC1	colon adenocarcinoma	0.7362613741158738
+사후	GPC3	colon adenocarcinoma	0.4718829300805027
+사후	CA9	colon adenocarcinoma	0.8265129235990363
+사후	ENPP3	colon adenocarcinoma	0.6732620392262183
+사후	DLL3	colon adenocarcinoma	0.5867944642142294
+사후	STEAP1	colon adenocarcinoma	0.686281084089736
+사후	ERBB2	diffuse large B-cell lymphoma	0.6054756896062261
+사후	TACSTD2	diffuse large B-cell lymphoma	0.4774690768066685
+사후	NECTIN4	diffuse large B-cell lymphoma	0.6924978181095858
+사후	FOLR1	diffuse large B-cell lymphoma	0.419691937966142
+사후	F3	diffuse large B-cell lymphoma	0.6711233277493113
+사후	MET	diffuse large B-cell lymphoma	0.7092448752305901
+사후	CD276	diffuse large B-cell lymphoma	0.5300297913513989
+사후	ERBB3	diffuse large B-cell lymphoma	0.3588517149861518
+사후	CEACAM5	diffuse large B-cell lymphoma	0.2680639411310654
+사후	EGFR	diffuse large B-cell lymphoma	0.4631545048093393
+사후	CDH6	diffuse large B-cell lymphoma	0.3986410588758204
+사후	PTK7	diffuse large B-cell lymphoma	0.7060425748192581
+사후	CLDN18	diffuse large B-cell lymphoma	0.5066577661080686
+사후	MSLN	diffuse large B-cell lymphoma	0.604719037748874
+사후	ROR1	diffuse large B-cell lymphoma	0.4082378875547293
+사후	SLC39A6	diffuse large B-cell lymphoma	0.2447705947164075
+사후	SLC34A2	diffuse large B-cell lymphoma	0.3391105236003333
+사후	VTCN1	diffuse large B-cell lymphoma	0.4206381372867814
+사후	ITGB6	diffuse large B-cell lymphoma	0.3092182938676501
+사후	AXL	diffuse large B-cell lymphoma	0.4662349457760653
+사후	CDH3	diffuse large B-cell lymphoma	0.5414409153328362
+사후	EPCAM	diffuse large B-cell lymphoma	0.4836684712062626
+사후	MUC16	diffuse large B-cell lymphoma	0.4785771286753037
+사후	MUC1	diffuse large B-cell lymphoma	0.6166516847728158
+사후	GPC3	diffuse large B-cell lymphoma	0.3663922065249115
+사후	CA9	diffuse large B-cell lymphoma	0.6349774573235517
+사후	ENPP3	diffuse large B-cell lymphoma	0.4739722176734751
+사후	DLL3	diffuse large B-cell lymphoma	0.7773129874867037
+사후	STEAP1	diffuse large B-cell lymphoma	0.6576791095773021
+사후	ERBB2	esophageal carcinoma	0.6969574511404937
+사후	TACSTD2	esophageal carcinoma	0.7822688595962607
+사후	NECTIN4	esophageal carcinoma	0.8362466443667724
+사후	FOLR1	esophageal carcinoma	0.5203398386235625
+사후	F3	esophageal carcinoma	0.7816930127251605
+사후	MET	esophageal carcinoma	0.7635362655186078
+사후	CD276	esophageal carcinoma	0.6169504857688496
+사후	ERBB3	esophageal carcinoma	0.6327908162278681
+사후	CEACAM5	esophageal carcinoma	0.8342538176553945
+사후	EGFR	esophageal carcinoma	0.7828875147105758
+사후	CDH6	esophageal carcinoma	0.5669732733473721
+사후	PTK7	esophageal carcinoma	0.7730772591125408
+사후	CLDN18	esophageal carcinoma	0.6979415167063737
+사후	MSLN	esophageal carcinoma	0.7276826490559254
+사후	ROR1	esophageal carcinoma	0.4475051696513987
+사후	SLC39A6	esophageal carcinoma	0.3524646298898482
+사후	SLC34A2	esophageal carcinoma	0.5193265654484216
+사후	VTCN1	esophageal carcinoma	0.7901075662513425
+사후	ITGB6	esophageal carcinoma	0.8287401664454103
+사후	AXL	esophageal carcinoma	0.517593222291898
+사후	CDH3	esophageal carcinoma	0.756823928825068
+사후	EPCAM	esophageal carcinoma	0.7378961840207637
+사후	MUC16	esophageal carcinoma	0.5091281176355782
+사후	MUC1	esophageal carcinoma	0.740566288211109
+사후	GPC3	esophageal carcinoma	0.554262244563048
+사후	CA9	esophageal carcinoma	0.8228502762786424
+사후	ENPP3	esophageal carcinoma	0.281456386184215
+사후	DLL3	esophageal carcinoma	0.5396961213790024
+사후	STEAP1	esophageal carcinoma	0.678008306721485
+사후	ERBB2	glioblastoma multiforme	0.6545684329093633
+사후	TACSTD2	glioblastoma multiforme	0.3253926051862345
+사후	NECTIN4	glioblastoma multiforme	0.4372927230586249
+사후	FOLR1	glioblastoma multiforme	0.681474284946622
+사후	F3	glioblastoma multiforme	0.773756743613173
+사후	MET	glioblastoma multiforme	0.6914989250143987
+사후	CD276	glioblastoma multiforme	0.6004360758334704
+사후	ERBB3	glioblastoma multiforme	0.5846284965842145
+사후	CEACAM5	glioblastoma multiforme	0.2476643684424847
+사후	EGFR	glioblastoma multiforme	0.8328780673434651
+사후	CDH6	glioblastoma multiforme	0.6886733056875828
+사후	PTK7	glioblastoma multiforme	0.7104502027425389
+사후	CLDN18	glioblastoma multiforme	0.4202018856263007
+사후	MSLN	glioblastoma multiforme	0.604719037748874
+사후	ROR1	glioblastoma multiforme	0.4135649110670615
+사후	SLC39A6	glioblastoma multiforme	0.351672292165672
+사후	SLC34A2	glioblastoma multiforme	0.3820652533426827
+사후	VTCN1	glioblastoma multiforme	0.4857577243952345
+사후	ITGB6	glioblastoma multiforme	0.2043433217332556
+사후	AXL	glioblastoma multiforme	0.5757242882499686
+사후	CDH3	glioblastoma multiforme	0.4948402386356838
+사후	EPCAM	glioblastoma multiforme	0.3219142225231851
+사후	MUC16	glioblastoma multiforme	0.2149592712147077
+사후	MUC1	glioblastoma multiforme	0.5703537826186955
+사후	GPC3	glioblastoma multiforme	0.3786631821809306
+사후	CA9	glioblastoma multiforme	0.798618595633625
+사후	ENPP3	glioblastoma multiforme	0.3129439019312497
+사후	DLL3	glioblastoma multiforme	0.8470673910300804
+사후	STEAP1	glioblastoma multiforme	0.6041275876457856
+사후	ERBB2	head & neck squamous cell carcinoma	0.6413603426311961
+사후	TACSTD2	head & neck squamous cell carcinoma	0.7466337581405988
+사후	NECTIN4	head & neck squamous cell carcinoma	0.7964890131964666
+사후	FOLR1	head & neck squamous cell carcinoma	0.5203398386235625
+사후	F3	head & neck squamous cell carcinoma	0.7977293760024402
+사후	MET	head & neck squamous cell carcinoma	0.7753013253319229
+사후	CD276	head & neck squamous cell carcinoma	0.6073237127907056
+사후	ERBB3	head & neck squamous cell carcinoma	0.5283405399248373
+사후	CEACAM5	head & neck squamous cell carcinoma	0.82536716217036
+사후	EGFR	head & neck squamous cell carcinoma	0.7944490851462542
+사후	CDH6	head & neck squamous cell carcinoma	0.5018591381974637
+사후	PTK7	head & neck squamous cell carcinoma	0.7474045647404834
+사후	CLDN18	head & neck squamous cell carcinoma	0.4878078556058934
+사후	MSLN	head & neck squamous cell carcinoma	0.7270361720566111
+사후	ROR1	head & neck squamous cell carcinoma	0.4082378875547293
+사후	SLC39A6	head & neck squamous cell carcinoma	0.4186772731326662
+사후	SLC34A2	head & neck squamous cell carcinoma	0.4573947511558129
+사후	VTCN1	head & neck squamous cell carcinoma	0.7076353091766469
+사후	ITGB6	head & neck squamous cell carcinoma	0.8227846429035819
+사후	AXL	head & neck squamous cell carcinoma	0.5719618301755208
+사후	CDH3	head & neck squamous cell carcinoma	0.7397712109228789
+사후	EPCAM	head & neck squamous cell carcinoma	0.7192513462279153
+사후	MUC16	head & neck squamous cell carcinoma	0.6229920613220882
+사후	MUC1	head & neck squamous cell carcinoma	0.7236882966147505
+사후	GPC3	head & neck squamous cell carcinoma	0.5018339589954438
+사후	CA9	head & neck squamous cell carcinoma	0.8388038985449057
+사후	ENPP3	head & neck squamous cell carcinoma	0.2940659157200447
+사후	DLL3	head & neck squamous cell carcinoma	0.6455018181898358
+사후	STEAP1	head & neck squamous cell carcinoma	0.6657207054942224
+사후	ERBB2	kidney chromophobe	0.6662322704586645
+사후	TACSTD2	kidney chromophobe	0.7247486933779184
+사후	NECTIN4	kidney chromophobe	0.6452309932391274
+사후	FOLR1	kidney chromophobe	0.7614046837880002
+사후	F3	kidney chromophobe	0.611887934873203
+사후	MET	kidney chromophobe	0.7704785542871464
+사후	CD276	kidney chromophobe	0.5962368194245852
+사후	ERBB3	kidney chromophobe	0.5704885354699236
+사후	CEACAM5	kidney chromophobe	0.2441724037283519
+사후	EGFR	kidney chromophobe	0.7085889923319207
+사후	CDH6	kidney chromophobe	0.5781337478653351
+사후	PTK7	kidney chromophobe	0.7345320591442489
+사후	CLDN18	kidney chromophobe	0.3433675417234904
+사후	MSLN	kidney chromophobe	0.4700375245690677
+사후	ROR1	kidney chromophobe	0.4583177571160098
+사후	SLC39A6	kidney chromophobe	0.2761765259523375
+사후	SLC34A2	kidney chromophobe	0.3014588250101496
+사후	VTCN1	kidney chromophobe	0.585742781503619
+사후	ITGB6	kidney chromophobe	0.7743504978410628
+사후	AXL	kidney chromophobe	0.4972045338839604
+사후	CDH3	kidney chromophobe	0.5307451951472939
+사후	EPCAM	kidney chromophobe	0.7423822417204209
+사후	MUC16	kidney chromophobe	0.2431967028328056
+사후	MUC1	kidney chromophobe	0.7298201594383408
+사후	GPC3	kidney chromophobe	0.7335429395800256
+사후	CA9	kidney chromophobe	0.4451129418621082
+사후	ENPP3	kidney chromophobe	0.31499530622998
+사후	DLL3	kidney chromophobe	0.4667271993421895
+사후	STEAP1	kidney chromophobe	0.4900742218173081
+사후	ERBB2	kidney clear cell carcinoma	0.6555776613483677
+사후	TACSTD2	kidney clear cell carcinoma	0.6567050099934415
+사후	NECTIN4	kidney clear cell carcinoma	0.5002264445096649
+사후	FOLR1	kidney clear cell carcinoma	0.784316490650205
+사후	F3	kidney clear cell carcinoma	0.5696985375494517
+사후	MET	kidney clear cell carcinoma	0.7441189134119918
+사후	CD276	kidney clear cell carcinoma	0.5985981843736828
+사후	ERBB3	kidney clear cell carcinoma	0.6391284326104687
+사후	CEACAM5	kidney clear cell carcinoma	0.2619141757072217
+사후	EGFR	kidney clear cell carcinoma	0.7811157486026018
+사후	CDH6	kidney clear cell carcinoma	0.7782744322301616
+사후	PTK7	kidney clear cell carcinoma	0.6888268014083653
+사후	CLDN18	kidney clear cell carcinoma	0.5102898050595116
+사후	MSLN	kidney clear cell carcinoma	0.6129392876251064
+사후	ROR1	kidney clear cell carcinoma	0.4653996511141227
+사후	SLC39A6	kidney clear cell carcinoma	0.3100174469556013
+사후	SLC34A2	kidney clear cell carcinoma	0.7736694212726918
+사후	VTCN1	kidney clear cell carcinoma	0.5996708043931201
+사후	ITGB6	kidney clear cell carcinoma	0.7483690649515942
+사후	AXL	kidney clear cell carcinoma	0.5995226672212984
+사후	CDH3	kidney clear cell carcinoma	0.4193517362121845
+사후	EPCAM	kidney clear cell carcinoma	0.7156019378143755
+사후	MUC16	kidney clear cell carcinoma	0.351195873829527
+사후	MUC1	kidney clear cell carcinoma	0.7362458373473709
+사후	GPC3	kidney clear cell carcinoma	0.4763999617499783
+사후	CA9	kidney clear cell carcinoma	0.8337203580456872
+사후	ENPP3	kidney clear cell carcinoma	0.8136402287717256
+사후	DLL3	kidney clear cell carcinoma	0.4375544666385755
+사후	STEAP1	kidney clear cell carcinoma	0.6041275876457856
+사후	ERBB2	kidney papillary cell carcinoma	0.6050578361554338
+사후	TACSTD2	kidney papillary cell carcinoma	0.8146589298685033
+사후	NECTIN4	kidney papillary cell carcinoma	0.4823751720729623
+사후	FOLR1	kidney papillary cell carcinoma	0.7862160307796455
+사후	F3	kidney papillary cell carcinoma	0.5086520273540976
+사후	MET	kidney papillary cell carcinoma	0.7613258070723253
+사후	CD276	kidney papillary cell carcinoma	0.5748995219490408
+사후	ERBB3	kidney papillary cell carcinoma	0.6278778015710237
+사후	CEACAM5	kidney papillary cell carcinoma	0.2796299752156216
+사후	EGFR	kidney papillary cell carcinoma	0.6274331992569188
+사후	CDH6	kidney papillary cell carcinoma	0.7816035483500594
+사후	PTK7	kidney papillary cell carcinoma	0.7829348342576558
+사후	CLDN18	kidney papillary cell carcinoma	0.4837300744110557
+사후	MSLN	kidney papillary cell carcinoma	0.7927675854172026
+사후	ROR1	kidney papillary cell carcinoma	0.4479455511393972
+사후	SLC39A6	kidney papillary cell carcinoma	0.3051548929653458
+사후	SLC34A2	kidney papillary cell carcinoma	0.8228644098324565
+사후	VTCN1	kidney papillary cell carcinoma	0.8251763973345796
+사후	ITGB6	kidney papillary cell carcinoma	0.8309795582173547
+사후	AXL	kidney papillary cell carcinoma	0.5921574530954796
+사후	CDH3	kidney papillary cell carcinoma	0.4173825231608686
+사후	EPCAM	kidney papillary cell carcinoma	0.7327769646122235
+사후	MUC16	kidney papillary cell carcinoma	0.3812920973450681
+사후	MUC1	kidney papillary cell carcinoma	0.7566383255497918
+사후	GPC3	kidney papillary cell carcinoma	0.5064576479111822
+사후	CA9	kidney papillary cell carcinoma	0.734724235789121
+사후	ENPP3	kidney papillary cell carcinoma	0.7054973906504467
+사후	DLL3	kidney papillary cell carcinoma	0.5867944642142294
+사후	STEAP1	kidney papillary cell carcinoma	0.5856918245384266
+사후	ERBB2	liver hepatocellular carcinoma	0.6857915649139497
+사후	TACSTD2	liver hepatocellular carcinoma	0.5290754114908336
+사후	NECTIN4	liver hepatocellular carcinoma	0.4991389849416015
+사후	FOLR1	liver hepatocellular carcinoma	0.5203398386235625
+사후	F3	liver hepatocellular carcinoma	0.5564895366388607
+사후	MET	liver hepatocellular carcinoma	0.7465062899480898
+사후	CD276	liver hepatocellular carcinoma	0.5906310675164116
+사후	ERBB3	liver hepatocellular carcinoma	0.6199729541762051
+사후	CEACAM5	liver hepatocellular carcinoma	0.2867577732102315
+사후	EGFR	liver hepatocellular carcinoma	0.6889653259354691
+사후	CDH6	liver hepatocellular carcinoma	0.5916017860227772
+사후	PTK7	liver hepatocellular carcinoma	0.7155335766152368
+사후	CLDN18	liver hepatocellular carcinoma	0.5008262907913233
+사후	MSLN	liver hepatocellular carcinoma	0.4737408439923511
+사후	ROR1	liver hepatocellular carcinoma	0.386064260683105
+사후	SLC39A6	liver hepatocellular carcinoma	0.279652209204586
+사후	SLC34A2	liver hepatocellular carcinoma	0.4286714985585187
+사후	VTCN1	liver hepatocellular carcinoma	0.5996708043931201
+사후	ITGB6	liver hepatocellular carcinoma	0.4308126521774369
+사후	AXL	liver hepatocellular carcinoma	0.4822108417113793
+사후	CDH3	liver hepatocellular carcinoma	0.3389787956273319
+사후	EPCAM	liver hepatocellular carcinoma	0.4915950622825277
+사후	MUC16	liver hepatocellular carcinoma	0.2491208715740284
+사후	MUC1	liver hepatocellular carcinoma	0.5605828656791738
+사후	GPC3	liver hepatocellular carcinoma	0.8130425957742402
+사후	CA9	liver hepatocellular carcinoma	0.6349774573235517
+사후	ENPP3	liver hepatocellular carcinoma	0.5195425538268577
+사후	DLL3	liver hepatocellular carcinoma	0.4423483738694984
+사후	STEAP1	liver hepatocellular carcinoma	0.7320385471102409
+사후	ERBB2	lung adenocarcinoma	0.6438409964071599
+사후	TACSTD2	lung adenocarcinoma	0.7679246878386604
+사후	NECTIN4	lung adenocarcinoma	0.824981962808887
+사후	FOLR1	lung adenocarcinoma	0.7989473992357057
+사후	F3	lung adenocarcinoma	0.789701839687105
+사후	MET	lung adenocarcinoma	0.819046642453349
+사후	CD276	lung adenocarcinoma	0.5773670810111152
+사후	ERBB3	lung adenocarcinoma	0.6200941916808387
+사후	CEACAM5	lung adenocarcinoma	0.8358637426724576
+사후	EGFR	lung adenocarcinoma	0.7265455022198095
+사후	CDH6	lung adenocarcinoma	0.5109164432145319
+사후	PTK7	lung adenocarcinoma	0.755737500175344
+사후	CLDN18	lung adenocarcinoma	0.7851995555647734
+사후	MSLN	lung adenocarcinoma	0.8037089936798167
+사후	ROR1	lung adenocarcinoma	0.4491211914866314
+사후	SLC39A6	lung adenocarcinoma	0.324448750986381
+사후	SLC34A2	lung adenocarcinoma	0.8187228446281989
+사후	VTCN1	lung adenocarcinoma	0.7553755309596902
+사후	ITGB6	lung adenocarcinoma	0.8143195967412559
+사후	AXL	lung adenocarcinoma	0.5698402779231128
+사후	CDH3	lung adenocarcinoma	0.7713387156531967
+사후	EPCAM	lung adenocarcinoma	0.657422819628218
+사후	MUC16	lung adenocarcinoma	0.7825855657606221
+사후	MUC1	lung adenocarcinoma	0.7302343167313434
+사후	GPC3	lung adenocarcinoma	0.584474875651041
+사후	CA9	lung adenocarcinoma	0.7652013081834063
+사후	ENPP3	lung adenocarcinoma	0.5372944453120573
+사후	DLL3	lung adenocarcinoma	0.6335539436648023
+사후	STEAP1	lung adenocarcinoma	0.726423580617907
+사후	ERBB2	lung squamous cell carcinoma	0.6580674573995298
+사후	TACSTD2	lung squamous cell carcinoma	0.782591951121192
+사후	NECTIN4	lung squamous cell carcinoma	0.8320862195270629
+사후	FOLR1	lung squamous cell carcinoma	0.7400760183361995
+사후	F3	lung squamous cell carcinoma	0.7980979543433944
+사후	MET	lung squamous cell carcinoma	0.7772924466067773
+사후	CD276	lung squamous cell carcinoma	0.5815957083336849
+사후	ERBB3	lung squamous cell carcinoma	0.5262344986962615
+사후	CEACAM5	lung squamous cell carcinoma	0.831607730807698
+사후	EGFR	lung squamous cell carcinoma	0.7857892365625243
+사후	CDH6	lung squamous cell carcinoma	0.5437773932397618
+사후	PTK7	lung squamous cell carcinoma	0.746662354209915
+사후	CLDN18	lung squamous cell carcinoma	0.6672079996093521
+사후	MSLN	lung squamous cell carcinoma	0.7481158506694441
+사후	ROR1	lung squamous cell carcinoma	0.3930000791949721
+사후	SLC39A6	lung squamous cell carcinoma	0.3974862263890257
+사후	SLC34A2	lung squamous cell carcinoma	0.837830864706366
+사후	VTCN1	lung squamous cell carcinoma	0.8368489121983091
+사후	ITGB6	lung squamous cell carcinoma	0.8356256222502255
+사후	AXL	lung squamous cell carcinoma	0.5270632855525794
+사후	CDH3	lung squamous cell carcinoma	0.7498398817097908
+사후	EPCAM	lung squamous cell carcinoma	0.7207777805662788
+사후	MUC16	lung squamous cell carcinoma	0.5724859456628225
+사후	MUC1	lung squamous cell carcinoma	0.7357817246644617
+사후	GPC3	lung squamous cell carcinoma	0.7204589657602104
+사후	CA9	lung squamous cell carcinoma	0.8364229450869162
+사후	ENPP3	lung squamous cell carcinoma	0.3109500359746066
+사후	DLL3	lung squamous cell carcinoma	0.658388425109455
+사후	STEAP1	lung squamous cell carcinoma	0.69446471024487
+사후	ERBB2	mesothelioma	0.6337956798860268
+사후	TACSTD2	mesothelioma	0.5420269575225832
+사후	NECTIN4	mesothelioma	0.5536633965959773
+사후	FOLR1	mesothelioma	0.4616643149915156
+사후	F3	mesothelioma	0.7337159934713341
+사후	MET	mesothelioma	0.8171448786194366
+사후	CD276	mesothelioma	0.6024060815472471
+사후	ERBB3	mesothelioma	0.5899795489536451
+사후	CEACAM5	mesothelioma	0.2326518175166908
+사후	EGFR	mesothelioma	0.7051050740038345
+사후	CDH6	mesothelioma	0.6291416571308046
+사후	PTK7	mesothelioma	0.7534867942423796
+사후	CLDN18	mesothelioma	0.5625393879688685
+사후	MSLN	mesothelioma	0.7868994648026291
+사후	ROR1	mesothelioma	0.5180741356314865
+사후	SLC39A6	mesothelioma	0.3195669370911012
+사후	SLC34A2	mesothelioma	0.7704901689609173
+사후	VTCN1	mesothelioma	0.4787478707423266
+사후	ITGB6	mesothelioma	0.4071976189886819
+사후	AXL	mesothelioma	0.616094357552308
+사후	CDH3	mesothelioma	0.7495942246188526
+사후	EPCAM	mesothelioma	0.4836684712062626
+사후	MUC16	mesothelioma	0.7767579585429054
+사후	MUC1	mesothelioma	0.7158418755054107
+사후	GPC3	mesothelioma	0.6176320451653372
+사후	CA9	mesothelioma	0.8219385188687268
+사후	ENPP3	mesothelioma	0.2742985871987582
+사후	DLL3	mesothelioma	0.5904623973563694
+사후	STEAP1	mesothelioma	0.6952823798364861
+사후	ERBB2	ovarian serous cystadenocarcinoma	0.6521454014996597
+사후	TACSTD2	ovarian serous cystadenocarcinoma	0.7903593901200164
+사후	NECTIN4	ovarian serous cystadenocarcinoma	0.8357114823109894
+사후	FOLR1	ovarian serous cystadenocarcinoma	0.7854061006511363
+사후	F3	ovarian serous cystadenocarcinoma	0.6541907560758444
+사후	MET	ovarian serous cystadenocarcinoma	0.694438318299347
+사후	CD276	ovarian serous cystadenocarcinoma	0.5923310548629954
+사후	ERBB3	ovarian serous cystadenocarcinoma	0.6193182306179857
+사후	CEACAM5	ovarian serous cystadenocarcinoma	0.3298536945861173
+사후	EGFR	ovarian serous cystadenocarcinoma	0.6048668193907788
+사후	CDH6	ovarian serous cystadenocarcinoma	0.7802576470811418
+사후	PTK7	ovarian serous cystadenocarcinoma	0.7347395181463694
+사후	CLDN18	ovarian serous cystadenocarcinoma	0.4019440809375045
+사후	MSLN	ovarian serous cystadenocarcinoma	0.7562840612836116
+사후	ROR1	ovarian serous cystadenocarcinoma	0.4695988105865792
+사후	SLC39A6	ovarian serous cystadenocarcinoma	0.3135764802544814
+사후	SLC34A2	ovarian serous cystadenocarcinoma	0.7903857167323822
+사후	VTCN1	ovarian serous cystadenocarcinoma	0.8648648768893759
+사후	ITGB6	ovarian serous cystadenocarcinoma	0.7743504978410628
+사후	AXL	ovarian serous cystadenocarcinoma	0.5208555366435773
+사후	CDH3	ovarian serous cystadenocarcinoma	0.7538424572355541
+사후	EPCAM	ovarian serous cystadenocarcinoma	0.6887452901348557
+사후	MUC16	ovarian serous cystadenocarcinoma	0.7797244939842252
+사후	MUC1	ovarian serous cystadenocarcinoma	0.7222540842417776
+사후	GPC3	ovarian serous cystadenocarcinoma	0.5241260337320748
+사후	CA9	ovarian serous cystadenocarcinoma	0.814664075644809
+사후	ENPP3	ovarian serous cystadenocarcinoma	0.3510961840588993
+사후	DLL3	ovarian serous cystadenocarcinoma	0.6491697513319757
+사후	STEAP1	ovarian serous cystadenocarcinoma	0.6804538467957455
+사후	ERBB2	pancreatic adenocarcinoma	0.659518879276255
+사후	TACSTD2	pancreatic adenocarcinoma	0.8031533671922969
+사후	NECTIN4	pancreatic adenocarcinoma	0.8662850112290221
+사후	FOLR1	pancreatic adenocarcinoma	0.7629437522238733
+사후	F3	pancreatic adenocarcinoma	0.7735744254087007
+사후	MET	pancreatic adenocarcinoma	0.803250350083542
+사후	CD276	pancreatic adenocarcinoma	0.6065403911339561
+사후	ERBB3	pancreatic adenocarcinoma	0.6226452157525962
+사후	CEACAM5	pancreatic adenocarcinoma	0.8322459235813837
+사후	EGFR	pancreatic adenocarcinoma	0.6244116846166421
+사후	CDH6	pancreatic adenocarcinoma	0.6217396276225367
+사후	PTK7	pancreatic adenocarcinoma	0.770908690482781
+사후	CLDN18	pancreatic adenocarcinoma	0.817932267264647
+사후	MSLN	pancreatic adenocarcinoma	0.8059945380598966
+사후	ROR1	pancreatic adenocarcinoma	0.4676536015096804
+사후	SLC39A6	pancreatic adenocarcinoma	0.2978862682939744
+사후	SLC34A2	pancreatic adenocarcinoma	0.7902637930116784
+사후	VTCN1	pancreatic adenocarcinoma	0.8323507746129852
+사후	ITGB6	pancreatic adenocarcinoma	0.8287143173244401
+사후	AXL	pancreatic adenocarcinoma	0.5982082957189415
+사후	CDH3	pancreatic adenocarcinoma	0.7684408651115276
+사후	EPCAM	pancreatic adenocarcinoma	0.6841393104943234
+사후	MUC16	pancreatic adenocarcinoma	0.7787683158791462
+사후	MUC1	pancreatic adenocarcinoma	0.7455820293244343
+사후	GPC3	pancreatic adenocarcinoma	0.5645876331843649
+사후	CA9	pancreatic adenocarcinoma	0.8422065550918373
+사후	ENPP3	pancreatic adenocarcinoma	0.281456386184215
+사후	DLL3	pancreatic adenocarcinoma	0.4791574237042914
+사후	STEAP1	pancreatic adenocarcinoma	0.7063317115117158
+사후	ERBB2	pheochromocytoma & paraganglioma	0.6178742032762229
+사후	TACSTD2	pheochromocytoma & paraganglioma	0.4553752289055149
+사후	NECTIN4	pheochromocytoma & paraganglioma	0.4499098967161409
+사후	FOLR1	pheochromocytoma & paraganglioma	0.5912814219215393
+사후	F3	pheochromocytoma & paraganglioma	0.7354716177165271
+사후	MET	pheochromocytoma & paraganglioma	0.5978008369317614
+사후	CD276	pheochromocytoma & paraganglioma	0.6037835289718241
+사후	ERBB3	pheochromocytoma & paraganglioma	0.4813117576480286
+사후	CEACAM5	pheochromocytoma & paraganglioma	0.2193304573835137
+사후	EGFR	pheochromocytoma & paraganglioma	0.4728070189205954
+사후	CDH6	pheochromocytoma & paraganglioma	0.6121665295960763
+사후	PTK7	pheochromocytoma & paraganglioma	0.7827972668834354
+사후	CLDN18	pheochromocytoma & paraganglioma	0.4271715785352687
+사후	MSLN	pheochromocytoma & paraganglioma	0.4245956271269754
+사후	ROR1	pheochromocytoma & paraganglioma	0.3930000791949721
+사후	SLC39A6	pheochromocytoma & paraganglioma	0.4320219658013849
+사후	SLC34A2	pheochromocytoma & paraganglioma	0.1744806519431771
+사후	VTCN1	pheochromocytoma & paraganglioma	0.3981112894591399
+사후	ITGB6	pheochromocytoma & paraganglioma	0.2370747214119538
+사후	AXL	pheochromocytoma & paraganglioma	0.480238464007401
+사후	CDH3	pheochromocytoma & paraganglioma	0.3693516054138951
+사후	EPCAM	pheochromocytoma & paraganglioma	0.6470880806663675
+사후	MUC16	pheochromocytoma & paraganglioma	0.2209764554917123
+사후	MUC1	pheochromocytoma & paraganglioma	0.4579973268159509
+사후	GPC3	pheochromocytoma & paraganglioma	0.5564774861169846
+사후	CA9	pheochromocytoma & paraganglioma	0.491021652822134
+사후	ENPP3	pheochromocytoma & paraganglioma	0.345410535708651
+사후	DLL3	pheochromocytoma & paraganglioma	0.6245089068068446
+사후	STEAP1	pheochromocytoma & paraganglioma	0.4657682573632069
+사후	ERBB2	prostate adenocarcinoma	0.6416241486956565
+사후	TACSTD2	prostate adenocarcinoma	0.7169553859537847
+사후	NECTIN4	prostate adenocarcinoma	0.7257110603837323
+사후	FOLR1	prostate adenocarcinoma	0.5203398386235625
+사후	F3	prostate adenocarcinoma	0.7952546501196354
+사후	MET	prostate adenocarcinoma	0.6960336297601762
+사후	CD276	prostate adenocarcinoma	0.6000733316650634
+사후	ERBB3	prostate adenocarcinoma	0.6062946481913726
+사후	CEACAM5	prostate adenocarcinoma	0.5520391704464614
+사후	EGFR	prostate adenocarcinoma	0.6459742296162937
+사후	CDH6	prostate adenocarcinoma	0.4403897859121622
+사후	PTK7	prostate adenocarcinoma	0.7814963490120912
+사후	CLDN18	prostate adenocarcinoma	0.4135893017708937
+사후	MSLN	prostate adenocarcinoma	0.6129392876251064
+사후	ROR1	prostate adenocarcinoma	0.4576967189715051
+사후	SLC39A6	prostate adenocarcinoma	0.4315269226626598
+사후	SLC34A2	prostate adenocarcinoma	0.5193265654484216
+사후	VTCN1	prostate adenocarcinoma	0.7553755309596902
+사후	ITGB6	prostate adenocarcinoma	0.7308274032053086
+사후	AXL	prostate adenocarcinoma	0.4916833983772584
+사후	CDH3	prostate adenocarcinoma	0.742129650257076
+사후	EPCAM	prostate adenocarcinoma	0.680189121947858
+사후	MUC16	prostate adenocarcinoma	0.4326694069279106
+사후	MUC1	prostate adenocarcinoma	0.6713805450553001
+사후	GPC3	prostate adenocarcinoma	0.5021243570677165
+사후	CA9	prostate adenocarcinoma	0.3979558811839049
+사후	ENPP3	prostate adenocarcinoma	0.4934672742371059
+사후	DLL3	prostate adenocarcinoma	0.5996810711338487
+사후	STEAP1	prostate adenocarcinoma	0.640321944370085
+사후	ERBB2	rectum adenocarcinoma	0.6928937794414546
+사후	TACSTD2	rectum adenocarcinoma	0.7147725089061187
+사후	NECTIN4	rectum adenocarcinoma	0.7783611704611564
+사후	FOLR1	rectum adenocarcinoma	0.7074197997479159
+사후	F3	rectum adenocarcinoma	0.7550321298223963
+사후	MET	rectum adenocarcinoma	0.7483099170023408
+사후	CD276	rectum adenocarcinoma	0.6111876171345744
+사후	ERBB3	rectum adenocarcinoma	0.5535874383318029
+사후	CEACAM5	rectum adenocarcinoma	0.7811665179725035
+사후	EGFR	rectum adenocarcinoma	0.582565159855738
+사후	CDH6	rectum adenocarcinoma	0.4734366534051006
+사후	PTK7	rectum adenocarcinoma	0.7972242570264111
+사후	CLDN18	rectum adenocarcinoma	0.5339280445593313
+사후	MSLN	rectum adenocarcinoma	0.7934472837626276
+사후	ROR1	rectum adenocarcinoma	0.4082378875547293
+사후	SLC39A6	rectum adenocarcinoma	0.2698174387158293
+사후	SLC34A2	rectum adenocarcinoma	0.2095065975316514
+사후	VTCN1	rectum adenocarcinoma	0.4945485880641861
+사후	ITGB6	rectum adenocarcinoma	0.7199667749001776
+사후	AXL	rectum adenocarcinoma	0.4771548711822962
+사후	CDH3	rectum adenocarcinoma	0.7158615588551743
+사후	EPCAM	rectum adenocarcinoma	0.546736122692752
+사후	MUC16	rectum adenocarcinoma	0.3812920973450681
+사후	MUC1	rectum adenocarcinoma	0.7421862372496681
+사후	GPC3	rectum adenocarcinoma	0.4559686240857805
+사후	CA9	rectum adenocarcinoma	0.8225007449938765
+사후	ENPP3	rectum adenocarcinoma	0.599865212335985
+사후	DLL3	rectum adenocarcinoma	0.5996810711338487
+사후	STEAP1	rectum adenocarcinoma	0.6916693539977817
+사후	ERBB2	sarcoma	0.6485322343255648
+사후	TACSTD2	sarcoma	0.5256734749672518
+사후	NECTIN4	sarcoma	0.5536633965959773
+사후	FOLR1	sarcoma	0.4771459801077591
+사후	F3	sarcoma	0.694781947958217
+사후	MET	sarcoma	0.6869140323717142
+사후	CD276	sarcoma	0.605259018134964
+사후	ERBB3	sarcoma	0.3731646157717326
+사후	CEACAM5	sarcoma	0.260561883425405
+사후	EGFR	sarcoma	0.6056929434070915
+사후	CDH6	sarcoma	0.6031377988543111
+사후	PTK7	sarcoma	0.7941024790566021
+사후	CLDN18	sarcoma	0.4839936556029475
+사후	MSLN	sarcoma	0.542111334421898
+사후	ROR1	sarcoma	0.5133472038285848
+사후	SLC39A6	sarcoma	0.2951376531214084
+사후	SLC34A2	sarcoma	0.260400333611441
+사후	VTCN1	sarcoma	0.548338778520799
+사후	ITGB6	sarcoma	0.301923110077847
+사후	AXL	sarcoma	0.618619114884451
+사후	CDH3	sarcoma	0.5702021668463835
+사후	EPCAM	sarcoma	0.3219142225231851
+사후	MUC16	sarcoma	0.3287927773837224
+사후	MUC1	sarcoma	0.638923271228618
+사후	GPC3	sarcoma	0.6288454601617437
+사후	CA9	sarcoma	0.734724235789121
+사후	ENPP3	sarcoma	0.3118050803881711
+사후	DLL3	sarcoma	0.5826301952630455
+사후	STEAP1	sarcoma	0.6679612177101139
+사후	ERBB2	skin cutaneous melanoma	0.6417107229625548
+사후	TACSTD2	skin cutaneous melanoma	0.6719400432051701
+사후	NECTIN4	skin cutaneous melanoma	0.7113200194228757
+사후	FOLR1	skin cutaneous melanoma	0.4251699172353072
+사후	F3	skin cutaneous melanoma	0.6090428477698694
+사후	MET	skin cutaneous melanoma	0.7906433060172333
+사후	CD276	skin cutaneous melanoma	0.5882518007120211
+사후	ERBB3	skin cutaneous melanoma	0.6285189083805568
+사후	CEACAM5	skin cutaneous melanoma	0.4108438636393851
+사후	EGFR	skin cutaneous melanoma	0.5260327160895513
+사후	CDH6	skin cutaneous melanoma	0.4659066728609389
+사후	PTK7	skin cutaneous melanoma	0.7722018443249643
+사후	CLDN18	skin cutaneous melanoma	0.4371558990475673
+사후	MSLN	skin cutaneous melanoma	0.4680566567986854
+사후	ROR1	skin cutaneous melanoma	0.4518978187363932
+사후	SLC39A6	skin cutaneous melanoma	0.441940127132166
+사후	SLC34A2	skin cutaneous melanoma	0.259452404758925
+사후	VTCN1	skin cutaneous melanoma	0.5362059943410797
+사후	ITGB6	skin cutaneous melanoma	0.5176880066743599
+사후	AXL	skin cutaneous melanoma	0.5084627518966163
+사후	CDH3	skin cutaneous melanoma	0.7664533220977207
+사후	EPCAM	skin cutaneous melanoma	0.3302968658810516
+사후	MUC16	skin cutaneous melanoma	0.2794394982923329
+사후	MUC1	skin cutaneous melanoma	0.5748639646230681
+사후	GPC3	skin cutaneous melanoma	0.4982085490341607
+사후	CA9	skin cutaneous melanoma	0.6409459704465954
+사후	ENPP3	skin cutaneous melanoma	0.2942613436097868
+사후	DLL3	skin cutaneous melanoma	0.847424836545042
+사후	STEAP1	skin cutaneous melanoma	0.5712794050162097
+사후	ERBB2	stomach adenocarcinoma	0.6970786886451272
+사후	TACSTD2	stomach adenocarcinoma	0.803565055774534
+사후	NECTIN4	stomach adenocarcinoma	0.837427216979349
+사후	FOLR1	stomach adenocarcinoma	0.6656623845434293
+사후	F3	stomach adenocarcinoma	0.7757766535005712
+사후	MET	stomach adenocarcinoma	0.771807057793022
+사후	CD276	stomach adenocarcinoma	0.5979744048754698
+사후	ERBB3	stomach adenocarcinoma	0.6228410817064738
+사후	CEACAM5	stomach adenocarcinoma	0.8302671229466251
+사후	EGFR	stomach adenocarcinoma	0.6553463870106483
+사후	CDH6	stomach adenocarcinoma	0.5489807109569197
+사후	PTK7	stomach adenocarcinoma	0.7681130542457548
+사후	CLDN18	stomach adenocarcinoma	0.817932267264647
+사후	MSLN	stomach adenocarcinoma	0.7989154855319028
+사후	ROR1	stomach adenocarcinoma	0.4824109968743043
+사후	SLC39A6	stomach adenocarcinoma	0.2789816477530049
+사후	SLC34A2	stomach adenocarcinoma	0.4573947511558129
+사후	VTCN1	stomach adenocarcinoma	0.7076353091766469
+사후	ITGB6	stomach adenocarcinoma	0.8184899443089516
+사후	AXL	stomach adenocarcinoma	0.5653602251601075
+사후	CDH3	stomach adenocarcinoma	0.740053855318934
+사후	EPCAM	stomach adenocarcinoma	0.6924171442418385
+사후	MUC16	stomach adenocarcinoma	0.386938405573304
+사후	MUC1	stomach adenocarcinoma	0.7343154045322723
+사후	GPC3	stomach adenocarcinoma	0.554262244563048
+사후	CA9	stomach adenocarcinoma	0.8225007449938765
+사후	ENPP3	stomach adenocarcinoma	0.315292601729041
+사후	DLL3	stomach adenocarcinoma	0.5104703275553798
+사후	STEAP1	stomach adenocarcinoma	0.6819054749702971
+사후	ERBB2	testicular germ cell tumor	0.6621906017730114
+사후	TACSTD2	testicular germ cell tumor	0.579765884463823
+사후	NECTIN4	testicular germ cell tumor	0.726167482449232
+사후	FOLR1	testicular germ cell tumor	0.7378523332110157
+사후	F3	testicular germ cell tumor	0.6905519683346255
+사후	MET	testicular germ cell tumor	0.6789990055132249
+사후	CD276	testicular germ cell tumor	0.5777094091494713
+사후	ERBB3	testicular germ cell tumor	0.5325565700312552
+사후	CEACAM5	testicular germ cell tumor	0.3275415266270134
+사후	EGFR	testicular germ cell tumor	0.521991992232828
+사후	CDH6	testicular germ cell tumor	0.4700940722043916
+사후	PTK7	testicular germ cell tumor	0.6841737816414831
+사후	CLDN18	testicular germ cell tumor	0.5066577661080686
+사후	MSLN	testicular germ cell tumor	0.5503315842981303
+사후	ROR1	testicular germ cell tumor	0.401431080839188
+사후	SLC39A6	testicular germ cell tumor	0.2838803009970368
+사후	SLC34A2	testicular germ cell tumor	0.4453180797413655
+사후	VTCN1	testicular germ cell tumor	0.5996708043931201
+사후	ITGB6	testicular germ cell tumor	0.3417991346640703
+사후	AXL	testicular germ cell tumor	0.4621928204007475
+사후	CDH3	testicular germ cell tumor	0.6953391701312804
+사후	EPCAM	testicular germ cell tumor	0.7015182447626598
+사후	MUC16	testicular germ cell tumor	0.4740392948863055
+사후	MUC1	testicular germ cell tumor	0.553024605600695
+사후	GPC3	testicular germ cell tumor	0.7480046545700356
+사후	CA9	testicular germ cell tumor	0.6024991313003811
+사후	ENPP3	testicular germ cell tumor	0.2942304293333631
+사후	DLL3	testicular germ cell tumor	0.8209777801791727
+사후	STEAP1	testicular germ cell tumor	0.5813230009584218
+사후	ERBB2	thymoma	0.6659403215407239
+사후	TACSTD2	thymoma	0.7184141560892305
+사후	NECTIN4	thymoma	0.6641755999527198
+사후	FOLR1	thymoma	0.6056908036831017
+사후	F3	thymoma	0.7560141847402315
+사후	MET	thymoma	0.7587529735400615
+사후	CD276	thymoma	0.5364313307683998
+사후	ERBB3	thymoma	0.4297292537951769
+사후	CEACAM5	thymoma	0.266929841719929
+사후	EGFR	thymoma	0.6774425302627023
+사후	CDH6	thymoma	0.4717511940745807
+사후	PTK7	thymoma	0.7532437741855368
+사후	CLDN18	thymoma	0.4465500310787298
+사후	MSLN	thymoma	0.5082109606706999
+사후	ROR1	thymoma	0.3879023575318269
+사후	SLC39A6	thymoma	0.2782085027138962
+사후	SLC34A2	thymoma	0.606966006270239
+사후	VTCN1	thymoma	0.3914053625700296
+사후	ITGB6	thymoma	0.3103057534357136
+사후	AXL	thymoma	0.5607888334335013
+사후	CDH3	thymoma	0.7268865666484947
+사후	EPCAM	thymoma	0.6558347988447295
+사후	MUC16	thymoma	0.3812920973450681
+사후	MUC1	thymoma	0.5718274513545958
+사후	GPC3	thymoma	0.5138768675333271
+사후	CA9	thymoma	0.5907600044495322
+사후	ENPP3	thymoma	0.5400226125318895
+사후	DLL3	thymoma	0.4557144965282146
+사후	STEAP1	thymoma	0.5552179986959815
+사후	ERBB2	thyroid carcinoma	0.6278138186837938
+사후	TACSTD2	thyroid carcinoma	0.8099548569337117
+사후	NECTIN4	thyroid carcinoma	0.8660232689383743
+사후	FOLR1	thyroid carcinoma	0.7602854202089162
+사후	F3	thyroid carcinoma	0.7833717186362216
+사후	MET	thyroid carcinoma	0.804020354743224
+사후	CD276	thyroid carcinoma	0.611940899551419
+사후	ERBB3	thyroid carcinoma	0.602427982427507
+사후	CEACAM5	thyroid carcinoma	0.2878452327782951
+사후	EGFR	thyroid carcinoma	0.6908021940940651
+사후	CDH6	thyroid carcinoma	0.7354546236095496
+사후	PTK7	thyroid carcinoma	0.7681806144747467
+사후	CLDN18	thyroid carcinoma	0.4149318203834403
+사후	MSLN	thyroid carcinoma	0.5503315842981303
+사후	ROR1	thyroid carcinoma	0.4245707843586964
+사후	SLC39A6	thyroid carcinoma	0.3453870205390408
+사후	SLC34A2	thyroid carcinoma	0.8478535483215132
+사후	VTCN1	thyroid carcinoma	0.717120554915637
+사후	ITGB6	thyroid carcinoma	0.7996330915205321
+사후	AXL	thyroid carcinoma	0.5653602251601075
+사후	CDH3	thyroid carcinoma	0.7555923208710441
+사후	EPCAM	thyroid carcinoma	0.5945864536291521
+사후	MUC16	thyroid carcinoma	0.5147744258638144
+사후	MUC1	thyroid carcinoma	0.7556143508990696
+사후	GPC3	thyroid carcinoma	0.3336994402821515
+사후	CA9	thyroid carcinoma	0.4320882182842513
+사후	ENPP3	thyroid carcinoma	0.3605562916287123
+사후	DLL3	thyroid carcinoma	0.5996810711338487
+사후	STEAP1	thyroid carcinoma	0.5260180231626915
+사후	ERBB2	uterine carcinosarcoma	0.6571235755342709
+사후	TACSTD2	uterine carcinosarcoma	0.7817706625956552
+사후	NECTIN4	uterine carcinosarcoma	0.8027893348520286
+사후	FOLR1	uterine carcinosarcoma	0.7509579592502107
+사후	F3	uterine carcinosarcoma	0.6176606326470426
+사후	MET	uterine carcinosarcoma	0.7481979607481509
+사후	CD276	uterine carcinosarcoma	0.5752644152570152
+사후	ERBB3	uterine carcinosarcoma	0.6040289351479391
+사후	CEACAM5	uterine carcinosarcoma	0.3687993511541773
+사후	EGFR	uterine carcinosarcoma	0.6333866293871493
+사후	CDH6	uterine carcinosarcoma	0.6550751059761694
+사후	PTK7	uterine carcinosarcoma	0.6139346953344449
+사후	CLDN18	uterine carcinosarcoma	0.4361607367198042
+사후	MSLN	uterine carcinosarcoma	0.7659252705181092
+사후	ROR1	uterine carcinosarcoma	0.4637013339126844
+사후	SLC39A6	uterine carcinosarcoma	0.3140481557085393
+사후	SLC34A2	uterine carcinosarcoma	0.7795978349152539
+사후	VTCN1	uterine carcinosarcoma	0.8257228444233664
+사후	ITGB6	uterine carcinosarcoma	0.7573194191096545
+사후	AXL	uterine carcinosarcoma	0.559915804460081
+사후	CDH3	uterine carcinosarcoma	0.7713387156531967
+사후	EPCAM	uterine carcinosarcoma	0.7496464301457904
+사후	MUC16	uterine carcinosarcoma	0.6788914195013263
+사후	MUC1	uterine carcinosarcoma	0.7322121080593709
+사후	GPC3	uterine carcinosarcoma	0.7495161823138311
+사후	CA9	uterine carcinosarcoma	0.8228502762786424
+사후	ENPP3	uterine carcinosarcoma	0.3510961840588993
+사후	DLL3	uterine carcinosarcoma	0.7313137860335781
+사후	STEAP1	uterine carcinosarcoma	0.6228754460571775
+사후	ERBB2	uterine corpus endometrioid carcinoma	0.6680980032092829
+사후	TACSTD2	uterine corpus endometrioid carcinoma	0.7822688595962607
+사후	NECTIN4	uterine corpus endometrioid carcinoma	0.826532589332588
+사후	FOLR1	uterine corpus endometrioid carcinoma	0.7992121449220998
+사후	F3	uterine corpus endometrioid carcinoma	0.7789448463855598
+사후	MET	uterine corpus endometrioid carcinoma	0.7818789110401455
+사후	CD276	uterine corpus endometrioid carcinoma	0.5830291881842745
+사후	ERBB3	uterine corpus endometrioid carcinoma	0.608623911193103
+사후	CEACAM5	uterine corpus endometrioid carcinoma	0.6864771684958526
+사후	EGFR	uterine corpus endometrioid carcinoma	0.6333866293871493
+사후	CDH6	uterine corpus endometrioid carcinoma	0.6541549732514125
+사후	PTK7	uterine corpus endometrioid carcinoma	0.6841737816414831
+사후	CLDN18	uterine corpus endometrioid carcinoma	0.413473461048175
+사후	MSLN	uterine corpus endometrioid carcinoma	0.7986568447674279
+사후	ROR1	uterine corpus endometrioid carcinoma	0.4475051696513987
+사후	SLC39A6	uterine corpus endometrioid carcinoma	0.3655952458529987
+사후	SLC34A2	uterine corpus endometrioid carcinoma	0.8102956130740875
+사후	VTCN1	uterine corpus endometrioid carcinoma	0.837122827639368
+사후	ITGB6	uterine corpus endometrioid carcinoma	0.7915382614063609
+사후	AXL	uterine corpus endometrioid carcinoma	0.4636958395851479
+사후	CDH3	uterine corpus endometrioid carcinoma	0.7411706704518491
+사후	EPCAM	uterine corpus endometrioid carcinoma	0.6727158776646374
+사후	MUC16	uterine corpus endometrioid carcinoma	0.785483641109976
+사후	MUC1	uterine corpus endometrioid carcinoma	0.730376622808768
+사후	GPC3	uterine corpus endometrioid carcinoma	0.4718829300805027
+사후	CA9	uterine corpus endometrioid carcinoma	0.8062442162444309
+사후	ENPP3	uterine corpus endometrioid carcinoma	0.5372944453120573
+사후	DLL3	uterine corpus endometrioid carcinoma	0.6245089068068446
+사후	STEAP1	uterine corpus endometrioid carcinoma	0.6609187721575785
+사후	ERBB2	uveal melanoma	0.5898581194572924
+사후	TACSTD2	uveal melanoma	0.3350106719376163
+사후	NECTIN4	uveal melanoma	0.4143346259731366
+사후	FOLR1	uveal melanoma	0.5203398386235625
+사후	F3	uveal melanoma	0.5198911379134726
+사후	MET	uveal melanoma	0.7900414542878825
+사후	CD276	uveal melanoma	0.5958932409603811
+사후	ERBB3	uveal melanoma	0.6410190127074764
+사후	CEACAM5	uveal melanoma	0.2569748797439879
+사후	EGFR	uveal melanoma	0.469546940032287
+사후	CDH6	uveal melanoma	0.4739333474262289
+사후	PTK7	uveal melanoma	0.7476960746270056
+사후	CLDN18	uveal melanoma	0.3878674390898042
+사후	MSLN	uveal melanoma	0.4700375245690677
+사후	ROR1	uveal melanoma	0.3872886942744996
+사후	SLC39A6	uveal melanoma	0.4305225412507331
+사후	SLC34A2	uveal melanoma	0.3024599248815229
+사후	VTCN1	uveal melanoma	0.3985274704290077
+사후	ITGB6	uveal melanoma	0.2162775534018812
+사후	AXL	uveal melanoma	0.4645167523959609
+사후	CDH3	uveal melanoma	0.6683467602020736
+사후	EPCAM	uveal melanoma	0.3638633726726191
+사후	MUC16	uveal melanoma	0.2107479548820574
+사후	MUC1	uveal melanoma	0.5192695250262955
+사후	GPC3	uveal melanoma	0.4579962943996669
+사후	CA9	uveal melanoma	0.631944970072829
+사후	ENPP3	uveal melanoma	0.2765932734399135
+사후	DLL3	uveal melanoma	0.8309804753725596
+사후	STEAP1	uveal melanoma	0.6161708327789372

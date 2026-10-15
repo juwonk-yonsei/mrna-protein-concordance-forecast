@@ -1,0 +1,6 @@
+label	source	n_pairs	spearman_rho_hat_actual
+사후	CPTAC	228	0.5544464435235406
+사후	ProCan	12	0.7929514044533634
+사후	ProCan_frozen_forecast	6	0.8285714285714286
+사후	RPPA	124	0.3083585368370655
+사후	APOLLO	21	0.5844155844155844

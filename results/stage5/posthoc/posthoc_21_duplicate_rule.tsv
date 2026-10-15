@@ -1,0 +1,7 @@
+label	item	value
+사후	preregistered_sample_rule	disease_samples drops the 10 duplicate ids before intersecting RNA. attach_rppa_s0 requests only those ids. setdefault would keep the first RPPA column if an id were requested, but these ids are not requested, so neither column enters actual rho, rho_S0, AR, or B_sd.
+사후	n_duplicate_ids_in_preregistered_lists	0
+사후	n_ids_added_in_first_and_mean	5
+사후	first	one row per id, protein value from the first header column
+사후	mean	one row per id, protein value is the mean of the finite values in every header column with that id
+사후	drop	same sample lists as the preregistered confirmation

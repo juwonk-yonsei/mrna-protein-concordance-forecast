@@ -1,0 +1,35 @@
+cohort	context	n	median_delta
+rppa	adrenocortical cancer	121	0.015368498522003227
+rppa	bladder urothelial carcinoma	120	0.01685017031801389
+rppa	brain lower grade glioma	122	0.012090363280300331
+rppa	breast invasive carcinoma	121	0.026798557025981384
+rppa	cervical & endocervical cancer	120	0.012592506409417753
+rppa	cholangiocarcinoma	119	0.019132369299221352
+rppa	colon adenocarcinoma	120	0.027841715965810296
+rppa	diffuse large B-cell lymphoma	119	0.022058823529411742
+rppa	esophageal carcinoma	120	0.015081333294929167
+rppa	glioblastoma multiforme	120	0.0322884311287199
+rppa	head & neck squamous cell carcinoma	121	0.012352391104355903
+rppa	kidney chromophobe	121	0.011827985566664312
+rppa	kidney clear cell carcinoma	120	0.016656453577674507
+rppa	kidney papillary cell carcinoma	121	0.008754059528767622
+rppa	liver hepatocellular carcinoma	121	0.005163157163193599
+rppa	lung adenocarcinoma	121	0.033311942765133495
+rppa	lung squamous cell carcinoma	121	0.012167827534481257
+rppa	mesothelioma	121	0.008067426362961094
+rppa	ovarian serous cystadenocarcinoma	121	0.017533553396677837
+rppa	pancreatic adenocarcinoma	121	0.01839509931823083
+rppa	pheochromocytoma & paraganglioma	120	0.017407322890521368
+rppa	prostate adenocarcinoma	121	0.019043171786215674
+rppa	rectum adenocarcinoma	120	0.030180016974162532
+rppa	sarcoma	120	0.01912451272396315
+rppa	skin cutaneous melanoma	120	0.01972666083010377
+rppa	stomach adenocarcinoma	121	0.020857033620605092
+rppa	testicular germ cell tumor	119	0.015336649620405485
+rppa	thymoma	119	0.017714212805425178
+rppa	thyroid carcinoma	121	0.012927917248786946
+rppa	uterine carcinosarcoma	120	0.01522541936438207
+rppa	uterine corpus endometrioid carcinoma	120	0.02585765431121867
+procan	Haematopoietic and Lymphoid	2525	-0.002626641651031894
+procan	Large Intestine	1306	0.012903225806451646
+procan	Lung	2076	0.004814531130320598

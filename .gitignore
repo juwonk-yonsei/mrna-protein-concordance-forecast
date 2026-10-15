@@ -1,0 +1,10 @@
+*
+!*/
+!.gitignore
+!README.md
+!MANIFEST.tsv
+!requirements.txt
+!excluded.tsv
+!smoke_redraw.tsv
+!zenodo_only/**
+!scripts_freeze/**

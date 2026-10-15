@@ -1,0 +1,2 @@
+n_rows	n_genes	n_cancers	size_bytes	prediction_max_abs	recomputed_mean_vs_stored_l2_max_abs	column_vs_stored_l2_max_abs	n_l2_genes_checked	extra_cptac_rho_pairs	n_p_gene_rho_values	n_genes_pooled_missing	n_genes_n_cohorts_zero	n_rows_matched_cohort_empty	n_genes_with_any_matched_cohort	n_genes_matched_rho_missing_on_a_mapped_cancer	n_rows_matched_rho_missing	n_unmapped_cancers
+633963	19211	33	32979770	0.0	1.1102230246251565e-16	0.0	8142	9318	72880	10259	10259	422642	19211	12988	544509	22

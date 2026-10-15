@@ -1,0 +1,30 @@
+label	column	definition
+사후	gene_symbol	HGNC symbol of the ADC target.
+사후	disease	TCGA primary-disease name.
+사후	n_samples	Primary-tumor RNA samples used for the RNA percentiles in that disease.
+사후	is_blood	1 if the disease name contains leukemia, lymphoma, myeloma, haematopoietic, or hematopoietic.
+사후	rna_median_percentile	Percentile of the target RNA median among G_RNA genes in that disease.
+사후	rna_sd_percentile	Percentile of the target RNA standard deviation among G_RNA genes in that disease.
+사후	rho_hat	Frozen F1s-LightGBM prediction of within-context Spearman correlation.
+사후	rho_hat_low_80	rho_hat minus the stored CPTAC 80% half-width. Not clipped to [-1, 1].
+사후	rho_hat_high_80	rho_hat plus the stored CPTAC 80% half-width. Not clipped to [-1, 1].
+사후	rho_hat_percentile	Percentile of rho_hat among G_RNA genes in that disease.
+사후	rho_hat_rppa_shift	rho_hat plus the stage-5 K=50 RPPA delta median. Display only.
+사후	rppa_delta_k50_median	Stage-5 median of the K=50 RPPA calibration delta.
+사후	in_ar	1 if the gene is in the anchor-residual set.
+사후	lambda	Selected anchor weight on the final CPTAC model.
+사후	cptac_loco_mean_delta	Mean CPTAC leave-one-cancer-out delta for the gene.
+사후	s	RNA-profile similarity of the disease to the nearest CPTAC tumor profile.
+사후	tau	Unused threshold. Empty in this atlas.
+사후	out_of_scope	1 if a threshold tau was set and s < tau. tau is empty, so this is 0.
+사후	rppa_actual	Observed RPPA Spearman correlation when that disease and gene were measured.
+사후	procan_lineage	ProCan lineage mapped to the disease, when a map exists.
+사후	procan_actual	Observed ProCan Spearman correlation for that lineage and gene.
+사후	cptac_cancer	CPTAC cancer abbreviation mapped to the disease, when the map is one-to-one.
+사후	cptac_loco_actual	CPTAC leave-one-cancer-out observed Spearman correlation.
+사후	apollo_actual	Observed APOLLO Spearman correlation. Filled only on lung adenocarcinoma rows.
+사후	apollo_d	APOLLO rho_AR minus rho_S0. Filled only on lung adenocarcinoma rows.
+사후	apollo_rho_hat	APOLLO-sample F1s-LightGBM prediction. Filled only on lung adenocarcinoma rows.
+사후	isoform_note	From config/adc_targets.tsv. CLDN18 states that gene-level assays do not separate CLDN18.2.
+사후	approved_adc	FDA-label antibody-drug conjugate naming this target. Empty if not confirmed from an FDA label in this step.
+사후	approval_url	FDA label URL used for approved_adc. Empty if not confirmed.

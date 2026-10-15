@@ -1,0 +1,169 @@
+# Analysis plan B2. Commit this file before any section-3 or section-4 fit.
+# Do not edit after those results are inspected.
+seed: 20261001
+cpu_cap: none
+ram_gb: 48
+stage1_plan: config/analysis_plan_B1.yaml
+
+decisions:
+  # Report 1 section 9 numbers.
+  1: cbioportal_official_map
+  2: keep_depmap_24q4
+  3: keep_current_hpa_files
+  4: normal_rna_absent_stays_na
+  5: cldn18_gene_level_with_isoform_caveat
+  6: keep_inner_min_n_3_and_fallback_alpha_1
+  7: keep_smallest_alpha_tie_break_for_stage1_models
+  8: keep_ddof_0
+  9: tumor_min_n_30_unchanged_no_cell_line_model_this_stage
+  10: keep_normal_zscore_rule
+  11: drop_both_copies_of_duplicate_rppa_sample_ids
+  12: drop_31_nonhuman_procan_protein_columns
+  seen_antibodies_excluded_from_confirmation: config/rppa_excluded_seen.tsv
+
+rppa_map:
+  source_order:
+    - cbioportal_pancan_atlas_2018_data_rppa_first_column
+    - tcpa_annotation
+    - mdanderson_rppa_core_list
+  # Source 1 is used. Sources 2 and 3 are not opened when source 1 returns a table.
+  cbioportal_url: "https://media.githubusercontent.com/media/cBioPortal/datahub/master/public/{study}/data_rppa.txt"
+  study_filter: pan_can_atlas_2018
+  read_columns: [Composite.Element.REF]
+  value_columns: do_not_read
+  # Join the cBioPortal antibody token (text after |) to a Xena antibody name.
+  # Key: delete every character that is not A-Z, a-z, or 0-9, uppercase the rest,
+  # then prefix X if the key starts with a digit. A row is kept only when that
+  # key matches exactly one Xena antibody. Otherwise it is unmatched.
+  xena_join: alphanumeric_upper_key_unique
+  # A gene field of "-" is not a gene symbol.
+  multi_gene: drop_if_two_or_more_symbols
+  # Applied to both the cBioPortal antibody token and the Xena name.
+  # Case-sensitive substrings, as written in the instruction.
+  drop_if_name_contains: ["_p", "pS", "pT", "pY", "cleaved", "_c"]
+  require_gene_in_g_rna_for_forecast: true
+  exclude_seen_antibodies: true
+  duplicate_rppa_sample_ids: drop_id_entirely
+
+procan_id:
+  sample_key: project_identifier
+  sidm_field: text_before_semicolon_if_present_else_whole_id
+  model_list: data/raw/cmp/model_list_20260921.csv
+  rna_long_file: data/raw/cmp/rnaseq_merged/rnaseq_merged_20260323.csv
+  sanger_rule: data_source_equals_Sanger
+  # Lineage is Tissue_type on the ProCan mapping file.
+  lineage_field: Tissue_type
+  rna_model_id_joins_sidm: true
+  # Expression numbers are not read in the ID-count step.
+
+evaluation:
+  min_n: 30
+  universe_for_main_distributions: P
+  adc_table: all_29_targets
+  inner_min_n: 3
+  std_ddof: 0
+  cancers: [BRCA, CCRCC, COAD, GBM, HNSCC, LSCC, LUAD, OV, PDAC, UCEC]
+
+ar:
+  fixed_slope: least_squares_no_intercept_on_measured_samples
+  # b = sum(x*y)/sum(x*x) on finite protein z. sum(x*x)==0 or non-finite -> b=0.
+  # Then b = max(b, 0).
+  negative_slope: set_to_zero
+  residual: protein_z_minus_b_times_self_rna_z
+  extra_genes: 50
+  self_excluded_from_residual_features: true
+  feature_selection_missing_residual: fill_zero_then_center
+  # Same 1e-12 smaller-index tie break as stage-1 R1 feature selection.
+  feature_tie_break: 1.0e-12_toward_smaller_gene_index
+  alphas: [1.0, 10.0, 100.0, 1000.0, 10000.0]
+  lambdas: [0.0, 0.25, 0.5, 0.75, 1.0]
+  prediction: "b * self_rna_z + lambda * residual_ridge"
+  ridge_intercept: false
+  ridge_samples: measured_only
+  # Inner LOCO repeats slope, residual, feature selection, and ridge
+  # on the inner-training cancers. The outer holdout is never used.
+  inner_reselect_features: true
+  alpha_lambda_selection: unweighted_mean_of_per_cancer_spearman
+  tie_break: smaller_lambda_then_larger_alpha
+  fallback_if_no_valid_inner_fold: {lambda: 0.0, alpha: 10000.0}
+  # lambda 0 equals S0 only when b > 0, because Spearman is invariant to a
+  # positive scale. b = 0 makes the lambda-0 prediction constant.
+  delta_ar: ar_minus_s0
+  delta_ar_r1: ar_minus_stage1_r1
+  adc_lambda_summary: mode_among_evaluated_cancers_tie_smaller_lambda
+
+reliability:
+  target: s0_spearman_when_n_ge_30
+  train_gene_universe: P
+  heldout_protein_not_used_in_features: true
+  f0: unweighted_mean_of_defined_rho_in_source_cancers
+  f0_if_no_defined_cancer: unweighted_mean_of_all_defined_protein_cancer_pairs_in_source_cancers
+  rho_sd_ddof: 0
+  rho_sd_if_fewer_than_2_cancers: 0
+  rna_values: raw_processed_matrix_not_zscore
+  rna_mean_train: unweighted_mean_of_per_cancer_means
+  protein_rate: finite_fraction_on_paired_tumor_samples
+  protein_rate_if_gene_absent: 0
+  rna_sd_percentile: "100 * average_rank(sd) / n_genes_with_finite_sd"
+  rank_ties: average
+  features:
+    - rho_mean
+    - rho_sd
+    - rho_min
+    - rho_max
+    - n_defined_cancers
+    - holdout_rna_mean
+    - holdout_rna_sd
+    - holdout_rna_sd_percentile
+    - train_rna_mean
+    - train_protein_rate_mean
+  ridge_alphas: [0.1, 1.0, 10.0, 100.0]
+  ridge_intercept: true
+  ridge_standardize: training_pairs_only_ddof_0
+  ridge_sd0: set_feature_to_zero
+  ridge_alpha_selection: unweighted_mean_of_per_cancer_mae
+  ridge_tie_break: smallest_alpha
+  ridge_fallback_alpha: 1.0
+  lightgbm:
+    n_estimators: 300
+    learning_rate: 0.05
+    num_leaves: 31
+    min_child_samples: 20
+    subsample: 0.8
+    subsample_freq: 1
+    colsample_bytree: 0.8
+    random_state: 20261001
+    n_jobs: -1
+  conformal: split_from_inner_out_of_fold_absolute_residuals
+  # k = ceil((n+1)*(1-alpha_level)), 1-based index into ascending |residual|.
+  # If k > n, half-width is infinite.
+  intervals: {80: 0.2, 90: 0.1}
+  interval_form: prediction_plus_minus_half_width
+  clip_to_spearman_range: false
+  reliable_label: actual_rho_ge_0.5
+  auroc_score: predicted_rho
+  auroc_if_one_class: NA
+  metrics: [spearman, pearson, mae, coverage_80, width_80, coverage_90, width_90, auroc]
+
+freeze:
+  train_on: all_10_cptac_cancers
+  f1_pairs: leave_one_cancer_out_feature_rows
+  conformal_scores: section_3_2_out_of_fold_absolute_residuals_pooled
+  rppa:
+    min_samples: 30
+    sample_join: exact_sample_id
+    cancer_field: phenotype_primary_disease
+    drop_duplicate_ids: true
+  procan:
+    min_cell_lines: 30
+    cell_line_rule: procan_row_and_sanger_rna
+    rna_column: rsem_tpm
+    rna_transform: log2(rsem_tpm + 1)
+    duplicate_model_gene_rows: keep_first_file_order
+    lineage_field: Tissue_type
+    nonhuman_columns: drop
+  missing_external_rna_feature: training_pair_median_of_that_feature
+  outputs:
+    rppa: results/frozen_forecasts_rppa.tsv
+    procan: results/frozen_forecasts_procan.tsv
+    hashes: config/frozen_hashes.tsv

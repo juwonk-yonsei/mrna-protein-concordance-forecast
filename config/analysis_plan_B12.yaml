@@ -1,0 +1,73 @@
+# Analysis plan B12. Commit this file before the reproduction grid or forecast v3.
+# Do not edit the grid or the criterion after that commit.
+label: 사후, 재현 진단
+seed: 20261001
+cpu_cap: none
+ram_gb: 48
+read_paths_yaml_n_threads: false
+import_04_models: false
+import_02_cptac_audit: false
+num_threads_exception: reproduction grid only
+
+history:
+  rppa_procan_freeze_commit: 224779714bffd58b02059f51de48d92d1324a24f
+  apollo_freeze_commit: ce7949a323791175ee4d60c0b7d79d8e8c5bda02
+  writer_rppa_procan: scripts/08_stage3.py final_f1s_model called from the stage-3 main, written by freeze_external
+  writer_apollo: scripts/19_stage6_freeze.py reliability_table
+  paths_yaml_n_threads: 16
+  paths_yaml_read_by_08_stage3: false
+  run_timed_default_if_B_CPU_CAP_unset: 16
+  logged_B_CPU_CAP: NA
+  logged_lightgbm_thread_count: NA
+  lgbm_n_jobs: -1
+  lgbm_num_threads_argument: absent
+  force_col_wise: absent
+  force_row_wise: absent
+  threadpool_limits_around_final_f1s_model: absent
+  lightgbm_version_in_environment_txt: NA
+  skip_alternate_package: true
+
+repro_grid:
+  training: git show 224779714bffd58b02059f51de48d92d1324a24f:results/f1s_predictions.tsv
+  training_rows: in_P and finite actual
+  base_params: config/analysis_plan_B2.yaml reliability.lightgbm plus verbosity -1
+  num_threads: [1, 16, 72]
+  num_threads_note: 16 is the paths.yaml value and the run_timed default. 72 is nproc. The thread count LightGBM used at the freeze is NA, so 16 is not duplicated.
+  histogram: [auto, force_col_wise, force_row_wise]
+  repeats: 2
+  limit: 1.0e-12
+  features:
+    RPPA: results/stage9/cache_rppa_features.tsv
+    ProCan: results/stage9/cache_procan_features.tsv
+    APOLLO: same feature rows as scripts/31_stage9_export.py stage3_reliability, predicted by each fitted model
+  frozen:
+    RPPA: results/frozen_forecasts_rppa_F1s.tsv
+    ProCan: results/frozen_forecasts_procan_F1s.tsv
+    APOLLO: results/stage6/frozen/apollo_gene_pred.tsv
+  output: results/stage12/repro_grid.tsv
+  reproduced: maximum absolute difference at most 1e-12 on both RPPA and ProCan
+  on_R:
+    model: release/models/F1s_lightgbm_rppa_procan.txt
+    settings: release/models/F1s_lightgbm_rppa_procan_settings.json
+    keep_existing: release/models/F1s_lightgbm.txt
+    reload_check: maximum absolute difference against the frozen RPPA and ProCan predictions
+  on_N: write no new model file
+  if_several_settings_reproduce: record all; write the file from the setting that matches the history; if none matches, leave the choice for the report
+
+forecast_v3:
+  source: results/stage11/forecast_all_genes_v2.tsv.gz
+  output: results/stage12/forecast_all_genes_v3.tsv.gz
+  column: model_gene_features
+  default_is_zero:
+    n_defined_cancers: 0
+    rho_sd: 0
+    rho_mean_min_max_equals_global_mean: true
+    tolerance: 1.0e-8
+    global_mean: results/stage8/lookup_build.tsv global_mean
+  gene_level_source: the development rho dictionary used for the forecast features in scripts/34_stage10_forecast.py static_features, which stores n_defined_cancers on the v1 table
+  # v1 already stores n_defined_cancers. rho_mean, rho_sd, rho_min and rho_max are not on v2.
+  # Recover them with scripts/08_stage3.py f1s_feature_row defaults: when n_defined_cancers is 0 the four rho columns are the global mean, 0, the global mean and the global mean.
+  # A gene with n_defined_cancers 0 on the v2 table is therefore at the default. A gene with n_defined_cancers above 0 is 1.
+  # This uses the column already on v2, which came from that feature function. Do not refit.
+  other_columns_byte_identical_to_v2: true
+  prediction_max_abs: 0

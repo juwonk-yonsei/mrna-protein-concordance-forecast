@@ -1,0 +1,17 @@
+item	value
+mode	unlock
+n_rppa_pairs	4154
+n_procan_pairs	12159
+n_h1_antibodies_in_ar	123
+n_h1_units	123
+n_h1_pairs	3813
+n_h1_delta_na	81
+n_h2_proteins_in_ar	3691
+n_h2_units	2623
+n_h2_pairs	11073
+n_h2_delta_na	5166
+n_h3_dropped	109
+n_h4_dropped	6041
+n_adc_rppa_pairs	124
+n_adc_procan_pairs	45
+n_adc_procan_genes	15

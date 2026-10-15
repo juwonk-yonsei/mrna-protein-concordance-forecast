@@ -1,0 +1,10 @@
+label	dataset	fill	n_genes_including_undefined_actual	n_genes_with_finite_actual
+사후	APOLLO	in_P_mean_of_defined_CPTAC_rho	6323	6221
+사후	APOLLO	outside_P_gene_specific	201	199
+사후	APOLLO	outside_P_global_mean	794	776
+사후	ProCan	in_P_mean_of_defined_CPTAC_rho	3052	2399
+사후	ProCan	outside_P_gene_specific	819	268
+사후	ProCan	outside_P_global_mean	182	79
+사후	RPPA	in_P_mean_of_defined_CPTAC_rho	100	100
+사후	RPPA	outside_P_gene_specific	28	28
+사후	RPPA	outside_P_global_mean	6	6

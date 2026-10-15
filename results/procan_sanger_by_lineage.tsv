@@ -1,0 +1,28 @@
+Tissue_type	n_cell_lines	n_ge_30
+Adrenal Gland	1	False
+Biliary Tract	3	False
+Bladder	4	False
+Bone	29	False
+Breast	11	False
+Central Nervous System	22	False
+Cervix	13	False
+Endometrium	1	False
+Esophagus	14	False
+Haematopoietic and Lymphoid	74	True
+Head and Neck	22	False
+Kidney	19	False
+Large Intestine	31	True
+Liver	2	False
+Lung	41	True
+Other tissue	3	False
+Ovary	13	False
+Pancreas	5	False
+Peripheral Nervous System	19	False
+Placenta	2	False
+Prostate	3	False
+Skin	24	False
+Soft Tissue	9	False
+Stomach	10	False
+Testis	3	False
+Thyroid	8	False
+Vulva	3	False

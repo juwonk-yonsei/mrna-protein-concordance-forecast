@@ -1,0 +1,60 @@
+# Analysis plan B10. Commit this file before any Lpool or all-gene forecast calculation.
+# Do not edit the contrasts after that commit.
+label: 사후
+seed: 20261001
+bootstrap_draws: 2000
+seed_restart: new_default_rng_for_each_contrast
+cpu_cap: none
+ram_gb: 48
+read_paths_yaml_n_threads: false
+import_04_models: false
+import_02_cptac_audit: false
+retrain: false
+new_lookup: false
+
+lpool:
+  # lookup_build.tsv stores the global mean and pair counts, not per-gene rho.
+  # The mean of every finite CPTAC rho of a gene is the stored column l2 in the
+  # assignment table, filled on L1 rows as well as L2 rows. Lpool is that column.
+  # Rho is not recomputed.
+  assignment: results/stage8/lookup_assignment.tsv
+  build: results/stage8/lookup_build.tsv
+  value_column: l2
+  stratum: L1
+  require_finite: [actual, l1, l2, f1s_lgbm]
+  differences:
+    - [lpool, l1]
+    - [f1s_lgbm, lpool]
+  units:
+    RPPA: unit
+    ProCan: unit
+    APOLLO: unit
+  min_pairs_for_spearman: 3
+  rank_ties: average
+  constant_score_is_undefined: true
+  interval: percentile_2.5_and_97.5_of_finite_draws
+
+f0_coverage:
+  global_mean_column: global_mean
+  f0_is_global_mean: absolute_difference_at_most_1e-8
+  lstar_has_cptac_value: layer_in_L1_L2_L3
+  require_finite_actual: true
+  strata: [all, L1]
+
+forecast_all_genes:
+  model: release/models/F1s_lightgbm.txt
+  feature_code: scripts/13_stage5_atlas.py static_features plus holdout percentiles
+  percentile_file: results/stage5/atlas/tcga_rna_percentiles.tsv
+  gene_universe: genes_in_the_percentile_file
+  cancers: diseases_in_the_percentile_file
+  half_widths: results/f1s_model_fit.tsv q80_lgbm and q90_lgbm
+  in_P: results/P_genes.txt
+  n_defined_cancers: feature n_defined_cancers
+  s_function: scripts/12_stage5_scope.py cptac_profiles and max_similarity
+  s_range_low: 0.8830509478307224
+  s_range_high: 0.9788744329350166
+  match_keys: [gene_symbol, disease]
+  match_file: results/stage5/atlas/adc_atlas_v2.tsv
+  match_column: rho_hat
+  match_limit: 1.0e-9
+  output: results/stage10/forecast_all_genes.tsv.gz

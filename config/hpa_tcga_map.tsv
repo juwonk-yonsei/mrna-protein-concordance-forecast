@@ -1,0 +1,21 @@
+hpa_cancer	hpa_organ	tcga_primary_disease	mapped	reason
+Breast cancer	Breast & female reproductive system	breast invasive carcinoma	yes	one TCGA primary-disease label
+Carcinoid	Pancreas		no	no TCGA primary-disease label with this name
+Cervical cancer	Breast & female reproductive system	cervical & endocervical cancer	yes	one TCGA primary-disease label
+Colorectal cancer	Gastrointestinal tract		no	colon adenocarcinoma and rectum adenocarcinoma both exist
+Endometrial cancer	Breast & female reproductive system	uterine corpus endometrioid carcinoma	yes	endometrioid carcinoma only; uterine carcinosarcoma left unmapped
+Glioma	Brain		no	brain lower grade glioma and glioblastoma multiforme both exist
+Head and neck cancer	Gastrointestinal tract	head & neck squamous cell carcinoma	yes	one TCGA primary-disease label
+Liver cancer	Liver & Gallbladder	liver hepatocellular carcinoma	yes	hepatocellular carcinoma only; cholangiocarcinoma left unmapped
+Lung cancer	Respiratory system		no	lung adenocarcinoma and lung squamous cell carcinoma both exist
+Lymphoma	Bone marrow & Lymphoid tissues		no	broader than diffuse large B-cell lymphoma
+Melanoma	Skin		no	skin cutaneous melanoma and uveal melanoma both exist
+Ovarian cancer	Breast & female reproductive system	ovarian serous cystadenocarcinoma	yes	TCGA ovarian label is serous cystadenocarcinoma
+Pancreatic cancer	Pancreas	pancreatic adenocarcinoma	yes	one TCGA primary-disease label
+Prostate cancer	Male reproductive system	prostate adenocarcinoma	yes	one TCGA primary-disease label
+Renal cancer	Kidney & Urinary bladder		no	kidney chromophobe, kidney clear cell carcinoma, and kidney papillary cell carcinoma all exist
+Skin cancer	Skin		no	no single TCGA primary-disease label
+Stomach cancer	Gastrointestinal tract	stomach adenocarcinoma	yes	one TCGA primary-disease label
+Testis cancer	Male reproductive system	testicular germ cell tumor	yes	one TCGA primary-disease label
+Thyroid cancer	Endocrine tissues	thyroid carcinoma	yes	one TCGA primary-disease label
+Urothelial cancer	Kidney & Urinary bladder	bladder urothelial carcinoma	yes	one TCGA primary-disease label

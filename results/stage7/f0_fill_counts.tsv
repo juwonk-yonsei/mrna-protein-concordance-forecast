@@ -1,0 +1,10 @@
+label	dataset	fill	n_genes	global_mean	n_s0_pairs_in_P	n_P_genes
+사후	APOLLO	in_P_mean_of_defined_CPTAC_rho	6323	0.45608912228279463	72880	7432
+사후	APOLLO	outside_P_gene_specific	201	0.45608912228279463	72880	7432
+사후	APOLLO	outside_P_global_mean	794	0.45608912228279463	72880	7432
+사후	ProCan	in_P_mean_of_defined_CPTAC_rho	3052	0.45608912228279463	72880	7432
+사후	ProCan	outside_P_gene_specific	819	0.45608912228279463	72880	7432
+사후	ProCan	outside_P_global_mean	182	0.45608912228279463	72880	7432
+사후	RPPA	in_P_mean_of_defined_CPTAC_rho	100	0.45608912228279463	72880	7432
+사후	RPPA	outside_P_gene_specific	28	0.45608912228279463	72880	7432
+사후	RPPA	outside_P_global_mean	6	0.45608912228279463	72880	7432

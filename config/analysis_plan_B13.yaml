@@ -1,0 +1,67 @@
+# Analysis plan B13. Commit this file before any version refit.
+# Do not edit the criterion after that commit.
+label: 사후, 재현 진단 2차
+seed: 20261001
+cpu_cap: none
+ram_gb: 48
+read_paths_yaml_n_threads: false
+import_04_models: false
+import_02_cptac_audit: false
+project_venv_unchanged: true
+temp_venv: /tmp/b13_venv
+
+rppa_procan_fit_kst: 2026-10-02 00:30:53
+apollo_fit_kst: 2026-10-02 16:16:19
+
+version_records:
+  reports_1_to_9:
+    B_보고서_1: NA
+    B_보고서_2: "4.7.0, line 11, commit d7ddc71df3f2eb6823a876d491a93ec1e17d1933 at 2026-10-01 21:57:56 +0900"
+    B_보고서_3: "4.7.0, line 11, commit 19793860f8473e22a57e7c945f004c256df6f93f at 2026-10-02 00:40:07 +0900"
+    B_보고서_4: NA
+    B_보고서_5: NA
+    B_보고서_6: NA
+    B_보고서_7: NA
+    B_보고서_8: NA
+    B_보고서_9: "4.7.0, line 14, commit after both fits, 2026-10-13"
+  environment_txt: NA
+  environment_txt_history: one commit, cd1c952210c7b0d8af907bf2ce7e87b5e6e9f073, no lightgbm line at the freeze commit
+  requirements_txt: absent from the repository
+  release_requirements_freeze: "lightgbm==4.7.0, first commit 12a14ef2212846ba89ff5aeb2759ca04eb64cf2c at 2026-10-02 18:15:41 +0900"
+  oct_1_to_3_git_grep: only the 4.7.0 sentences in reports 2 and 3
+  venv_dist_info: lightgbm-4.7.0.dist-info, METADATA Version 4.7.0, INSTALLER pip, mtime 2026-10-01 19:53:27 +0900
+  venv_direct_url_json: absent
+  pip_cache_wheels: none
+
+judgment:
+  before_rppa_fit: 4.7.0
+  between_fits: 4.7.0
+  after_apollo_fit: 4.7.0
+  versions_differ: false
+  candidate_versions: []
+  skip_section_2_2: true
+  reason: The recorded version before the RPPA and ProCan fit and the recorded version after the APOLLO fit are both 4.7.0. No other version is recorded, so none is installed.
+
+version_refit:
+  skipped: true
+  output_if_run: results/stage13/version_refit.tsv
+  threads_and_histogram: do not set
+  training: same 72880 rows as stage 12
+  repeats: 2
+  limit: 1.0e-12
+  datasets: [RPPA, ProCan, APOLLO]
+
+falsification:
+  expected_if_version_hypothesis: candidate version reproduces RPPA and ProCan and not APOLLO; 4.7.0 does the opposite
+  run: false
+
+decision:
+  rule_V: a candidate version reproduces RPPA and ProCan within 1e-12 and does not reproduce APOLLO
+  rule_N: every other outcome, including a skipped refit
+  chosen: N
+  on_V:
+    model: release/models/F1s_lightgbm_rppa_procan.txt
+    settings: release/models/F1s_lightgbm_rppa_procan_settings.json
+  on_N: write no new model file
+  stop: true
+  forbidden_after_this: [change the training-row definition, recompute features, search parameters]

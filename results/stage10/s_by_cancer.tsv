@@ -1,0 +1,34 @@
+cancer_type	s_context	s_in_cptac_range
+acute myeloid leukemia	0.7706342806445161	0
+adrenocortical cancer	0.8702494106455061	0
+bladder urothelial carcinoma	0.9217946638030764	1
+brain lower grade glioma	0.8885964662567626	1
+breast invasive carcinoma	0.9758289739657108	1
+cervical & endocervical cancer	0.9135135580080673	1
+cholangiocarcinoma	0.9033395855828762	1
+colon adenocarcinoma	0.9585893882179034	1
+diffuse large B-cell lymphoma	0.8600974232023749	0
+esophageal carcinoma	0.9321935597340668	1
+glioblastoma multiforme	0.9032686777962851	1
+head & neck squamous cell carcinoma	0.9181232792903282	1
+kidney chromophobe	0.8720291758729294	0
+kidney clear cell carcinoma	0.9300840929446003	1
+kidney papillary cell carcinoma	0.8779708787234509	0
+liver hepatocellular carcinoma	0.8329576926222835	0
+lung adenocarcinoma	0.9369740701392075	1
+lung squamous cell carcinoma	0.9274441865347586	1
+mesothelioma	0.9114023301277179	1
+ovarian serous cystadenocarcinoma	0.9526756539119432	1
+pancreatic adenocarcinoma	0.9098555293661394	1
+pheochromocytoma & paraganglioma	0.8246224672153285	0
+prostate adenocarcinoma	0.9121011253718693	1
+rectum adenocarcinoma	0.9565067496268824	1
+sarcoma	0.909963489453893	1
+skin cutaneous melanoma	0.8937654899696388	1
+stomach adenocarcinoma	0.9526280900755504	1
+testicular germ cell tumor	0.8815095355476178	0
+thymoma	0.8746161266046858	0
+thyroid carcinoma	0.9014796443836851	1
+uterine carcinosarcoma	0.905597251555419	1
+uterine corpus endometrioid carcinoma	0.9222863313749816	1
+uveal melanoma	0.8484768582064601	0

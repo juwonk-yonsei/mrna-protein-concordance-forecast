@@ -1,0 +1,133 @@
+# Analysis plan B1. Written before any section-7 result was computed.
+# Thresholds below are the instruction's section 6 rules, plus operational
+# details required to compute them. Do not edit after results are inspected.
+seed: 20261001
+n_threads: 16
+cancers: [BRCA, CCRCC, COAD, GBM, HNSCC, LSCC, LUAD, OV, PDAC, UCEC]
+
+gene_id:
+  cptac_row_id: ensembl_with_version
+  # Strip the version suffix after the dot. Join to HGNC ensembl_gene_id.
+  # An Ensembl id present on more than one HGNC row is ambiguous and is dropped.
+  # If several matrix rows map to one symbol, keep the highest Ensembl version,
+  # then the earliest row. Dropped rows are counted, not averaged.
+  protein_coding_locus_group: "protein-coding gene"
+
+sample_id:
+  # RNA and protein files are already split into Tumor and Normal.
+  # Pair by exact column-name equality within cancer and tissue.
+  # If a column name is duplicated inside one matrix, drop that sample id.
+  cptac_join: exact_column_name
+
+g_rna:
+  # HGNC protein-coding symbols present as a row in all 10 tumor RNA matrices.
+  require_all_cancers: 10
+
+standardization:
+  # Per cancer, tumor samples present in that matrix.
+  # Standard deviation uses ddof 0. sd == 0 or non-finite sd -> z = 0 on observed entries.
+  std_ddof: 0
+  rna: zscore_within_cancer_tumor
+  rna_sd0: set_to_zero
+  protein: zscore_within_cancer_measured_only
+  protein_missing: keep_missing
+  # Held-out cancer RNA is z-scored inside that cancer (RNA only).
+  # A fit row is kept only when every selected RNA feature is non-missing.
+
+p_protein:
+  min_cancers_with_measurement_rate: 8
+  measurement_rate_threshold: 0.70
+  must_be_in_g_rna: true
+
+evaluation:
+  min_measured_tumors: 30
+  unit: protein_by_cancer
+  # Main distributions use proteins in P. ADC targets not in P are tabulated
+  # separately and are not mixed into the P distributions.
+  distribution_universe: P
+
+adc_extra:
+  min_measured_tumors: 30
+  evaluate_even_if_not_in_P: true
+
+s0:
+  prediction: rna_z_of_same_gene
+  metric: spearman_measured_samples_only
+  # Average ranks for ties. Constant input or undefined correlation -> NA.
+
+r1:
+  extra_genes: 50
+  self_gene_included: true
+  self_excluded_from_extra: true
+  features_from: G_RNA
+  feature_selection_samples: outer_training_only
+  # |Pearson| after filling missing protein z with 0, then centering.
+  # This is the stated matrix-multiply approximation.
+  feature_selection_missing_protein: fill_zero
+  alphas: [0.1, 1.0, 10.0, 100.0, 1000.0]
+  alpha_selection: inner_leave_one_training_cancer_out
+  # Unweighted mean of per-cancer Spearman values.
+  # A cancer contributes only if Spearman is defined (n >= 3 and non-constant).
+  inner_min_n: 3
+  tie_break: smallest_alpha
+  fallback_alpha_if_no_valid_inner_fold: 1.0
+  fit_samples: measured_only
+  intercept: false
+  # If the protein gene is not in G_RNA, the self feature is omitted.
+  inner_cv_reselect_features: false
+
+r2:
+  features: all_G_RNA_rna_z
+  targets: all_P_protein_z
+  train_missing_target: fill_zero
+  # Dual ridge, no intercept: W = X.T @ inv(X @ X.T + alpha I) @ Y
+  formula: dual
+  intercept: false
+  alphas: [0.1, 1.0, 10.0, 100.0, 1000.0]
+  # One alpha. For each inner cancer, mean Spearman over proteins with a
+  # defined Spearman; then the unweighted mean across inner cancers.
+  alpha_selection: inner_mean_spearman
+  inner_min_n: 3
+  tie_break: smallest_alpha
+  fallback_alpha_if_no_valid_inner_fold: 1.0
+  eval_samples: measured_only
+
+delta:
+  r1: r1_minus_s0
+  r2: r2_minus_s0
+  # Pairs with NA S0 or NA model score are NA and are omitted from quantiles.
+
+ccle:
+  lineage_column: OncotreeLineage
+  min_cell_lines: 15
+  # A cell line counts if it has both RNA and protein.
+  zscore: within_lineage
+  train: all_ten_cptac_cancers
+  alpha: same_inner_cv_on_cptac
+  missing_g_rna_genes: fill_zero
+  # 1) approved symbol 2) previous symbol if it maps to one approved symbol
+  # 3) alias if it maps to one approved symbol 4) otherwise unmatched
+  gene_match: hgnc_symbol_then_prev_then_alias
+  # Protein-row to model id, first field that matches exactly.
+  # Quantification columns are named {CCLEName}_TenPx{plex}. The _TenPx suffix
+  # is removed before the match. Columns named TenPx{plex}_Peptides are
+  # peptide counts, not samples, and are excluded.
+  id_match_priority: [CCLEName, StrippedCellLineName, ModelID]
+  protein_column_suffix: _TenPxN
+  exclude_columns_ending: _Peptides
+  # Several protein rows for one symbol: keep the row with the most
+  # non-missing cell lines, then the earliest row.
+  duplicate_gene_rows: most_measured_then_file_order
+
+normal_reference:
+  # Section 6.2 defines tumor z-scores only. For the section 7.4 reference
+  # analysis, z-score inside the normal samples of that cancer.
+  zscore: within_cancer_normal_samples
+  metric: s0_spearman
+  require_both_rna_and_protein: true
+
+ranking:
+  # Mean delta across cancers in which the protein was evaluated.
+  # Universe is P. Report gene symbol, mean delta, mean S0.
+  top_n: 20
+  bottom_n: 20

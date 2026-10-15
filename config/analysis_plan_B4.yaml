@@ -1,0 +1,159 @@
+# Analysis plan B4. Commit with config/prereg_B4.md before any external B_sd,
+# confirm-script, or fake-matrix run. Do not edit after that commit.
+seed: 20261001
+cpu_cap: none
+ram_gb: 48
+read_paths_yaml_n_threads: false
+
+decisions_report3:
+  1: one_sided_wilcoxon_greater_zero_method_wilcox_plus_mean_and_median_ci
+  2: keep_stage3_broad_id_overlap_and_add_procan_sanger_same_lineage_overlap
+  3: within_antibody_min_defined_contexts_10
+  4: sample_rna_gap_and_absent_gene_set_to_z_0
+
+primary_predictor: f1s_lgbm
+primary_predictor_reason: >
+  F1s-LightGBM uses scale-free features and was the highest or tied on the
+  development data (CPTAC LOCO, CCLE). Chosen before any locked value is read.
+
+hypotheses:
+  family: [H1, H2, H3, H4]
+  family_alpha_one_sided: 0.05
+  holm: ascending_p_kth_compared_to_alpha_over_5_minus_k
+  holm_tie_break: hypothesis_order_H1_H2_H3_H4
+  holm_stop: first_failure_and_all_later_not_rejected
+  bootstrap_draws: 2000
+  bootstrap_seed: 20261001
+  bootstrap_seed_scope: new_default_rng_for_each_hypothesis
+  interval: two_sided_percentile_2.5_97.5
+  quantile: numpy_quantile_linear
+  h1_h2_mean_and_median_from_same_unit_resamples: true
+  h3_h4_p_and_interval_from_same_resamples: true
+  h3_h4_p: "(1 + count of draws with (S_F - S_B) <= 0) / 2001"
+  nonfinite_draw: not_counted_as_diff_le_0_and_dropped_from_percentile_interval
+  wilcoxon_alternative: greater
+  wilcoxon_zero_method: wilcox
+  effect_size_includes_exact_zeros: true
+
+definitions:
+  min_n: 30
+  constant_vector_is_na: true
+  actual_rho: spearman_of_raw_log2_rna_and_protein
+  rho_s0: spearman_of_within_context_rna_z_and_protein
+  rho_ar: spearman_of_frozen_ar_prediction_and_protein
+  rna_tcga: log2
+  rna_sanger: log2_tpm_plus_1
+  tcga_gene_map: stage3_section2
+  rna_z:
+    scope: within_context
+    ddof: 0
+    finite_only_then_nonfinite_set_to_0: true
+    absent_gene: all_positions_0
+  delta: rho_ar_minus_rho_s0
+  h1_unit: xena_antibody_in_frozen_ar_tcga
+  h1_n_antibodies_expected: 123
+  h1_statistic: mean_of_defined_cancer_deltas
+  h2_unit: protein_id_in_frozen_ar_procan
+  h2_n_proteins_upper_bound: 3691
+  h2_statistic: mean_of_defined_lineage_deltas
+  h3_pairs: all_frozen_rppa_forecast_pairs
+  h3_n_pairs_expected: 4154
+  h3_resample: antibody_with_replacement_keep_all_remaining_pairs
+  h4_pairs: all_frozen_procan_forecast_pairs
+  h4_n_pairs_expected: 12159
+  h4_resample: protein_with_replacement_keep_all_remaining_pairs
+  h3_h4_pair_requirement: finite_actual_and_f1s_lgbm_and_b_sd
+
+b_sd:
+  output: results/frozen_baseline_bsd.tsv
+  samples: stage3_ar_prediction_sample_ids
+  expected_tcga_samples: 7261
+  expected_procan_models: 146
+  membership: sample_id_only
+  use_protein_values: false
+  use_protein_missingness: false
+  ddof: 0
+  percentile: "100 * average_rank / n_finite"
+  rank_ties: average
+  universe: G_RNA_genes_with_finite_sd_in_that_context
+  development_cptac: f1s_predictions_holdout_rna_sd_percentile
+  development_ccle: rna_intersect_protein_cell_lines_within_lineage
+  freeze_before_unlock: true
+
+descriptive:
+  multiplicity_correction: none
+  ar_context: median_of_pair_deltas
+  ar_pairs: [median, q1, q3, frac_gt_0.05, frac_lt_m0.05]
+  ar_pair_level_test: same_wilcoxon_and_mean_median_ci_not_in_holm_family
+  predictors: [f0, f1_ridge, f1_lgbm, f1s_ridge, f1s_lgbm, b_sd]
+  predictor_metrics: [pooled_spearman, auroc_actual_ge_0.5, within_context_spearman_and_median]
+  within_antibody:
+    cohort: rppa_only
+    min_defined_contexts: 10
+    report: [median, frac_gt_0]
+    defined_context: finite_predictor_and_finite_actual
+  omit_for_b_sd: [pooled_pearson, mae, coverage_80, coverage_90, mean_width_80, mean_width_90, context_mean_actual_minus_pred]
+  other_predictors_also: [pooled_pearson, mae, coverage_80, coverage_90, mean_width, context_mean_actual_minus_pred]
+  coverage_rule: absolute_actual_minus_pred_le_frozen_half_width
+  mean_width: mean_of_two_times_half_width
+  within_context_spearman_min_pairs: 3
+  constant_predictor_spearman: na
+  cptac_compare: pair_level_spearman_of_f0_and_actual_rho
+  adc_rppa_genes: [CDH3, EGFR, ERBB2, ERBB3]
+  adc_procan: frozen_forecast_is_adc
+  adc_outputs: [same_metrics, pair_table]
+
+processing:
+  drop_pair_if_needed_value_na: true
+  report_drop_count: true
+  drop_unit_with_no_defined_context: true
+  analyses_absent_from_this_file_are_posthoc: true
+
+power:
+  source: results/ccle_ar_pairs.tsv
+  gene_value: mean_of_finite_delta_ar_across_lineages
+  n_genes: 8844
+  n_genes_both_lineages: 6562
+  n_genes_one_lineage: 2282
+  source_mean: 0.02053768808580089
+  source_median: 0.0081401742767478
+  source_q1: -0.018099794431126977
+  source_q3: 0.04980618694127568
+  draws: 10000
+  seed: 20261001
+  rng: one_default_rng_order_H1_full_H1_half_H2_full_H2_half
+  reject_if_pvalue_lt: 0.0125
+  half_effect: subtract_half_of_original_mean_from_every_value
+  half_effect_mean: 0.010268844042900446
+  h1_n_draw: 123
+  h2_n_draw: 3691
+  table: results/prereg_B4_power.tsv
+
+development_reference:
+  table: results/prereg_B4_reference.tsv
+  resample: gene_with_replacement_keep_all_contexts
+  draws: 2000
+  seed_restarted_per_dataset: 20261001
+  cptac_universe: in_P_and_finite_actual_f1s_lgbm_and_holdout_rna_sd_percentile
+  ccle_universe: Lung_and_Skin_P_genes_finite_actual_refit_f1s_lgbm_and_b_sd
+  ccle_saved_pooled_spearman_f1s_lgbm: 0.653110291459284
+  ccle_note: per_gene_predictions_were_not_saved_so_S_F_is_a_refit
+
+overlap:
+  rule: CMP_BROAD_ID_equals_DepMap_ModelID_and_OncotreeLineage_equals_Tissue_type
+  ccle_models: in_both_rna_and_protein_matrices
+  sanger_models: model_id_with_data_source_Sanger_in_rnaseq_merged
+  table: results/prereg_B4_overlap.tsv
+
+fake:
+  seed: 1
+  generator: one_numpy_default_rng
+  reuse: scripts/09_confirm.py make_fake and load_real_bundle
+  do_not_read_locked_values_on_fake_or_freeze: true
+
+outputs:
+  b_sd: results/frozen_baseline_bsd.tsv
+  fake_dir: results/stage4/fake
+  confirm_dir: results/stage4/confirm
+  hypothesis_table: hypotheses.tsv
+  holm_table: holm.tsv

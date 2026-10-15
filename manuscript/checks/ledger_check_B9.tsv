@@ -1,0 +1,515 @@
+key	location	manuscript_notation	source_file	rounding	rounded	result	detail
+n0001	abstract	50		exact_integer	50	FAIL	no source file
+n0002	abstract	80		exact_integer	80	FAIL	no source file
+n0003	abstract	0.75		3sig	0.75	FAIL	no source file
+n0004	abstract	0.85		3sig	0.85	FAIL	no source file
+n0005	abstract	29		exact_integer	29	FAIL	no source file
+n0006	results	50		exact_integer	50	FAIL	no source file
+n0007	results	80		exact_integer	80	FAIL	no source file
+n0008	results	0.75		3sig	0.75	FAIL	no source file
+n0009	results	0.85		3sig	0.85	FAIL	no source file
+n0010	results	29		exact_integer	29	FAIL	no source file
+n0011	results	0.105	results/figures/source/fig1_loco_delta.tsv	3sig	0.105	PASS	mean_delta
+n0012	results	7421	results/figures/source/fig1_loco_delta.tsv	exact_integer	7421	PASS	n
+n0013	results	0.0854	results/figures/source/fig1_loco_delta.tsv	3sig	0.0854	PASS	mean_delta
+n0014	results	7360	results/figures/source/fig1_loco_delta.tsv	exact_integer	7360	PASS	n
+n0015	results	0.115	results/figures/source/fig1_loco_delta.tsv	3sig	0.115	PASS	mean_delta
+n0016	results	6778	results/figures/source/fig1_loco_delta.tsv	exact_integer	6778	PASS	n
+n0017	results	0.0958	results/figures/source/fig1_loco_delta.tsv	3sig	0.0958	PASS	mean_delta
+n0018	results	7329	results/figures/source/fig1_loco_delta.tsv	exact_integer	7329	PASS	n
+n0019	results	0.103	results/figures/source/fig1_loco_delta.tsv	3sig	0.103	PASS	mean_delta
+n0020	results	7421	results/figures/source/fig1_loco_delta.tsv	exact_integer	7421	PASS	n
+n0021	results	0.121	results/figures/source/fig1_loco_delta.tsv	3sig	0.121	PASS	mean_delta
+n0022	results	7418	results/figures/source/fig1_loco_delta.tsv	exact_integer	7418	PASS	n
+n0023	results	0.0969	results/figures/source/fig1_loco_delta.tsv	3sig	0.0969	PASS	mean_delta
+n0024	results	7418	results/figures/source/fig1_loco_delta.tsv	exact_integer	7418	PASS	n
+n0025	results	0.0966	results/figures/source/fig1_loco_delta.tsv	3sig	0.0966	PASS	mean_delta
+n0026	results	7010	results/figures/source/fig1_loco_delta.tsv	exact_integer	7010	PASS	n
+n0027	results	0.109	results/figures/source/fig1_loco_delta.tsv	3sig	0.109	PASS	mean_delta
+n0028	results	7426	results/figures/source/fig1_loco_delta.tsv	exact_integer	7426	PASS	n
+n0029	results	0.120	results/figures/source/fig1_loco_delta.tsv	3sig	0.12	PASS	mean_delta
+n0030	results	7412	results/figures/source/fig1_loco_delta.tsv	exact_integer	7412	PASS	n
+n0031	results	0.0969	results/stage6/prep/power.tsv	3sig	0.0969	PASS	source_mean
+n0032	results	1	results/stage6/prep/power.tsv	exact_integer	1	PASS	rejection_rate
+n0033	results	0.025		3sig	0.025	FAIL	no source file
+n0034	results	0.05		3sig	0.05	FAIL	no source file
+n0035	results	0.10		3sig	0.1	FAIL	no source file
+n0036	results	0.0339	results/stage4/confirm/hypotheses.tsv	3sig	0.0339	PASS	mean
+n0037	results	95	results/stage4/confirm/hypotheses.tsv	exact_integer	95	FAIL	no matching cell
+n0038	results	0.0242	results/stage4/confirm/hypotheses.tsv	3sig	0.0242	PASS	mean_ci_low
+n0039	results	0.0432	results/stage4/confirm/hypotheses.tsv	3sig	0.0432	PASS	mean_ci_high
+n0040	results	123	results/stage4/confirm/hypotheses.tsv	exact_integer	123	PASS	n_units
+n0041	results	6415	results/stage4/confirm/hypotheses.tsv	exact_integer	6415	PASS	statistic
+n0042	results	1.51	results/stage4/confirm/hypotheses.tsv	p_2sig	1.5	FAIL	no matching cell
+n0043	results	10	results/stage4/confirm/hypotheses.tsv	p_2sig	10	FAIL	no matching cell
+n0044	results	13	results/stage4/confirm/hypotheses.tsv	exact_integer	13	FAIL	no matching cell
+n0045	results	0.000932	results/stage4/confirm/hypotheses.tsv	3sig	0.000932	PASS	mean
+n0046	results	95	results/stage4/confirm/hypotheses.tsv	exact_integer	95	FAIL	no matching cell
+n0047	results	0.00236	results/stage4/confirm/hypotheses.tsv	3sig	0.00236	FAIL	no matching cell
+n0048	results	0.00423	results/stage4/confirm/hypotheses.tsv	3sig	0.00423	PASS	mean_ci_high
+n0049	results	2623	results/stage4/confirm/hypotheses.tsv	exact_integer	2623	PASS	n_units
+n0050	results	1.74	results/stage4/confirm/hypotheses.tsv	3sig	1.74	FAIL	no matching cell
+n0051	results	10	results/stage4/confirm/hypotheses.tsv	exact_integer	10	FAIL	no matching cell
+n0052	results	6	results/stage4/confirm/hypotheses.tsv	exact_integer	6	FAIL	no matching cell
+n0053	results	0.102	results/stage4/confirm/hypotheses.tsv	p_2sig	0.1	PASS	pvalue
+n0054	results	0.0850	results/stage6/confirm/hypotheses.tsv	3sig	0.085	PASS	mean
+n0055	results	95	results/stage6/confirm/hypotheses.tsv	exact_integer	95	FAIL	no matching cell
+n0056	results	0.0822	results/stage6/confirm/hypotheses.tsv	3sig	0.0822	PASS	mean_ci_low
+n0057	results	0.0878	results/stage6/confirm/hypotheses.tsv	3sig	0.0878	PASS	mean_ci_high
+n0058	results	0.0556	results/stage6/confirm/hypotheses.tsv	3sig	0.0556	PASS	median
+n0059	results	0.0533	results/stage6/confirm/hypotheses.tsv	3sig	0.0533	PASS	median_ci_low
+n0060	results	0.0584	results/stage6/confirm/hypotheses.tsv	3sig	0.0584	PASS	median_ci_high
+n0061	results	0.814	results/stage6/confirm/hypotheses.tsv	3sig	0.814	PASS	frac_gt_0
+n0062	results	7029	results/stage6/confirm/hypotheses.tsv	exact_integer	7029	PASS	n
+n0063	results	71	results/stage6/confirm/hypotheses.tsv	exact_integer	71	PASS	n_zero
+n0064	results	2.19	results/stage6/confirm/hypotheses.tsv	3sig	2.19	FAIL	no matching cell
+n0065	results	10	results/stage6/confirm/hypotheses.tsv	exact_integer	10	FAIL	no matching cell
+n0066	results	7	results/stage6/confirm/hypotheses.tsv	exact_integer	7	FAIL	no matching cell
+n0067	results	0	results/stage6/confirm/hypotheses.tsv	p_2sig	0	PASS	n_zero
+n0068	results	0.0627		3sig	0.0627	FAIL	no source file
+n0069	results	0.0624		3sig	0.0624	FAIL	no source file
+n0070	results	6322		exact_integer	6322	FAIL	no source file
+n0071	results	0.716		3sig	0.716	FAIL	no source file
+n0072	results	1.56		3sig	1.56	FAIL	no source file
+n0073	results	10		exact_integer	10	FAIL	no source file
+n0074	results	7		exact_integer	7	FAIL	no source file
+n0075	results	0		p_2sig	0	FAIL	no source file
+n0076	results	0.0228	results/stage6/confirm/hypotheses.tsv	3sig	0.0228	PASS	mean
+n0077	results	0.0215	results/stage6/confirm/hypotheses.tsv	3sig	0.0215	PASS	median
+n0078	results	6322	results/stage6/confirm/hypotheses.tsv	exact_integer	6322	PASS	n
+n0079	results	0.666	results/stage6/confirm/hypotheses.tsv	3sig	0.666	PASS	frac_gt_0
+n0080	results	1.44	results/stage6/confirm/hypotheses.tsv	3sig	1.44	FAIL	no matching cell
+n0081	results	10	results/stage6/confirm/hypotheses.tsv	exact_integer	10	FAIL	no matching cell
+n0082	results	7	results/stage6/confirm/hypotheses.tsv	exact_integer	7	FAIL	no matching cell
+n0083	results	4.45	results/stage6/confirm/hypotheses.tsv	p_2sig	4.5	FAIL	no matching cell
+n0084	results	10	results/stage6/confirm/hypotheses.tsv	p_2sig	10	FAIL	no matching cell
+n0085	results	203	results/stage6/confirm/hypotheses.tsv	exact_integer	203	FAIL	no matching cell
+n0086	results	0.0556	results/stage6/confirm/hypotheses.tsv	3sig	0.0556	PASS	median
+n0087	results	0.0106	results/stage6/confirm/hypotheses.tsv	3sig	0.0106	FAIL	no matching cell
+n0088	results	0.131	results/stage6/confirm/hypotheses.tsv	3sig	0.131	FAIL	no matching cell
+n0089	results	0.05	results/stage6/confirm/hypotheses.tsv	3sig	0.05	FAIL	no matching cell
+n0090	results	0.529	results/stage6/confirm/hypotheses.tsv	3sig	0.529	FAIL	no matching cell
+n0091	results	0.05	results/stage6/confirm/hypotheses.tsv	3sig	0.05	FAIL	no matching cell
+n0092	results	0.0414	results/stage6/confirm/hypotheses.tsv	3sig	0.0414	FAIL	no matching cell
+n0093	results	7029	results/stage6/confirm/hypotheses.tsv	exact_integer	7029	PASS	n
+n0094	results	0.0151	results/stage6/confirm/hypotheses.tsv	3sig	0.0151	FAIL	no matching cell
+n0095	results	0.0623	results/stage6/confirm/hypotheses.tsv	p_2sig	0.062	PASS	median
+n0096	results	0	results/stage6/confirm/descriptive_ar.tsv	exact_integer	0	PASS	value
+n0097	results	0	results/stage6/confirm/descriptive_ar.tsv	exact_integer	0	PASS	value
+n0098	results	0.00779	results/stage6/confirm/descriptive_ar.tsv	3sig	0.00779	PASS	value
+n0099	results	0.25	results/stage6/confirm/descriptive_ar.tsv	3sig	0.25	FAIL	no matching cell
+n0100	results	0.0261	results/stage6/confirm/descriptive_ar.tsv	3sig	0.0261	PASS	value
+n0101	results	0.5	results/stage6/confirm/descriptive_ar.tsv	3sig	0.5	FAIL	no matching cell
+n0102	results	0.0520	results/stage6/confirm/descriptive_ar.tsv	3sig	0.052	PASS	value
+n0103	results	0.75	results/stage6/confirm/descriptive_ar.tsv	3sig	0.75	FAIL	no matching cell
+n0104	results	0.0753	results/stage6/confirm/descriptive_ar.tsv	3sig	0.0753	PASS	value
+n0105	results	1	results/stage6/confirm/descriptive_ar.tsv	exact_integer	1	FAIL	no matching cell
+n0106	results	5	results/stage6/confirm/descriptive_ar.tsv	exact_integer	5	FAIL	no matching cell
+n0107	results	0.0250		3sig	0.025	FAIL	no source file
+n0108	results	100		exact_integer	100	FAIL	no source file
+n0109	results	0.0489		3sig	0.0489	FAIL	no source file
+n0110	results	2399		exact_integer	2399	FAIL	no source file
+n0111	results	0.0343	results/stage5/posthoc/posthoc_23_summary.tsv	3sig	0.0343	FAIL	no matching cell
+n0112	results	100	results/stage5/posthoc/posthoc_23_summary.tsv	exact_integer	100	PASS	n_units
+n0113	results	0.103	results/stage5/posthoc/posthoc_23_summary.tsv	3sig	0.103	FAIL	no matching cell
+n0114	results	2399	results/stage5/posthoc/posthoc_23_summary.tsv	exact_integer	2399	PASS	n_units
+n0115	results	2	results/stage5/posthoc/posthoc_23_summary.tsv	exact_integer	2	FAIL	no matching cell
+n0116	results	0.925	results/stage6/confirm/s.tsv	3sig	0.925	PASS	value
+n0117	results	0.883	results/stage6/confirm/s.tsv	3sig	0.883	FAIL	no matching cell
+n0118	results	0.979	results/stage6/confirm/s.tsv	3sig	0.979	FAIL	no matching cell
+n0119	results	0.432		3sig	0.432	FAIL	no source file
+n0120	results	0.340		3sig	0.34	FAIL	no source file
+n0121	results	0.517		3sig	0.517	FAIL	no source file
+n0122	results	0.227		3sig	0.227	FAIL	no source file
+n0123	results	0.119		3sig	0.119	FAIL	no source file
+n0124	results	0.329		3sig	0.329	FAIL	no source file
+n0125	results	0.205	results/stage4/confirm/hypotheses.tsv	3sig	0.205	PASS	diff
+n0126	results	0.110	results/stage4/confirm/hypotheses.tsv	3sig	0.11	PASS	diff_ci_low
+n0127	results	0.295	results/stage4/confirm/hypotheses.tsv	3sig	0.295	PASS	diff_ci_high
+n0128	results	4045	results/stage4/confirm/hypotheses.tsv	exact_integer	4045	PASS	n_pairs
+n0129	results	134	results/stage4/confirm/hypotheses.tsv	exact_integer	134	PASS	n_units
+n0130	results	0.000500	results/stage4/confirm/hypotheses.tsv	p_2sig	0.0005	PASS	pvalue
+n0131	results	0.417		3sig	0.417	FAIL	no source file
+n0132	results	0.390		3sig	0.39	FAIL	no source file
+n0133	results	0.444		3sig	0.444	FAIL	no source file
+n0134	results	0.141		3sig	0.141	FAIL	no source file
+n0135	results	0.109		3sig	0.109	FAIL	no source file
+n0136	results	0.174		3sig	0.174	FAIL	no source file
+n0137	results	0.276	results/stage4/confirm/hypotheses.tsv	3sig	0.276	PASS	diff
+n0138	results	0.245	results/stage4/confirm/hypotheses.tsv	3sig	0.245	PASS	diff_ci_low
+n0139	results	0.304	results/stage4/confirm/hypotheses.tsv	3sig	0.304	PASS	diff_ci_high
+n0140	results	6118	results/stage4/confirm/hypotheses.tsv	exact_integer	6118	PASS	n_pairs
+n0141	results	2746	results/stage4/confirm/hypotheses.tsv	exact_integer	2746	PASS	n_units
+n0142	results	0.000500	results/stage4/confirm/hypotheses.tsv	p_2sig	0.0005	PASS	pvalue
+n0143	results	0.747		3sig	0.747	FAIL	no source file
+n0144	results	0.734		3sig	0.734	FAIL	no source file
+n0145	results	0.758		3sig	0.758	FAIL	no source file
+n0146	results	0.492		3sig	0.492	FAIL	no source file
+n0147	results	0.473		3sig	0.473	FAIL	no source file
+n0148	results	0.510		3sig	0.51	FAIL	no source file
+n0149	results	0.255	results/stage6/confirm/hypotheses.tsv	3sig	0.255	PASS	diff
+n0150	results	0.238	results/stage6/confirm/hypotheses.tsv	3sig	0.238	PASS	diff_ci_low
+n0151	results	0.273	results/stage6/confirm/hypotheses.tsv	3sig	0.273	PASS	diff_ci_high
+n0152	results	7196	results/stage6/confirm/hypotheses.tsv	exact_integer	7196	PASS	n
+n0153	results	0.000500	results/stage6/confirm/hypotheses.tsv	p_2sig	0.0005	PASS	pvalue
+n0154	results	7196		exact_integer	7196	FAIL	no source file
+n0155	results	0.719		3sig	0.719	FAIL	no source file
+n0156	results	0.857		3sig	0.857	FAIL	no source file
+n0157	results	0.5		3sig	0.5	FAIL	no source file
+n0158	results	0.726		3sig	0.726	FAIL	no source file
+n0159	results	0.121		3sig	0.121	FAIL	no source file
+n0160	results	0.0124		3sig	0.0124	FAIL	no source file
+n0161	results	0.719		3sig	0.719	FAIL	no source file
+n0162	results	0.155		3sig	0.155	FAIL	no source file
+n0163	results	0.627		3sig	0.627	FAIL	no source file
+n0164	results	0.189		3sig	0.189	FAIL	no source file
+n0165	results	0.724		3sig	0.724	FAIL	no source file
+n0166	results	0.0242		3sig	0.0242	FAIL	no source file
+n0167	results	0.747		3sig	0.747	FAIL	no source file
+n0168	results	0.868		3sig	0.868	FAIL	no source file
+n0169	results	0.750		3sig	0.75	FAIL	no source file
+n0170	results	0.116		3sig	0.116	FAIL	no source file
+n0171	results	0.0227		3sig	0.0227	FAIL	no source file
+n0172	results	0.492	results/stage6/confirm/descriptive_predictors.tsv	3sig	0.492	PASS	spearman
+n0173	results	0.753	results/stage6/confirm/descriptive_predictors.tsv	3sig	0.753	PASS	auroc_actual_ge_0.5
+n0174	results	7318	results/stage6/confirm/descriptive_predictors.tsv	exact_integer	7318	PASS	n_U_P2
+n0175	results	0.456	results/stage7/f0_fill_counts.tsv	3sig	0.456	PASS	global_mean
+n0176	results	72880	results/stage7/f0_fill_counts.tsv	exact_integer	72880	PASS	n_s0_pairs_in_P
+n0177	results	7432	results/stage7/f0_fill_counts.tsv	exact_integer	7432	PASS	n_P_genes
+n0178	results	100	results/stage7/f0_fill_counts.tsv	exact_integer	100	PASS	n_genes
+n0179	results	28	results/stage7/f0_fill_counts.tsv	exact_integer	28	PASS	n_genes
+n0180	results	6	results/stage7/f0_fill_counts.tsv	exact_integer	6	PASS	n_genes
+n0181	results	3052		exact_integer	3052	FAIL	no source file
+n0182	results	819		exact_integer	819	FAIL	no source file
+n0183	results	182		exact_integer	182	FAIL	no source file
+n0184	results	6323	results/stage7/f0_fill_counts.tsv	exact_integer	6323	PASS	n_genes
+n0185	results	201	results/stage7/f0_fill_counts.tsv	exact_integer	201	PASS	n_genes
+n0186	results	794	results/stage7/f0_fill_counts.tsv	exact_integer	794	PASS	n_genes
+n0187	results	95	results/stage7/f0_diff.tsv	exact_integer	95	FAIL	no matching cell
+n0188	results	20261001	results/stage7/f0_diff.tsv	exact_integer	20261001	FAIL	no matching cell
+n0189	results	0.0643	results/stage7/f0_diff.tsv	3sig	0.0643	PASS	diff
+n0190	results	0.0213	results/stage7/f0_diff.tsv	3sig	0.0213	PASS	ci_low
+n0191	results	0.112	results/stage7/f0_diff.tsv	3sig	0.112	PASS	ci_high
+n0192	results	4045	results/stage7/f0_diff.tsv	exact_integer	4045	PASS	n_pairs
+n0193	results	134	results/stage7/f0_diff.tsv	exact_integer	134	PASS	n_units
+n0194	results	0.0317	results/stage7/f0_diff.tsv	3sig	0.0317	PASS	diff
+n0195	results	0.0195	results/stage7/f0_diff.tsv	3sig	0.0195	PASS	ci_low
+n0196	results	0.0440	results/stage7/f0_diff.tsv	3sig	0.044	PASS	ci_high
+n0197	results	6118	results/stage7/f0_diff.tsv	exact_integer	6118	PASS	n_pairs
+n0198	results	2746	results/stage7/f0_diff.tsv	exact_integer	2746	PASS	n_units
+n0199	results	0.0276	results/stage7/f0_diff.tsv	3sig	0.0276	PASS	diff
+n0200	results	0.0206	results/stage7/f0_diff.tsv	3sig	0.0206	PASS	ci_low
+n0201	results	0.0348	results/stage7/f0_diff.tsv	3sig	0.0348	PASS	ci_high
+n0202	results	7196	results/stage7/f0_diff.tsv	exact_integer	7196	PASS	n_units
+n0203	results	0.0573	results/stage7/f0_diff.tsv	3sig	0.0573	PASS	diff
+n0204	results	0.0266	results/stage7/f0_diff.tsv	3sig	0.0266	PASS	ci_low
+n0205	results	0.0914	results/stage7/f0_diff.tsv	3sig	0.0914	PASS	ci_high
+n0206	results	0.0386	results/stage7/f0_diff.tsv	3sig	0.0386	PASS	diff
+n0207	results	0.0295	results/stage7/f0_diff.tsv	3sig	0.0295	PASS	ci_low
+n0208	results	0.0470	results/stage7/f0_diff.tsv	3sig	0.047	PASS	ci_high
+n0209	results	0.00462	results/stage7/f0_diff.tsv	3sig	0.00462	PASS	diff
+n0210	results	0.00238	results/stage7/f0_diff.tsv	3sig	0.00238	FAIL	no matching cell
+n0211	results	0.0117	results/stage7/f0_diff.tsv	3sig	0.0117	PASS	ci_high
+n0212	results	0.0405	results/stage7/f0_diff.tsv	3sig	0.0405	PASS	diff
+n0213	results	0.0912	results/stage7/f0_diff.tsv	3sig	0.0912	FAIL	no matching cell
+n0214	results	0.204	results/stage7/f0_diff.tsv	3sig	0.204	PASS	ci_high
+n0215	results	994	results/stage7/f0_diff.tsv	exact_integer	994	PASS	n_pairs
+n0216	results	34	results/stage7/f0_diff.tsv	exact_integer	34	PASS	n_units
+n0217	results	0.139	results/stage7/f0_diff.tsv	3sig	0.139	PASS	diff
+n0218	results	0.0702	results/stage7/f0_diff.tsv	3sig	0.0702	PASS	ci_low
+n0219	results	0.209	results/stage7/f0_diff.tsv	3sig	0.209	PASS	ci_high
+n0220	results	571	results/stage7/f0_diff.tsv	exact_integer	571	PASS	n_pairs
+n0221	results	347	results/stage7/f0_diff.tsv	exact_integer	347	PASS	n_units
+n0222	results	0.276	results/stage7/f0_diff.tsv	3sig	0.276	PASS	diff
+n0223	results	0.220	results/stage7/f0_diff.tsv	3sig	0.22	PASS	ci_low
+n0224	results	0.328	results/stage7/f0_diff.tsv	3sig	0.328	PASS	ci_high
+n0225	results	975	results/stage7/f0_diff.tsv	exact_integer	975	PASS	n_units
+n0226	results	0.0718		3sig	0.0718	FAIL	no source file
+n0227	results	0.0349		3sig	0.0349	FAIL	no source file
+n0228	results	0.117		3sig	0.117	FAIL	no source file
+n0229	results	3051		exact_integer	3051	FAIL	no source file
+n0230	results	0.0208		3sig	0.0208	FAIL	no source file
+n0231	results	0.0106		3sig	0.0106	FAIL	no source file
+n0232	results	0.0308		3sig	0.0308	FAIL	no source file
+n0233	results	5547		exact_integer	5547	FAIL	no source file
+n0234	results	0.00187		3sig	0.00187	FAIL	no source file
+n0235	results	0.00323		3sig	0.00323	FAIL	no source file
+n0236	results	0.00678		3sig	0.00678	FAIL	no source file
+n0237	results	6221		exact_integer	6221	FAIL	no source file
+n0238	results	0.456		3sig	0.456	FAIL	no source file
+n0239	results	0.0692	config/analysis_plan_B8.yaml	3sig	0.0692	FAIL	no matching cell
+n0240	results	0.0209	config/analysis_plan_B8.yaml	3sig	0.0209	FAIL	no matching cell
+n0241	results	0.129	config/analysis_plan_B8.yaml	3sig	0.129	FAIL	no matching cell
+n0242	results	4045	config/analysis_plan_B8.yaml	exact_integer	4045	FAIL	no matching cell
+n0243	results	134	config/analysis_plan_B8.yaml	exact_integer	134	FAIL	no matching cell
+n0244	results	0.0285	config/analysis_plan_B8.yaml	3sig	0.0285	FAIL	no matching cell
+n0245	results	0.0112	config/analysis_plan_B8.yaml	3sig	0.0112	FAIL	no matching cell
+n0246	results	0.0443	config/analysis_plan_B8.yaml	3sig	0.0443	FAIL	no matching cell
+n0247	results	6118	config/analysis_plan_B8.yaml	exact_integer	6118	FAIL	no matching cell
+n0248	results	2746	config/analysis_plan_B8.yaml	exact_integer	2746	FAIL	no matching cell
+n0249	results	0.0213	config/analysis_plan_B8.yaml	3sig	0.0213	FAIL	no matching cell
+n0250	results	0.0113	config/analysis_plan_B8.yaml	3sig	0.0113	FAIL	no matching cell
+n0251	results	0.0315	config/analysis_plan_B8.yaml	3sig	0.0315	FAIL	no matching cell
+n0252	results	7196	config/analysis_plan_B8.yaml	exact_integer	7196	FAIL	no matching cell
+n0253	results	0.0256	config/analysis_plan_B8.yaml	3sig	0.0256	FAIL	no matching cell
+n0254	results	0.0249	config/analysis_plan_B8.yaml	3sig	0.0249	FAIL	no matching cell
+n0255	results	0.0740	config/analysis_plan_B8.yaml	3sig	0.074	FAIL	no matching cell
+n0256	results	1206	config/analysis_plan_B8.yaml	exact_integer	1206	FAIL	no matching cell
+n0257	results	127	config/analysis_plan_B8.yaml	exact_integer	127	FAIL	no matching cell
+n0258	results	0.0256	config/analysis_plan_B8.yaml	3sig	0.0256	FAIL	no matching cell
+n0259	results	0.00166	config/analysis_plan_B8.yaml	3sig	0.00166	FAIL	no matching cell
+n0260	results	0.0500	config/analysis_plan_B8.yaml	3sig	0.05	FAIL	no matching cell
+n0261	results	3356	config/analysis_plan_B8.yaml	exact_integer	3356	FAIL	no matching cell
+n0262	results	0.0181	config/analysis_plan_B8.yaml	3sig	0.0181	FAIL	no matching cell
+n0263	results	0.00818	config/analysis_plan_B8.yaml	3sig	0.00818	FAIL	no matching cell
+n0264	results	0.0284	config/analysis_plan_B8.yaml	3sig	0.0284	FAIL	no matching cell
+n0265	results	6982	config/analysis_plan_B8.yaml	exact_integer	6982	FAIL	no matching cell
+n0266	results	1206	results/stage8/spearman_diff.tsv	exact_integer	1206	PASS	n_pairs
+n0267	results	2653	results/stage8/spearman_diff.tsv	exact_integer	2653	PASS	n_pairs
+n0268	results	62	results/stage8/spearman_diff.tsv	exact_integer	62	PASS	n_pairs
+n0269	results	124	results/stage8/spearman_diff.tsv	exact_integer	124	PASS	n_pairs
+n0270	results	3356	results/stage8/spearman_diff.tsv	exact_integer	3356	PASS	n_pairs
+n0271	results	2616	results/stage8/spearman_diff.tsv	exact_integer	2616	PASS	n_pairs
+n0272	results	0	results/stage8/spearman_diff.tsv	exact_integer	0	PASS	diff
+n0273	results	146	results/stage8/spearman_diff.tsv	exact_integer	146	PASS	n_pairs
+n0274	results	6982	results/stage8/spearman_diff.tsv	exact_integer	6982	PASS	n_pairs
+n0275	results	93	results/stage8/spearman_diff.tsv	exact_integer	93	PASS	n_pairs
+n0276	results	26	results/stage8/spearman_diff.tsv	exact_integer	26	PASS	n_pairs
+n0277	results	95	results/stage8/spearman_diff.tsv	exact_integer	95	PASS	n_pairs
+n0278	results	0.00775	results/stage8/spearman_diff.tsv	3sig	0.00775	FAIL	no matching cell
+n0279	results	0.0236	results/stage8/spearman_diff.tsv	3sig	0.0236	FAIL	no matching cell
+n0280	results	0.00864	results/stage8/spearman_diff.tsv	3sig	0.00864	PASS	ci_high
+n0281	results	0.00947	results/stage8/spearman_diff.tsv	3sig	0.00947	FAIL	no matching cell
+n0282	results	0.0221	results/stage8/spearman_diff.tsv	3sig	0.0221	FAIL	no matching cell
+n0283	results	0.00415	results/stage8/spearman_diff.tsv	3sig	0.00415	PASS	ci_high
+n0284	results	0.0161	results/stage8/spearman_diff.tsv	3sig	0.0161	FAIL	no matching cell
+n0285	results	0.0256	results/stage8/spearman_diff.tsv	3sig	0.0256	PASS	diff
+n0286	results	0.00664	results/stage8/spearman_diff.tsv	3sig	0.00664	FAIL	no matching cell
+n0287	results	0.0498	results/stage8/spearman_diff.tsv	3sig	0.0498	FAIL	no matching cell
+n0288	results	0.0264	results/stage8/spearman_diff.tsv	3sig	0.0264	FAIL	no matching cell
+n0289	results	0.0774	results/stage8/spearman_diff.tsv	3sig	0.0774	FAIL	no matching cell
+n0290	results	0.0136	results/stage8/spearman_diff.tsv	3sig	0.0136	FAIL	no matching cell
+n0291	results	0.00739	results/stage8/spearman_diff.tsv	3sig	0.00739	FAIL	no matching cell
+n0292	results	0.0195	results/stage8/spearman_diff.tsv	3sig	0.0195	PASS	ci_low
+n0293	results	0.0112	results/stage8/spearman_diff.tsv	3sig	0.0112	PASS	ci_low
+n0294	results	0.00674	results/stage8/spearman_diff.tsv	3sig	0.00674	FAIL	no matching cell
+n0295	results	0.0157	results/stage8/spearman_diff.tsv	3sig	0.0157	FAIL	no matching cell
+n0296	results	0.0457	results/stage8/auroc_diff.tsv	3sig	0.0457	PASS	diff
+n0297	results	0.0200	results/stage8/auroc_diff.tsv	3sig	0.02	PASS	ci_low
+n0298	results	0.0756	results/stage8/auroc_diff.tsv	3sig	0.0756	PASS	ci_high
+n0299	results	0.0140	results/stage8/auroc_diff.tsv	3sig	0.014	PASS	diff
+n0300	results	0.00352	results/stage8/auroc_diff.tsv	3sig	0.00352	PASS	ci_low
+n0301	results	0.0239	results/stage8/auroc_diff.tsv	3sig	0.0239	PASS	ci_high
+n0302	results	0.0110	results/stage8/auroc_diff.tsv	3sig	0.011	PASS	diff
+n0303	results	0.00396	results/stage8/auroc_diff.tsv	3sig	0.00396	PASS	ci_low
+n0304	results	0.0180	results/stage8/auroc_diff.tsv	3sig	0.018	PASS	ci_high
+n0305	results	31	results/stage8/auroc_diff.tsv	exact_integer	31	FAIL	no matching cell
+n0306	results	28	results/stage8/auroc_diff.tsv	exact_integer	28	FAIL	no matching cell
+n0307	results	3	results/stage8/auroc_diff.tsv	exact_integer	3	FAIL	no matching cell
+n0308	results	0.0799	results/stage8/within_context_sign.tsv	3sig	0.0799	PASS	median_diff
+n0309	results	0.0574	results/stage8/within_context_sign.tsv	3sig	0.0574	PASS	ci_low
+n0310	results	0.0982	results/stage8/within_context_sign.tsv	3sig	0.0982	PASS	ci_high
+n0311	results	4.6	results/stage8/within_context_sign.tsv	p_2sig	4.6	FAIL	no matching cell
+n0312	results	10	results/stage8/within_context_sign.tsv	p_2sig	10	FAIL	no matching cell
+n0313	results	6	results/stage8/within_context_sign.tsv	exact_integer	6	FAIL	no matching cell
+n0314	results	3	results/stage8/within_context_sign.tsv	exact_integer	3	PASS	n_negative
+n0315	results	0.439		3sig	0.439	FAIL	no source file
+n0316	results	31		exact_integer	31	FAIL	no source file
+n0317	results	0.440		3sig	0.44	FAIL	no source file
+n0318	results	3		exact_integer	3	FAIL	no source file
+n0319	results	0.747		3sig	0.747	FAIL	no source file
+n0320	results	0.398		3sig	0.398	FAIL	no source file
+n0321	results	0.404		3sig	0.404	FAIL	no source file
+n0322	results	0.719		3sig	0.719	FAIL	no source file
+n0323	results	0.246	results/stage7/f0_context_median.tsv	3sig	0.246	PASS	median_spearman
+n0324	results	0.135	results/stage7/f0_context_median.tsv	3sig	0.135	PASS	median_spearman
+n0325	results	0.492	results/stage7/f0_context_median.tsv	3sig	0.492	PASS	median_spearman
+n0326	results	134	results/stage7/f0_context_median.tsv	exact_integer	134	FAIL	no matching cell
+n0327	results	130		exact_integer	130	FAIL	no source file
+n0328	results	0.255		3sig	0.255	FAIL	no source file
+n0329	results	0.203		3sig	0.203	FAIL	no source file
+n0330	results	130		exact_integer	130	FAIL	no source file
+n0331	results	5		exact_integer	5	FAIL	no source file
+n0332	results	0.0242		3sig	0.0242	FAIL	no source file
+n0333	results	0.0161		3sig	0.0161	FAIL	no source file
+n0334	results	0.0959		3sig	0.0959	FAIL	no source file
+n0335	results	20261001		exact_integer	20261001	FAIL	no source file
+n0336	results	0.5	results/stage7/f0_within_antibody_summary.tsv	3sig	0.5	FAIL	no matching cell
+n0337	results	0.696	results/stage7/f0_within_antibody_summary.tsv	3sig	0.696	FAIL	no matching cell
+n0338	results	0.636	results/stage7/f0_within_antibody_summary.tsv	3sig	0.636	FAIL	no matching cell
+n0339	results	0.748	results/stage7/f0_within_antibody_summary.tsv	3sig	0.748	FAIL	no matching cell
+n0340	results	0.746	results/stage7/f0_within_antibody_summary.tsv	3sig	0.746	FAIL	no matching cell
+n0341	results	0.701	results/stage7/f0_within_antibody_summary.tsv	3sig	0.701	FAIL	no matching cell
+n0342	results	0.787	results/stage7/f0_within_antibody_summary.tsv	3sig	0.787	FAIL	no matching cell
+n0343	results	0.677	results/stage7/f0_within_antibody_summary.tsv	3sig	0.677	FAIL	no matching cell
+n0344	results	0.630	results/stage7/f0_within_antibody_summary.tsv	3sig	0.63	FAIL	no matching cell
+n0345	results	0.723	results/stage7/f0_within_antibody_summary.tsv	3sig	0.723	FAIL	no matching cell
+n0346	results	4045	results/stage7/f0_within_antibody_summary.tsv	exact_integer	4045	FAIL	no matching cell
+n0347	results	951	results/stage7/f0_within_antibody_summary.tsv	exact_integer	951	FAIL	no matching cell
+n0348	results	0.725		3sig	0.725	FAIL	no source file
+n0349	results	0.709		3sig	0.709	FAIL	no source file
+n0350	results	0.739		3sig	0.739	FAIL	no source file
+n0351	results	0.738		3sig	0.738	FAIL	no source file
+n0352	results	0.723		3sig	0.723	FAIL	no source file
+n0353	results	0.753		3sig	0.753	FAIL	no source file
+n0354	results	0.620		3sig	0.62	FAIL	no source file
+n0355	results	0.603		3sig	0.603	FAIL	no source file
+n0356	results	0.637		3sig	0.637	FAIL	no source file
+n0357	results	6118		exact_integer	6118	FAIL	no source file
+n0358	results	0.857	results/stage7/f0_auroc.tsv	3sig	0.857	PASS	auroc
+n0359	results	0.848	results/stage7/f0_auroc.tsv	3sig	0.848	PASS	ci_low
+n0360	results	0.865	results/stage7/f0_auroc.tsv	3sig	0.865	PASS	ci_high
+n0361	results	0.868	results/stage7/f0_auroc.tsv	3sig	0.868	PASS	auroc
+n0362	results	0.860	results/stage7/f0_auroc.tsv	3sig	0.86	PASS	ci_low
+n0363	results	0.876	results/stage7/f0_auroc.tsv	3sig	0.876	PASS	ci_high
+n0364	results	0.753	results/stage7/f0_auroc.tsv	3sig	0.753	PASS	auroc
+n0365	results	0.742	results/stage7/f0_auroc.tsv	3sig	0.742	PASS	auroc
+n0366	results	0.764	results/stage7/f0_auroc.tsv	3sig	0.764	PASS	auroc
+n0367	results	7196	results/stage7/f0_auroc.tsv	exact_integer	7196	PASS	n_units
+n0368	results	3188	results/stage7/f0_auroc.tsv	exact_integer	3188	PASS	n_positive
+n0369	results	13	results/stage7/f0_auroc.tsv	exact_integer	13	FAIL	no matching cell
+n0370	results	0.0847	results/stage7/f0_auroc.tsv	3sig	0.0847	FAIL	no matching cell
+n0371	results	7027	results/stage7/f0_auroc.tsv	exact_integer	7027	FAIL	no matching cell
+n0372	results	0	results/stage7/f0_auroc.tsv	p_2sig	0	PASS	n_nonfinite_draws
+n0373	results	0.231	results/stage7/f0_auroc.tsv	3sig	0.231	FAIL	no matching cell
+n0374	results	0.752	results/stage7/f0_auroc.tsv	3sig	0.752	FAIL	no matching cell
+n0375	results	0.521	results/stage7/f0_auroc.tsv	3sig	0.521	FAIL	no matching cell
+n0376	results	7194	results/stage7/f0_auroc.tsv	exact_integer	7194	FAIL	no matching cell
+n0377	results	0.000500	results/stage7/f0_auroc.tsv	p_2sig	0.0005	FAIL	no matching cell
+n0378	results	34	results/stage5/posthoc/posthoc_22_similarity.tsv	exact_integer	34	FAIL	no matching cell
+n0379	results	0.521	results/stage5/posthoc/posthoc_22_similarity.tsv	3sig	0.521	FAIL	no matching cell
+n0380	results	0.925	results/stage5/posthoc/posthoc_22_similarity.tsv	3sig	0.925	FAIL	no matching cell
+n0381	results	4		exact_integer	4	FAIL	no source file
+n0382	results	34		exact_integer	34	FAIL	no source file
+n0383	results	0.833		3sig	0.833	FAIL	no source file
+n0384	results	80		exact_integer	80	FAIL	no source file
+n0385	results	0.404		3sig	0.404	FAIL	no source file
+n0386	results	0.910		3sig	0.91	FAIL	no source file
+n0387	results	90		exact_integer	90	FAIL	no source file
+n0388	results	0.518		3sig	0.518	FAIL	no source file
+n0389	results	1		exact_integer	1	FAIL	no source file
+n0390	results	1		exact_integer	1	FAIL	no source file
+n0391	results	80	results/stage6/confirm/descriptive_predictors.tsv	exact_integer	80	FAIL	no matching cell
+n0392	results	0.202	results/stage6/confirm/descriptive_predictors.tsv	3sig	0.202	FAIL	no matching cell
+n0393	results	90	results/stage6/confirm/descriptive_predictors.tsv	exact_integer	90	FAIL	no matching cell
+n0394	results	0.259	results/stage6/confirm/descriptive_predictors.tsv	3sig	0.259	FAIL	no matching cell
+n0395	results	0.0472	results/stage6/confirm/descriptive_predictors.tsv	3sig	0.0472	FAIL	no matching cell
+n0396	results	7418	results/stage6/confirm/descriptive_predictors.tsv	exact_integer	7418	FAIL	no matching cell
+n0397	results	0.0227	results/stage6/confirm/descriptive_predictors.tsv	3sig	0.0227	FAIL	no matching cell
+n0398	results	7196	results/stage6/confirm/descriptive_predictors.tsv	exact_integer	7196	PASS	n_actual_defined
+n0399	results	0.184	results/stage6/confirm/descriptive_predictors.tsv	3sig	0.184	FAIL	no matching cell
+n0400	results	132	results/stage6/confirm/descriptive_predictors.tsv	exact_integer	132	FAIL	no matching cell
+n0401	results	0.0259	results/stage6/confirm/descriptive_predictors.tsv	3sig	0.0259	FAIL	no matching cell
+n0402	results	2139	results/stage6/confirm/descriptive_predictors.tsv	exact_integer	2139	FAIL	no matching cell
+n0403	results	10		exact_integer	10	FAIL	no source file
+n0404	results	20		exact_integer	20	FAIL	no source file
+n0405	results	50		exact_integer	50	FAIL	no source file
+n0406	results	100		exact_integer	100	FAIL	no source file
+n0407	results	100	results/stage7/calibration_table.tsv	exact_integer	100	PASS	K
+n0408	results	2.5	results/stage7/calibration_table.tsv	3sig	2.5	FAIL	no matching cell
+n0409	results	97.5	results/stage7/calibration_table.tsv	3sig	97.5	FAIL	no matching cell
+n0410	results	80	results/stage7/calibration_table.tsv	exact_integer	80	FAIL	no matching cell
+n0411	results	0.511	results/stage7/calibration_table.tsv	3sig	0.511	PASS	cov80_mean
+n0412	results	0.628	results/stage7/calibration_table.tsv	3sig	0.628	PASS	cov80_mean
+n0413	results	0.833	results/stage7/calibration_table.tsv	3sig	0.833	PASS	cov80_mean
+n0414	results	0.75		3sig	0.75	FAIL	no source file
+n0415	results	0.85		3sig	0.85	FAIL	no source file
+n0416	results	80	results/stage7/calibration_table.tsv	exact_integer	80	FAIL	no matching cell
+n0417	results	0.75	results/stage7/calibration_table.tsv	3sig	0.75	PASS	width90_mean
+n0418	results	0.85	results/stage7/calibration_table.tsv	3sig	0.85	PASS	cov80_p97_5
+n0419	results	50	results/stage7/calibration_table.tsv	exact_integer	50	PASS	K
+n0420	results	0.798	results/stage7/calibration_table.tsv	3sig	0.798	PASS	cov80_mean
+n0421	results	0.789	results/stage7/calibration_table.tsv	3sig	0.789	PASS	cov80_mean
+n0422	results	0.779	results/stage7/calibration_table.tsv	3sig	0.779	PASS	cov80_mean
+n0423	results	100	results/stage7/calibration_table.tsv	exact_integer	100	PASS	K
+n0424	results	0.801	results/stage7/calibration_table.tsv	3sig	0.801	PASS	cov80_mean
+n0425	results	0.792	results/stage7/calibration_table.tsv	3sig	0.792	PASS	cov80_mean
+n0426	results	0.791	results/stage7/calibration_table.tsv	3sig	0.791	PASS	cov80_mean
+n0427	results	20	results/stage7/calibration_table.tsv	exact_integer	20	PASS	K
+n0428	results	0.742	results/stage7/calibration_table.tsv	3sig	0.742	PASS	cov80_mean
+n0429	results	0.796	results/stage7/calibration_table.tsv	3sig	0.796	PASS	cov80_mean
+n0430	results	0.767	results/stage7/calibration_table.tsv	3sig	0.767	PASS	cov80_mean
+n0431	results	5	results/stage7/calibration_table.tsv	exact_integer	5	FAIL	no matching cell
+n0432	results	20		exact_integer	20	FAIL	no source file
+n0433	results	50		exact_integer	50	FAIL	no source file
+n0434	results	100		exact_integer	100	FAIL	no source file
+n0435	results	20		exact_integer	20	FAIL	no source file
+n0436	results	957	results/stage7/adc_atlas_final.tsv	exact_integer	957	FAIL	no matching cell
+n0437	results	29	results/stage7/adc_atlas_final.tsv	exact_integer	29	FAIL	no matching cell
+n0438	results	33	results/stage7/adc_atlas_final.tsv	exact_integer	33	FAIL	no matching cell
+n0439	results	80		exact_integer	80	FAIL	no source file
+n0440	results	1		exact_integer	1	FAIL	no source file
+n0441	results	1		exact_integer	1	FAIL	no source file
+n0442	results	0.554	config/adc_targets.tsv	3sig	0.554	FAIL	no matching cell
+n0443	results	228	config/adc_targets.tsv	exact_integer	228	FAIL	no matching cell
+n0444	results	0.308	config/adc_targets.tsv	3sig	0.308	FAIL	no matching cell
+n0445	results	124	config/adc_targets.tsv	exact_integer	124	FAIL	no matching cell
+n0446	results	0.793	config/adc_targets.tsv	3sig	0.793	FAIL	no matching cell
+n0447	results	12	config/adc_targets.tsv	exact_integer	12	FAIL	no matching cell
+n0448	results	0.829	config/adc_targets.tsv	3sig	0.829	FAIL	no matching cell
+n0449	results	6	config/adc_targets.tsv	exact_integer	6	FAIL	no matching cell
+n0450	results	0.584	config/adc_targets.tsv	3sig	0.584	FAIL	no matching cell
+n0451	results	21	config/adc_targets.tsv	exact_integer	21	FAIL	no matching cell
+n0452	results	21	config/adc_targets.tsv	exact_integer	21	FAIL	no matching cell
+n0453	results	80		exact_integer	80	FAIL	no source file
+n0454	results	0.388	results/stage6/confirm/descriptive_adc.tsv	3sig	0.388	PASS	actual
+n0455	results	0.803	results/stage6/confirm/descriptive_adc.tsv	3sig	0.803	PASS	rho_hat
+n0456	results	0.0349	results/stage6/confirm/descriptive_adc.tsv	3sig	0.0349	FAIL	no matching cell
+n0457	results	6		exact_integer	6	FAIL	no source file
+n0458	results	24		exact_integer	24	FAIL	no source file
+n0459	results	29		exact_integer	29	FAIL	no source file
+n0460	results	0.0443		3sig	0.0443	FAIL	no source file
+n0461	results	10	results/stage5/atlas/hpa_summary.tsv	exact_integer	10	FAIL	no matching cell
+n0462	results	02	results/stage5/atlas/hpa_summary.tsv	exact_integer	02	FAIL	no matching cell
+n0463	results	761139		exact_integer	761139	FAIL	no source file
+n0464	results	125427		exact_integer	125427	FAIL	no source file
+n0465	results	2		exact_integer	2	FAIL	no source file
+n0466	results	761115		exact_integer	761115	FAIL	no source file
+n0467	results	761394		exact_integer	761394	FAIL	no source file
+n0468	results	4		exact_integer	4	FAIL	no source file
+n0469	results	761137		exact_integer	761137	FAIL	no source file
+n0470	results	761208		exact_integer	761208	FAIL	no source file
+n0471	results	761310		exact_integer	761310	FAIL	no source file
+n0472	results	761384		exact_integer	761384	FAIL	no source file
+n0473	results	23	results/stage8/adc_approved.tsv	exact_integer	23	FAIL	no matching cell
+n0474	discussion	0.0339	results/stage4/confirm/hypotheses.tsv	3sig	0.0339	PASS	mean
+n0475	discussion	0.0850	results/stage4/confirm/hypotheses.tsv	3sig	0.085	FAIL	no matching cell
+n0476	discussion	0.000932	results/stage4/confirm/hypotheses.tsv	3sig	0.000932	PASS	mean
+n0477	discussion	0.102	results/stage4/confirm/hypotheses.tsv	p_2sig	0.1	PASS	pvalue
+n0478	discussion	0.521	results/stage4/confirm/hypotheses.tsv	3sig	0.521	FAIL	no matching cell
+n0479	discussion	34	results/stage4/confirm/hypotheses.tsv	exact_integer	34	FAIL	no matching cell
+n0480	discussion	0.925	results/stage4/confirm/hypotheses.tsv	3sig	0.925	FAIL	no matching cell
+n0481	discussion	0.0228	results/stage6/confirm/hypotheses.tsv	3sig	0.0228	PASS	mean
+n0482	discussion	0.0627	results/stage6/confirm/hypotheses.tsv	3sig	0.0627	PASS	mean
+n0483	discussion	0.0256	results/stage8/spearman_diff.tsv	3sig	0.0256	PASS	diff
+n0484	discussion	0.00166	results/stage8/spearman_diff.tsv	3sig	0.00166	PASS	ci_low
+n0485	discussion	0.0500	results/stage8/spearman_diff.tsv	3sig	0.05	PASS	ci_high
+n0486	discussion	0.0181	results/stage8/spearman_diff.tsv	3sig	0.0181	PASS	diff
+n0487	discussion	0.00818	results/stage8/spearman_diff.tsv	3sig	0.00818	PASS	ci_low
+n0488	discussion	0.0284	results/stage8/spearman_diff.tsv	3sig	0.0284	PASS	ci_high
+n0489	discussion	0.0256	results/stage8/spearman_diff.tsv	3sig	0.0256	PASS	diff
+n0490	discussion	0.0249	results/stage8/spearman_diff.tsv	3sig	0.0249	PASS	ci_high
+n0491	discussion	0.0740	results/stage8/spearman_diff.tsv	3sig	0.074	PASS	ci_high
+n0492	discussion	0.0161	results/stage8/spearman_diff.tsv	3sig	0.0161	FAIL	no matching cell
+n0493	discussion	0.0256	results/stage8/spearman_diff.tsv	3sig	0.0256	PASS	diff
+n0494	discussion	0.00664	results/stage8/spearman_diff.tsv	3sig	0.00664	FAIL	no matching cell
+n0495	discussion	0.456	results/stage8/spearman_diff.tsv	3sig	0.456	FAIL	no matching cell
+n0496	discussion	50		exact_integer	50	FAIL	no source file
+n0497	discussion	20	results/stage7/calibration_table.tsv	exact_integer	20	PASS	K
+n0498	discussion	0.742	results/stage7/calibration_table.tsv	3sig	0.742	PASS	cov80_mean
+n0499	discussion	0.75	results/stage7/calibration_table.tsv	3sig	0.75	PASS	width90_mean
+n0500	discussion	0.85	results/stage7/calibration_table.tsv	3sig	0.85	PASS	cov80_p97_5
+n0501	discussion	80	results/stage7/calibration_table.tsv	exact_integer	80	FAIL	no matching cell
+n0502	discussion	0.511	results/stage7/calibration_table.tsv	3sig	0.511	PASS	cov80_mean
+n0503	discussion	0.184	results/stage7/calibration_table.tsv	3sig	0.184	FAIL	no matching cell
+n0504	discussion	80	results/stage7/calibration_table.tsv	exact_integer	80	FAIL	no matching cell
+n0505	discussion	0.202	results/stage7/calibration_table.tsv	3sig	0.202	FAIL	no matching cell
+n0506	discussion	0.00187	results/stage7/calibration_table.tsv	3sig	0.00187	FAIL	no matching cell
+n0507	discussion	0.00323	results/stage7/calibration_table.tsv	3sig	0.00323	FAIL	no matching cell
+n0508	discussion	0.00678	results/stage7/calibration_table.tsv	3sig	0.00678	FAIL	no matching cell
+n0509	discussion	0.0242	results/stage7/f0_within_antibody_summary.tsv	3sig	0.0242	PASS	median_spearman
+n0510	discussion	0.0161	results/stage7/f0_within_antibody_summary.tsv	3sig	0.0161	FAIL	no matching cell
+n0511	discussion	0.0959	results/stage7/f0_within_antibody_summary.tsv	3sig	0.0959	PASS	ci_high
+n0512	discussion	80		exact_integer	80	FAIL	no source file
+n0513	discussion	0.05		3sig	0.05	FAIL	no source file
+n0514	discussion	0.10		3sig	0.1	FAIL	no source file

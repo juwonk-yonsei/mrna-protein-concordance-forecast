@@ -1,0 +1,16 @@
+label	dataset	stratum	n_pairs	n_units	n_genes
+사후	APOLLO	all	7196	7196	7196
+사후	APOLLO	L1	6982	6982	6982
+사후	APOLLO	L2	93	93	93
+사후	APOLLO	L3	26	26	26
+사후	APOLLO	L4	95	95	95
+사후	ProCan	all	6118	2746	2746
+사후	ProCan	L1	3356	2091	2091
+사후	ProCan	L2	2616	2570	2570
+사후	ProCan	L3	0	0	0
+사후	ProCan	L4	146	79	79
+사후	RPPA	all	4045	134	134
+사후	RPPA	L1	1206	127	127
+사후	RPPA	L2	2653	127	127
+사후	RPPA	L3	62	2	2
+사후	RPPA	L4	124	4	4

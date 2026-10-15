@@ -1,0 +1,301 @@
+label	Gene name	Cancer	tcga_primary_disease	High	Medium	Low	Not detected	n_patients	high_medium_fraction
+사후	CDH3	breast cancer	breast invasive carcinoma	1	3	7	1	12	0.3333333333333333
+사후	CDH3	cervical cancer	cervical & endocervical cancer	7	2	0	0	9	1.0
+사후	CDH3	endometrial cancer	uterine corpus endometrioid carcinoma	1	5	3	2	11	0.5454545454545454
+사후	CDH3	head and neck cancer	head & neck squamous cell carcinoma	1	3	0	0	4	1.0
+사후	CDH3	liver cancer	liver hepatocellular carcinoma	2	1	3	3	9	0.3333333333333333
+사후	CDH3	ovarian cancer	ovarian serous cystadenocarcinoma	1	1	5	3	10	0.2
+사후	CDH3	pancreatic cancer	pancreatic adenocarcinoma	0	9	3	0	12	0.75
+사후	CDH3	prostate cancer	prostate adenocarcinoma	0	2	6	1	9	0.2222222222222222
+사후	CDH3	stomach cancer	stomach adenocarcinoma	0	8	4	0	12	0.6666666666666666
+사후	CDH3	testis cancer	testicular germ cell tumor	0	5	5	2	12	0.4166666666666667
+사후	CDH3	thyroid cancer	thyroid carcinoma	0	3	0	0	3	1.0
+사후	CDH3	urothelial cancer	bladder urothelial carcinoma	1	9	2	0	12	0.8333333333333334
+사후	ERBB3	breast cancer	breast invasive carcinoma	8	3	0	0	11	1.0
+사후	ERBB3	cervical cancer	cervical & endocervical cancer	2	10	0	0	12	1.0
+사후	ERBB3	endometrial cancer	uterine corpus endometrioid carcinoma	5	6	0	0	11	1.0
+사후	ERBB3	head and neck cancer	head & neck squamous cell carcinoma	1	3	0	0	4	1.0
+사후	ERBB3	liver cancer	liver hepatocellular carcinoma	3	7	0	1	11	0.9090909090909091
+사후	ERBB3	ovarian cancer	ovarian serous cystadenocarcinoma	2	9	0	0	11	1.0
+사후	ERBB3	pancreatic cancer	pancreatic adenocarcinoma	5	3	0	0	8	1.0
+사후	ERBB3	prostate cancer	prostate adenocarcinoma	3	8	1	0	12	0.9166666666666666
+사후	ERBB3	stomach cancer	stomach adenocarcinoma	7	2	0	0	9	1.0
+사후	ERBB3	testis cancer	testicular germ cell tumor	6	4	0	0	10	1.0
+사후	ERBB3	thyroid cancer	thyroid carcinoma	0	2	0	0	2	1.0
+사후	ERBB3	urothelial cancer	bladder urothelial carcinoma	5	5	0	0	10	1.0
+사후	CLDN18	breast cancer	breast invasive carcinoma	0	0	0	11	11	0.0
+사후	CLDN18	cervical cancer	cervical & endocervical cancer	1	0	0	11	12	0.08333333333333333
+사후	CLDN18	endometrial cancer	uterine corpus endometrioid carcinoma	0	0	0	12	12	0.0
+사후	CLDN18	head and neck cancer	head & neck squamous cell carcinoma	0	0	0	4	4	0.0
+사후	CLDN18	liver cancer	liver hepatocellular carcinoma	2	0	0	7	9	0.2222222222222222
+사후	CLDN18	ovarian cancer	ovarian serous cystadenocarcinoma	4	0	0	8	12	0.3333333333333333
+사후	CLDN18	pancreatic cancer	pancreatic adenocarcinoma	2	1	1	6	10	0.3
+사후	CLDN18	prostate cancer	prostate adenocarcinoma	0	0	0	12	12	0.0
+사후	CLDN18	stomach cancer	stomach adenocarcinoma	4	2	0	6	12	0.5
+사후	CLDN18	testis cancer	testicular germ cell tumor	0	1	2	8	11	0.09090909090909091
+사후	CLDN18	thyroid cancer	thyroid carcinoma	0	0	0	4	4	0.0
+사후	CLDN18	urothelial cancer	bladder urothelial carcinoma	0	0	0	10	10	0.0
+사후	MSLN	breast cancer	breast invasive carcinoma	1	1	0	10	12	0.16666666666666666
+사후	MSLN	cervical cancer	cervical & endocervical cancer	0	3	4	5	12	0.25
+사후	MSLN	endometrial cancer	uterine corpus endometrioid carcinoma	1	2	2	7	12	0.25
+사후	MSLN	head and neck cancer	head & neck squamous cell carcinoma	0	0	2	2	4	0.0
+사후	MSLN	liver cancer	liver hepatocellular carcinoma	0	3	0	7	10	0.3
+사후	MSLN	ovarian cancer	ovarian serous cystadenocarcinoma	3	6	1	2	12	0.75
+사후	MSLN	pancreatic cancer	pancreatic adenocarcinoma	4	5	1	2	12	0.75
+사후	MSLN	prostate cancer	prostate adenocarcinoma	0	0	0	11	11	0.0
+사후	MSLN	stomach cancer	stomach adenocarcinoma	1	4	1	6	12	0.4166666666666667
+사후	MSLN	testis cancer	testicular germ cell tumor	0	1	0	11	12	0.08333333333333333
+사후	MSLN	thyroid cancer	thyroid carcinoma	0	0	0	4	4	0.0
+사후	MSLN	urothelial cancer	bladder urothelial carcinoma	0	0	1	11	12	0.0
+사후	CD276	breast cancer	breast invasive carcinoma	1	7	4	0	12	0.6666666666666666
+사후	CD276	cervical cancer	cervical & endocervical cancer	0	7	4	1	12	0.5833333333333334
+사후	CD276	endometrial cancer	uterine corpus endometrioid carcinoma	4	5	1	0	10	0.9
+사후	CD276	head and neck cancer	head & neck squamous cell carcinoma	1	3	0	0	4	1.0
+사후	CD276	liver cancer	liver hepatocellular carcinoma	0	6	4	2	12	0.5
+사후	CD276	ovarian cancer	ovarian serous cystadenocarcinoma	2	3	7	0	12	0.4166666666666667
+사후	CD276	pancreatic cancer	pancreatic adenocarcinoma	2	4	6	0	12	0.5
+사후	CD276	prostate cancer	prostate adenocarcinoma	3	9	0	0	12	1.0
+사후	CD276	stomach cancer	stomach adenocarcinoma	1	4	5	0	10	0.5
+사후	CD276	testis cancer	testicular germ cell tumor	0	2	6	2	10	0.2
+사후	CD276	thyroid cancer	thyroid carcinoma	0	1	3	0	4	0.25
+사후	CD276	urothelial cancer	bladder urothelial carcinoma	1	8	3	0	12	0.75
+사후	CEACAM5	breast cancer	breast invasive carcinoma	0	0	0	11	11	0.0
+사후	CEACAM5	cervical cancer	cervical & endocervical cancer	3	3	4	1	11	0.5454545454545454
+사후	CEACAM5	endometrial cancer	uterine corpus endometrioid carcinoma	1	1	3	4	9	0.2222222222222222
+사후	CEACAM5	head and neck cancer	head & neck squamous cell carcinoma	1	0	2	1	4	0.25
+사후	CEACAM5	liver cancer	liver hepatocellular carcinoma	1	0	1	5	7	0.14285714285714285
+사후	CEACAM5	ovarian cancer	ovarian serous cystadenocarcinoma	1	0	2	7	10	0.1
+사후	CEACAM5	pancreatic cancer	pancreatic adenocarcinoma	4	3	3	1	11	0.6363636363636364
+사후	CEACAM5	prostate cancer	prostate adenocarcinoma	0	0	0	11	11	0.0
+사후	CEACAM5	stomach cancer	stomach adenocarcinoma	6	2	2	1	11	0.7272727272727273
+사후	CEACAM5	testis cancer	testicular germ cell tumor	0	0	0	12	12	0.0
+사후	CEACAM5	thyroid cancer	thyroid carcinoma	0	0	0	4	4	0.0
+사후	CEACAM5	urothelial cancer	bladder urothelial carcinoma	4	0	4	4	12	0.3333333333333333
+사후	MET	breast cancer	breast invasive carcinoma	0	8	3	0	11	0.7272727272727273
+사후	MET	cervical cancer	cervical & endocervical cancer	3	8	1	0	12	0.9166666666666666
+사후	MET	endometrial cancer	uterine corpus endometrioid carcinoma	2	7	2	0	11	0.8181818181818182
+사후	MET	head and neck cancer	head & neck squamous cell carcinoma	1	3	0	0	4	1.0
+사후	MET	liver cancer	liver hepatocellular carcinoma	0	8	2	0	10	0.8
+사후	MET	ovarian cancer	ovarian serous cystadenocarcinoma	3	8	1	0	12	0.9166666666666666
+사후	MET	pancreatic cancer	pancreatic adenocarcinoma	0	11	0	0	11	1.0
+사후	MET	prostate cancer	prostate adenocarcinoma	0	5	7	0	12	0.4166666666666667
+사후	MET	stomach cancer	stomach adenocarcinoma	1	9	2	0	12	0.8333333333333334
+사후	MET	testis cancer	testicular germ cell tumor	0	6	5	0	11	0.5454545454545454
+사후	MET	thyroid cancer	thyroid carcinoma	2	2	0	0	4	1.0
+사후	MET	urothelial cancer	bladder urothelial carcinoma	1	9	2	0	12	0.8333333333333334
+사후	CA9	breast cancer	breast invasive carcinoma	0	0	0	11	11	0.0
+사후	CA9	cervical cancer	cervical & endocervical cancer	0	0	1	10	11	0.0
+사후	CA9	endometrial cancer	uterine corpus endometrioid carcinoma	0	0	0	11	11	0.0
+사후	CA9	head and neck cancer	head & neck squamous cell carcinoma	0	0	0	2	2	0.0
+사후	CA9	liver cancer	liver hepatocellular carcinoma	0	1	0	10	11	0.09090909090909091
+사후	CA9	ovarian cancer	ovarian serous cystadenocarcinoma	0	0	0	10	10	0.0
+사후	CA9	pancreatic cancer	pancreatic adenocarcinoma	0	0	1	9	10	0.0
+사후	CA9	prostate cancer	prostate adenocarcinoma	0	0	0	12	12	0.0
+사후	CA9	stomach cancer	stomach adenocarcinoma	0	3	1	7	11	0.2727272727272727
+사후	CA9	testis cancer	testicular germ cell tumor	0	0	0	12	12	0.0
+사후	CA9	thyroid cancer	thyroid carcinoma	0	0	0	4	4	0.0
+사후	CA9	urothelial cancer	bladder urothelial carcinoma	0	1	2	8	11	0.09090909090909091
+사후	PTK7	breast cancer	breast invasive carcinoma	0	8	4	0	12	0.6666666666666666
+사후	PTK7	cervical cancer	cervical & endocervical cancer	0	0	7	5	12	0.0
+사후	PTK7	endometrial cancer	uterine corpus endometrioid carcinoma	0	11	0	0	11	1.0
+사후	PTK7	head and neck cancer	head & neck squamous cell carcinoma	0	3	0	1	4	0.75
+사후	PTK7	liver cancer	liver hepatocellular carcinoma	0	1	4	3	8	0.125
+사후	PTK7	ovarian cancer	ovarian serous cystadenocarcinoma	0	4	5	2	11	0.36363636363636365
+사후	PTK7	pancreatic cancer	pancreatic adenocarcinoma	0	1	8	3	12	0.08333333333333333
+사후	PTK7	prostate cancer	prostate adenocarcinoma	0	9	1	0	10	0.9
+사후	PTK7	stomach cancer	stomach adenocarcinoma	0	4	4	3	11	0.36363636363636365
+사후	PTK7	testis cancer	testicular germ cell tumor	0	5	4	0	9	0.5555555555555556
+사후	PTK7	thyroid cancer	thyroid carcinoma	0	2	1	0	3	0.6666666666666666
+사후	PTK7	urothelial cancer	bladder urothelial carcinoma	0	1	7	4	12	0.08333333333333333
+사후	CDH6	breast cancer	breast invasive carcinoma	0	0	0	12	12	0.0
+사후	CDH6	cervical cancer	cervical & endocervical cancer	0	0	1	11	12	0.0
+사후	CDH6	endometrial cancer	uterine corpus endometrioid carcinoma	0	0	1	10	11	0.0
+사후	CDH6	head and neck cancer	head & neck squamous cell carcinoma	0	0	0	4	4	0.0
+사후	CDH6	liver cancer	liver hepatocellular carcinoma	0	0	0	10	10	0.0
+사후	CDH6	ovarian cancer	ovarian serous cystadenocarcinoma	0	1	0	10	11	0.09090909090909091
+사후	CDH6	pancreatic cancer	pancreatic adenocarcinoma	0	1	3	5	9	0.1111111111111111
+사후	CDH6	prostate cancer	prostate adenocarcinoma	0	0	0	11	11	0.0
+사후	CDH6	stomach cancer	stomach adenocarcinoma	0	2	1	7	10	0.2
+사후	CDH6	testis cancer	testicular germ cell tumor	0	0	0	12	12	0.0
+사후	CDH6	thyroid cancer	thyroid carcinoma	0	2	0	2	4	0.5
+사후	CDH6	urothelial cancer	bladder urothelial carcinoma	0	0	0	10	10	0.0
+사후	ITGB6	breast cancer	breast invasive carcinoma	1	2	0	9	12	0.25
+사후	ITGB6	cervical cancer	cervical & endocervical cancer	2	7	3	0	12	0.75
+사후	ITGB6	endometrial cancer	uterine corpus endometrioid carcinoma	0	3	2	6	11	0.2727272727272727
+사후	ITGB6	head and neck cancer	head & neck squamous cell carcinoma	0	1	2	1	4	0.25
+사후	ITGB6	liver cancer	liver hepatocellular carcinoma	0	0	1	11	12	0.0
+사후	ITGB6	ovarian cancer	ovarian serous cystadenocarcinoma	0	2	3	6	11	0.18181818181818182
+사후	ITGB6	pancreatic cancer	pancreatic adenocarcinoma	0	4	3	3	10	0.4
+사후	ITGB6	prostate cancer	prostate adenocarcinoma	0	0	0	9	9	0.0
+사후	ITGB6	stomach cancer	stomach adenocarcinoma	0	1	1	8	10	0.1
+사후	ITGB6	testis cancer	testicular germ cell tumor	0	0	2	8	10	0.0
+사후	ITGB6	thyroid cancer	thyroid carcinoma	0	0	0	4	4	0.0
+사후	ITGB6	urothelial cancer	bladder urothelial carcinoma	4	3	1	4	12	0.5833333333333334
+사후	F3	breast cancer	breast invasive carcinoma	0	1	10	1	12	0.08333333333333333
+사후	F3	cervical cancer	cervical & endocervical cancer	4	4	4	0	12	0.6666666666666666
+사후	F3	endometrial cancer	uterine corpus endometrioid carcinoma	2	3	6	1	12	0.4166666666666667
+사후	F3	head and neck cancer	head & neck squamous cell carcinoma	1	0	3	0	4	0.25
+사후	F3	liver cancer	liver hepatocellular carcinoma	0	4	8	0	12	0.3333333333333333
+사후	F3	ovarian cancer	ovarian serous cystadenocarcinoma	2	3	1	6	12	0.4166666666666667
+사후	F3	pancreatic cancer	pancreatic adenocarcinoma	4	6	2	0	12	0.8333333333333334
+사후	F3	prostate cancer	prostate adenocarcinoma	5	3	3	1	12	0.6666666666666666
+사후	F3	stomach cancer	stomach adenocarcinoma	0	1	9	2	12	0.08333333333333333
+사후	F3	testis cancer	testicular germ cell tumor	0	1	7	3	11	0.09090909090909091
+사후	F3	thyroid cancer	thyroid carcinoma	0	0	3	0	3	0.0
+사후	F3	urothelial cancer	bladder urothelial carcinoma	1	0	6	3	10	0.1
+사후	EPCAM	breast cancer	breast invasive carcinoma	3	1	2	6	12	0.3333333333333333
+사후	EPCAM	cervical cancer	cervical & endocervical cancer	2	2	4	3	11	0.36363636363636365
+사후	EPCAM	endometrial cancer	uterine corpus endometrioid carcinoma	10	1	0	0	11	1.0
+사후	EPCAM	head and neck cancer	head & neck squamous cell carcinoma	1	1	0	2	4	0.5
+사후	EPCAM	liver cancer	liver hepatocellular carcinoma	0	0	0	4	4	0.0
+사후	EPCAM	ovarian cancer	ovarian serous cystadenocarcinoma	9	3	0	0	12	1.0
+사후	EPCAM	pancreatic cancer	pancreatic adenocarcinoma	0	0	1	8	9	0.0
+사후	EPCAM	prostate cancer	prostate adenocarcinoma	10	2	0	0	12	1.0
+사후	EPCAM	stomach cancer	stomach adenocarcinoma	0	2	1	7	10	0.2
+사후	EPCAM	testis cancer	testicular germ cell tumor	0	1	3	6	10	0.1
+사후	EPCAM	thyroid cancer	thyroid carcinoma	4	0	0	0	4	1.0
+사후	EPCAM	urothelial cancer	bladder urothelial carcinoma	0	1	0	8	9	0.1111111111111111
+사후	VTCN1	breast cancer	breast invasive carcinoma	0	0	5	2	7	0.0
+사후	VTCN1	cervical cancer	cervical & endocervical cancer	0	0	2	10	12	0.0
+사후	VTCN1	endometrial cancer	uterine corpus endometrioid carcinoma	0	0	7	5	12	0.0
+사후	VTCN1	head and neck cancer	head & neck squamous cell carcinoma	0	1	0	3	4	0.25
+사후	VTCN1	liver cancer	liver hepatocellular carcinoma	0	0	0	12	12	0.0
+사후	VTCN1	ovarian cancer	ovarian serous cystadenocarcinoma	0	0	5	7	12	0.0
+사후	VTCN1	pancreatic cancer	pancreatic adenocarcinoma	0	1	7	4	12	0.08333333333333333
+사후	VTCN1	prostate cancer	prostate adenocarcinoma	0	0	0	11	11	0.0
+사후	VTCN1	stomach cancer	stomach adenocarcinoma	0	1	4	6	11	0.09090909090909091
+사후	VTCN1	testis cancer	testicular germ cell tumor	0	0	1	10	11	0.0
+사후	VTCN1	thyroid cancer	thyroid carcinoma	0	0	1	1	2	0.0
+사후	VTCN1	urothelial cancer	bladder urothelial carcinoma	0	0	2	9	11	0.0
+사후	SLC39A6	breast cancer	breast invasive carcinoma	3	7	2	0	12	0.8333333333333334
+사후	SLC39A6	cervical cancer	cervical & endocervical cancer	0	0	5	7	12	0.0
+사후	SLC39A6	endometrial cancer	uterine corpus endometrioid carcinoma	0	2	4	6	12	0.16666666666666666
+사후	SLC39A6	head and neck cancer	head & neck squamous cell carcinoma	1	1	2	0	4	0.5
+사후	SLC39A6	liver cancer	liver hepatocellular carcinoma	1	1	6	4	12	0.16666666666666666
+사후	SLC39A6	ovarian cancer	ovarian serous cystadenocarcinoma	0	1	1	10	12	0.08333333333333333
+사후	SLC39A6	pancreatic cancer	pancreatic adenocarcinoma	0	1	2	8	11	0.09090909090909091
+사후	SLC39A6	prostate cancer	prostate adenocarcinoma	1	8	2	0	11	0.8181818181818182
+사후	SLC39A6	stomach cancer	stomach adenocarcinoma	0	1	0	8	9	0.1111111111111111
+사후	SLC39A6	testis cancer	testicular germ cell tumor	1	5	3	1	10	0.6
+사후	SLC39A6	thyroid cancer	thyroid carcinoma	0	2	0	2	4	0.5
+사후	SLC39A6	urothelial cancer	bladder urothelial carcinoma	0	0	5	6	11	0.0
+사후	ERBB2	breast cancer	breast invasive carcinoma	4	2	1	4	11	0.5454545454545454
+사후	ERBB2	cervical cancer	cervical & endocervical cancer	0	0	1	9	10	0.0
+사후	ERBB2	endometrial cancer	uterine corpus endometrioid carcinoma	0	1	3	8	12	0.08333333333333333
+사후	ERBB2	head and neck cancer	head & neck squamous cell carcinoma	1	0	0	3	4	0.25
+사후	ERBB2	liver cancer	liver hepatocellular carcinoma	0	0	7	5	12	0.0
+사후	ERBB2	ovarian cancer	ovarian serous cystadenocarcinoma	1	1	1	8	11	0.18181818181818182
+사후	ERBB2	pancreatic cancer	pancreatic adenocarcinoma	0	1	4	6	11	0.09090909090909091
+사후	ERBB2	prostate cancer	prostate adenocarcinoma	0	0	0	12	12	0.0
+사후	ERBB2	stomach cancer	stomach adenocarcinoma	1	0	1	10	12	0.08333333333333333
+사후	ERBB2	testis cancer	testicular germ cell tumor	0	0	2	7	9	0.0
+사후	ERBB2	thyroid cancer	thyroid carcinoma	0	0	0	4	4	0.0
+사후	ERBB2	urothelial cancer	bladder urothelial carcinoma	0	5	2	5	12	0.4166666666666667
+사후	NECTIN4	breast cancer	breast invasive carcinoma	0	1	8	3	12	0.08333333333333333
+사후	NECTIN4	cervical cancer	cervical & endocervical cancer	0	5	5	2	12	0.4166666666666667
+사후	NECTIN4	endometrial cancer	uterine corpus endometrioid carcinoma	0	5	4	1	10	0.5
+사후	NECTIN4	head and neck cancer	head & neck squamous cell carcinoma	0	0	1	3	4	0.0
+사후	NECTIN4	liver cancer	liver hepatocellular carcinoma	0	1	6	3	10	0.1
+사후	NECTIN4	ovarian cancer	ovarian serous cystadenocarcinoma	1	3	7	0	11	0.36363636363636365
+사후	NECTIN4	pancreatic cancer	pancreatic adenocarcinoma	1	1	3	7	12	0.16666666666666666
+사후	NECTIN4	prostate cancer	prostate adenocarcinoma	0	0	5	6	11	0.0
+사후	NECTIN4	stomach cancer	stomach adenocarcinoma	0	0	2	8	10	0.0
+사후	NECTIN4	testis cancer	testicular germ cell tumor	0	1	3	7	11	0.09090909090909091
+사후	NECTIN4	thyroid cancer	thyroid carcinoma	0	2	2	0	4	0.5
+사후	NECTIN4	urothelial cancer	bladder urothelial carcinoma	3	7	1	1	12	0.8333333333333334
+사후	EGFR	breast cancer	breast invasive carcinoma	0	2	1	7	10	0.2
+사후	EGFR	cervical cancer	cervical & endocervical cancer	3	5	3	1	12	0.6666666666666666
+사후	EGFR	endometrial cancer	uterine corpus endometrioid carcinoma	1	6	1	3	11	0.6363636363636364
+사후	EGFR	head and neck cancer	head & neck squamous cell carcinoma	4	0	0	0	4	1.0
+사후	EGFR	liver cancer	liver hepatocellular carcinoma	7	4	0	0	11	1.0
+사후	EGFR	ovarian cancer	ovarian serous cystadenocarcinoma	0	1	2	9	12	0.08333333333333333
+사후	EGFR	pancreatic cancer	pancreatic adenocarcinoma	2	7	3	0	12	0.75
+사후	EGFR	prostate cancer	prostate adenocarcinoma	0	6	2	4	12	0.5
+사후	EGFR	stomach cancer	stomach adenocarcinoma	1	2	5	3	11	0.2727272727272727
+사후	EGFR	testis cancer	testicular germ cell tumor	0	0	0	12	12	0.0
+사후	EGFR	thyroid cancer	thyroid carcinoma	0	2	0	2	4	0.5
+사후	EGFR	urothelial cancer	bladder urothelial carcinoma	4	7	0	0	11	1.0
+사후	ENPP3	breast cancer	breast invasive carcinoma	0	0	0	12	12	0.0
+사후	ENPP3	cervical cancer	cervical & endocervical cancer	0	0	0	10	10	0.0
+사후	ENPP3	endometrial cancer	uterine corpus endometrioid carcinoma	0	0	2	9	11	0.0
+사후	ENPP3	head and neck cancer	head & neck squamous cell carcinoma	0	0	0	4	4	0.0
+사후	ENPP3	liver cancer	liver hepatocellular carcinoma	0	0	0	12	12	0.0
+사후	ENPP3	ovarian cancer	ovarian serous cystadenocarcinoma	0	2	0	9	11	0.18181818181818182
+사후	ENPP3	pancreatic cancer	pancreatic adenocarcinoma	0	0	0	12	12	0.0
+사후	ENPP3	prostate cancer	prostate adenocarcinoma	0	1	0	8	9	0.1111111111111111
+사후	ENPP3	stomach cancer	stomach adenocarcinoma	0	0	0	11	11	0.0
+사후	ENPP3	testis cancer	testicular germ cell tumor	0	0	0	11	11	0.0
+사후	ENPP3	thyroid cancer	thyroid carcinoma	0	0	0	3	3	0.0
+사후	ENPP3	urothelial cancer	bladder urothelial carcinoma	0	0	0	11	11	0.0
+사후	SLC34A2	breast cancer	breast invasive carcinoma	1	0	0	9	10	0.1
+사후	SLC34A2	cervical cancer	cervical & endocervical cancer	0	0	0	10	10	0.0
+사후	SLC34A2	endometrial cancer	uterine corpus endometrioid carcinoma	3	3	3	2	11	0.5454545454545454
+사후	SLC34A2	head and neck cancer	head & neck squamous cell carcinoma	0	0	0	4	4	0.0
+사후	SLC34A2	liver cancer	liver hepatocellular carcinoma	0	1	1	8	10	0.1
+사후	SLC34A2	ovarian cancer	ovarian serous cystadenocarcinoma	3	2	2	4	11	0.45454545454545453
+사후	SLC34A2	pancreatic cancer	pancreatic adenocarcinoma	0	1	0	9	10	0.1
+사후	SLC34A2	prostate cancer	prostate adenocarcinoma	0	0	0	9	9	0.0
+사후	SLC34A2	stomach cancer	stomach adenocarcinoma	0	0	0	9	9	0.0
+사후	SLC34A2	testis cancer	testicular germ cell tumor	0	0	0	12	12	0.0
+사후	SLC34A2	thyroid cancer	thyroid carcinoma	0	0	2	2	4	0.0
+사후	SLC34A2	urothelial cancer	bladder urothelial carcinoma	0	1	0	11	12	0.08333333333333333
+사후	STEAP1	breast cancer	breast invasive carcinoma	0	0	0	11	11	0.0
+사후	STEAP1	cervical cancer	cervical & endocervical cancer	0	0	0	11	11	0.0
+사후	STEAP1	endometrial cancer	uterine corpus endometrioid carcinoma	0	0	0	10	10	0.0
+사후	STEAP1	head and neck cancer	head & neck squamous cell carcinoma	0	0	0	4	4	0.0
+사후	STEAP1	liver cancer	liver hepatocellular carcinoma	0	0	0	11	11	0.0
+사후	STEAP1	ovarian cancer	ovarian serous cystadenocarcinoma	0	0	0	10	10	0.0
+사후	STEAP1	pancreatic cancer	pancreatic adenocarcinoma	0	0	0	12	12	0.0
+사후	STEAP1	prostate cancer	prostate adenocarcinoma	0	0	1	8	9	0.0
+사후	STEAP1	stomach cancer	stomach adenocarcinoma	0	0	1	9	10	0.0
+사후	STEAP1	testis cancer	testicular germ cell tumor	0	0	0	12	12	0.0
+사후	STEAP1	thyroid cancer	thyroid carcinoma	0	0	0	4	4	0.0
+사후	STEAP1	urothelial cancer	bladder urothelial carcinoma	0	0	0	12	12	0.0
+사후	AXL	breast cancer	breast invasive carcinoma	0	1	1	10	12	0.08333333333333333
+사후	AXL	cervical cancer	cervical & endocervical cancer	0	0	1	11	12	0.0
+사후	AXL	endometrial cancer	uterine corpus endometrioid carcinoma	0	2	1	9	12	0.16666666666666666
+사후	AXL	head and neck cancer	head & neck squamous cell carcinoma	0	0	0	4	4	0.0
+사후	AXL	liver cancer	liver hepatocellular carcinoma	0	1	2	9	12	0.08333333333333333
+사후	AXL	ovarian cancer	ovarian serous cystadenocarcinoma	0	1	2	8	11	0.09090909090909091
+사후	AXL	pancreatic cancer	pancreatic adenocarcinoma	0	0	3	8	11	0.0
+사후	AXL	prostate cancer	prostate adenocarcinoma	0	1	1	9	11	0.09090909090909091
+사후	AXL	stomach cancer	stomach adenocarcinoma	0	0	1	10	11	0.0
+사후	AXL	testis cancer	testicular germ cell tumor	0	0	1	11	12	0.0
+사후	AXL	thyroid cancer	thyroid carcinoma	0	0	0	4	4	0.0
+사후	AXL	urothelial cancer	bladder urothelial carcinoma	0	1	1	9	11	0.09090909090909091
+사후	MUC16	breast cancer	breast invasive carcinoma	2	3	0	5	10	0.5
+사후	MUC16	cervical cancer	cervical & endocervical cancer	7	2	0	3	12	0.75
+사후	MUC16	endometrial cancer	uterine corpus endometrioid carcinoma	6	3	0	3	12	0.75
+사후	MUC16	head and neck cancer	head & neck squamous cell carcinoma	0	1	0	3	4	0.25
+사후	MUC16	liver cancer	liver hepatocellular carcinoma	1	0	0	7	8	0.125
+사후	MUC16	ovarian cancer	ovarian serous cystadenocarcinoma	11	0	0	0	11	1.0
+사후	MUC16	pancreatic cancer	pancreatic adenocarcinoma	3	5	0	4	12	0.6666666666666666
+사후	MUC16	prostate cancer	prostate adenocarcinoma	0	3	0	7	10	0.3
+사후	MUC16	stomach cancer	stomach adenocarcinoma	2	2	0	7	11	0.36363636363636365
+사후	MUC16	testis cancer	testicular germ cell tumor	1	0	0	8	9	0.1111111111111111
+사후	MUC16	thyroid cancer	thyroid carcinoma	0	0	0	4	4	0.0
+사후	MUC16	urothelial cancer	bladder urothelial carcinoma	0	1	0	11	12	0.08333333333333333
+사후	TACSTD2	breast cancer	breast invasive carcinoma	0	0	0	11	11	0.0
+사후	TACSTD2	cervical cancer	cervical & endocervical cancer	0	5	2	4	11	0.45454545454545453
+사후	TACSTD2	endometrial cancer	uterine corpus endometrioid carcinoma	0	0	4	8	12	0.0
+사후	TACSTD2	head and neck cancer	head & neck squamous cell carcinoma	0	0	2	2	4	0.0
+사후	TACSTD2	liver cancer	liver hepatocellular carcinoma	0	1	0	10	11	0.09090909090909091
+사후	TACSTD2	ovarian cancer	ovarian serous cystadenocarcinoma	0	1	0	11	12	0.08333333333333333
+사후	TACSTD2	pancreatic cancer	pancreatic adenocarcinoma	0	1	2	8	11	0.09090909090909091
+사후	TACSTD2	prostate cancer	prostate adenocarcinoma	0	0	0	12	12	0.0
+사후	TACSTD2	stomach cancer	stomach adenocarcinoma	0	0	0	9	9	0.0
+사후	TACSTD2	testis cancer	testicular germ cell tumor	0	0	0	11	11	0.0
+사후	TACSTD2	thyroid cancer	thyroid carcinoma	0	1	1	1	3	0.3333333333333333
+사후	TACSTD2	urothelial cancer	bladder urothelial carcinoma	1	2	3	5	11	0.2727272727272727
+사후	MUC1	breast cancer	breast invasive carcinoma	11	0	0	1	12	0.9166666666666666
+사후	MUC1	cervical cancer	cervical & endocervical cancer	11	0	0	0	11	1.0
+사후	MUC1	endometrial cancer	uterine corpus endometrioid carcinoma	11	1	0	0	12	1.0
+사후	MUC1	head and neck cancer	head & neck squamous cell carcinoma	3	0	0	1	4	0.75
+사후	MUC1	liver cancer	liver hepatocellular carcinoma	2	0	1	9	12	0.16666666666666666
+사후	MUC1	ovarian cancer	ovarian serous cystadenocarcinoma	11	1	0	0	12	1.0
+사후	MUC1	pancreatic cancer	pancreatic adenocarcinoma	8	1	1	1	11	0.8181818181818182
+사후	MUC1	prostate cancer	prostate adenocarcinoma	1	1	0	8	10	0.2
+사후	MUC1	stomach cancer	stomach adenocarcinoma	12	0	0	0	12	1.0
+사후	MUC1	testis cancer	testicular germ cell tumor	2	1	1	8	12	0.25
+사후	MUC1	thyroid cancer	thyroid carcinoma	2	1	1	0	4	0.75
+사후	MUC1	urothelial cancer	bladder urothelial carcinoma	5	2	0	4	11	0.6363636363636364

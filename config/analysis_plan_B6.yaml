@@ -1,0 +1,126 @@
+# Analysis plan B6. Commit with config/prereg_B6.md before any APOLLO prediction,
+# fake matrix, or confirm-script run. Do not edit after that commit.
+seed: 20261001
+cpu_cap: none
+ram_gb: 48
+read_paths_yaml_n_threads: false
+import_04_models: false
+
+rna_commit: ef3ba3ff12bdae349666b1fc32d783ecfa4f673b
+rna_matrix: data/processed/apollo_luad/rna_log2tpm.parquet
+rna_matrix_sha256: 24b4aeb2a9bced86a53645a28879f18125f69f24a9e9a443df1ebfd26c3cce96
+sample_map: config/apollo_sample_map.tsv
+sample_map_sha256: 4b9045ad3f9faee678cc85e8769391da939bdf9675d1e72f70476b8064cdb6ef
+
+context: APOLLO_LUAD
+n_samples: 87
+qc_exclusions: 0
+sample_membership: middle_id_in_apollo_sample_map
+
+protein_row_rules:
+  drop_row_if_symbol_contains: [";", "|", ","]
+  drop_all_rows_of_a_duplicated_symbol: true
+  n_rows: 7631
+  n_multi_symbol_rows: 0
+  n_duplicate_symbol_rows: 25
+  n_duplicate_symbols: 9
+  n_symbols_kept: 7606
+
+unit_upper_bounds:
+  U_P1: 7148
+  U_P2: 7318
+  U_Q: 6323
+  actual_unit_count_after_unlock: finite_pairs_at_least_30_and_not_constant
+
+definitions:
+  min_n: 30
+  constant_vector_is_na: true
+  rank_ties: average
+  actual_rho: spearman_of_log2_tpm_plus_1_and_protein
+  rho_s0: spearman_of_within_context_rna_z_and_protein
+  rho_ar: spearman_of_frozen_ar_prediction_and_protein
+  rho_r1: spearman_of_r1_prediction_and_protein
+  rho_r2: spearman_of_r2_prediction_and_protein
+  rna_z_function: scripts/08_stage3.py:z_for_genes
+  rna_z_ddof: 0
+  absent_gene_z: 0
+  n_G_RNA_absent: 1287
+  delta_p1: rho_ar_minus_rho_s0
+  delta_q1: rho_ar_minus_rho_r1
+  delta_q2: rho_ar_minus_rho_r2
+  include_protein_finite_and_z_zero: true
+  b_sd: "100 * average_rank(sd of log2(TPM+1)) / n_G_RNA_with_finite_sd"
+  b_sd_uses_protein: false
+  s: max_spearman_of_G_RNA_median_percentile_profile_versus_10_cptac_tumor_profiles
+  s_uses_protein: false
+  cptac_holdout_s_range: [0.8830509478307224, 0.9788744329350166]
+
+models:
+  ar: results/ar_final_models.parquet
+  f0_f1_f1s: stage3_external_feature_functions_and_stored_cptac_widths
+  f1s_lgbm_half_80: 0.20188308189406967
+  f1s_lgbm_half_90: 0.2590181406295335
+  do_not_clip_intervals: true
+  r1_r2: reuse_stage5_weights_if_saved_else_refit_and_match_stage5_within_1e-9
+  primary_predictor: f1s_lgbm
+
+hypotheses:
+  primary_family: [P1, P2]
+  secondary_family: [Q1, Q2]
+  family_alpha_one_sided: 0.05
+  families_controlled_separately: true
+  combined_family_wise_error_not_controlled_worst_case_about: 0.10
+  primary_claim_uses_only: primary_family
+  holm_two: smaller_p_versus_0.025_larger_p_versus_0.05
+  holm_tie_break_primary: P1_before_P2
+  holm_tie_break_secondary: Q1_before_Q2
+  holm_equal_p_rejects: true
+  holm_stop: first_failure_and_all_later_not_rejected
+  wilcoxon_alternative: greater
+  wilcoxon_zero_method: wilcox
+  bootstrap_draws: 2000
+  bootstrap_seed: 20261001
+  bootstrap_seed_scope: new_default_rng_for_each_hypothesis
+  p2_p: "(1 + count of draws with (S_F - S_B) <= 0) / 2001"
+  p2_interval_from_same_draws: true
+  interval: two_sided_percentile_2.5_97.5
+  quantile: numpy_quantile_linear
+  effect_includes_exact_zeros: true
+  nonfinite_draw: not_counted_as_diff_le_0_and_dropped_from_percentile_interval
+
+descriptive:
+  multiplicity_correction: none
+  ar: [q1, median, q3, frac_gt_0.05, frac_lt_m0.05, median_by_lambda, median_by_in_P]
+  predictors: [f0, f1_ridge, f1_lgbm, f1s_ridge, f1s_lgbm, b_sd]
+  predictor_metrics: [spearman, auroc_actual_ge_0.5]
+  omit_for_b_sd: [pearson, mae, mean_bias, coverage_80, coverage_90, mean_width]
+  other_predictors_also: [pearson, mae, mean_bias_actual_minus_pred, coverage_80, coverage_90, mean_width]
+  coverage_rule: absolute_actual_minus_pred_le_frozen_half_width
+  calibration:
+    same_as: B5_section_2.4
+    folds: 5
+    K: [10, 20, 50, 100]
+    repeats: 20
+    seed: 20261014
+    corrections: [none, delta_only, delta_and_quantile]
+  consistency: spearman_of_protein_d_and_of_actual_rho_between_cptac_loco_luad_and_apollo
+  adc_targets: config/adc_targets.tsv
+  s_report: value_and_whether_inside_cptac_holdout_range
+
+power:
+  seed: 20261001
+  rng: one_default_rng_in_order_P1_Q1_Q2_and_within_each_as_is_half_noise
+  draws: 10000
+  reject_if_p_less_than: 0.025
+  half_effect: subtract_half_of_original_mean_from_every_value
+  noise: one_N_0_0.05_squared_vector_added_before_resampling
+  p1_source: results/ar_pairs.tsv heldout LUAD finite delta_ar
+  p1_n_source: 7418
+  p1_n_draw: 7148
+  q1_source: ar_minus_loco_r1
+  q2_source: ar_minus_loco_r2
+  q_n_source: 7403
+  q_n_draw: 6323
+  loco_power_is_conservative: final_model_includes_LUAD
+  p2_reference_seed_restarted: 20261001
+  p2_reference_draws: 2000

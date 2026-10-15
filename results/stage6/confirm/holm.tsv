@@ -1,0 +1,5 @@
+hypothesis	pvalue	rank	threshold	call
+P1	0.0	1	0.025	rejected
+P2	0.0004997501249375312	2	0.05	rejected
+Q2	0.0	1	0.025	rejected
+Q1	4.4491626081814474e-203	2	0.05	rejected

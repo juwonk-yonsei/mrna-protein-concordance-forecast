@@ -1,0 +1,13 @@
+label	predictor	method	K	n_platforms_in_0.75_0.85	all_three	platforms
+사후	f1s_lgbm	delta	10	1	0	APOLLO
+사후	f1s_lgbm	delta	20	1	0	APOLLO
+사후	f1s_lgbm	delta	50	1	0	APOLLO
+사후	f1s_lgbm	delta	100	1	0	APOLLO
+사후	f1s_lgbm	delta_quantile	10	1	0	rppa
+사후	f1s_lgbm	delta_quantile	20	2	0	procan,rppa
+사후	f1s_lgbm	delta_quantile	50	3	1	APOLLO,procan,rppa
+사후	f1s_lgbm	delta_quantile	100	3	1	APOLLO,procan,rppa
+사후	f1s_lgbm	none	10	1	0	APOLLO
+사후	f1s_lgbm	none	20	1	0	APOLLO
+사후	f1s_lgbm	none	50	1	0	APOLLO
+사후	f1s_lgbm	none	100	1	0	APOLLO

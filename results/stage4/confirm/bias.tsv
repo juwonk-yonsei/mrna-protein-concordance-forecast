@@ -1,0 +1,171 @@
+cohort	model	cancer	n	mean_actual_minus_pred	lineage
+rppa	f0	adrenocortical cancer	131	-0.15587844061767886	
+rppa	f0	bladder urothelial carcinoma	130	-0.1617196233544481	
+rppa	f0	brain lower grade glioma	132	-0.27381358188597016	
+rppa	f0	breast invasive carcinoma	131	-0.16099935791218503	
+rppa	f0	cervical & endocervical cancer	130	-0.1876372751346933	
+rppa	f0	cholangiocarcinoma	129	-0.28799555351705086	
+rppa	f0	colon adenocarcinoma	130	-0.2697637842845222	
+rppa	f0	diffuse large B-cell lymphoma	129	-0.17048171287021716	
+rppa	f0	esophageal carcinoma	130	-0.1975905298147018	
+rppa	f0	glioblastoma multiforme	130	-0.1739606119159248	
+rppa	f0	head & neck squamous cell carcinoma	132	-0.21620945751917567	
+rppa	f0	kidney chromophobe	131	-0.27162017421407064	
+rppa	f0	kidney clear cell carcinoma	130	-0.23324133543686967	
+rppa	f0	kidney papillary cell carcinoma	131	-0.25348683424452856	
+rppa	f0	liver hepatocellular carcinoma	131	-0.27293147878485763	
+rppa	f0	lung adenocarcinoma	132	-0.17529573954747568	
+rppa	f0	lung squamous cell carcinoma	132	-0.17245540071486648	
+rppa	f0	mesothelioma	131	-0.21801326833898158	
+rppa	f0	ovarian serous cystadenocarcinoma	131	-0.07268573966509749	
+rppa	f0	pancreatic adenocarcinoma	131	-0.310260497975315	
+rppa	f0	pheochromocytoma & paraganglioma	130	-0.23691528435912118	
+rppa	f0	prostate adenocarcinoma	131	-0.32591980875288673	
+rppa	f0	rectum adenocarcinoma	130	-0.245496919842054	
+rppa	f0	sarcoma	130	-0.11031739887137636	
+rppa	f0	skin cutaneous melanoma	130	-0.16311160373600025	
+rppa	f0	stomach adenocarcinoma	131	-0.2235849897410366	
+rppa	f0	testicular germ cell tumor	129	-0.10956856231974879	
+rppa	f0	thymoma	129	-0.13207614035392845	
+rppa	f0	thyroid carcinoma	131	-0.3310566785303944	
+rppa	f0	uterine carcinosarcoma	130	-0.12187514362060313	
+rppa	f0	uterine corpus endometrioid carcinoma	130	-0.17696370050432397	
+rppa	f1_ridge	adrenocortical cancer	131	-0.13508762295786386	
+rppa	f1_ridge	bladder urothelial carcinoma	130	-0.16823349120080128	
+rppa	f1_ridge	brain lower grade glioma	132	-0.24517984433594342	
+rppa	f1_ridge	breast invasive carcinoma	131	-0.17225143856237127	
+rppa	f1_ridge	cervical & endocervical cancer	130	-0.19129012203871992	
+rppa	f1_ridge	cholangiocarcinoma	129	-0.28356020612501487	
+rppa	f1_ridge	colon adenocarcinoma	130	-0.2610437989660152	
+rppa	f1_ridge	diffuse large B-cell lymphoma	129	-0.1507840450333603	
+rppa	f1_ridge	esophageal carcinoma	130	-0.2034929261597581	
+rppa	f1_ridge	glioblastoma multiforme	130	-0.15681756548344158	
+rppa	f1_ridge	head & neck squamous cell carcinoma	132	-0.2185871557591144	
+rppa	f1_ridge	kidney chromophobe	131	-0.2566155764779308	
+rppa	f1_ridge	kidney clear cell carcinoma	130	-0.22338980531681493	
+rppa	f1_ridge	kidney papillary cell carcinoma	131	-0.2364403089740242	
+rppa	f1_ridge	liver hepatocellular carcinoma	131	-0.262418475131883	
+rppa	f1_ridge	lung adenocarcinoma	132	-0.17902637682297795	
+rppa	f1_ridge	lung squamous cell carcinoma	132	-0.1792670250347195	
+rppa	f1_ridge	mesothelioma	131	-0.20934923503122949	
+rppa	f1_ridge	ovarian serous cystadenocarcinoma	131	-0.07215804687418154	
+rppa	f1_ridge	pancreatic adenocarcinoma	131	-0.30330074085433534	
+rppa	f1_ridge	pheochromocytoma & paraganglioma	130	-0.20660908172487047	
+rppa	f1_ridge	prostate adenocarcinoma	131	-0.3107378391243475	
+rppa	f1_ridge	rectum adenocarcinoma	130	-0.2351985217644236	
+rppa	f1_ridge	sarcoma	130	-0.10985899438477696	
+rppa	f1_ridge	skin cutaneous melanoma	130	-0.16110533126526003	
+rppa	f1_ridge	stomach adenocarcinoma	131	-0.2245309756698086	
+rppa	f1_ridge	testicular germ cell tumor	129	-0.10785386521834167	
+rppa	f1_ridge	thymoma	129	-0.13016044806094829	
+rppa	f1_ridge	thyroid carcinoma	131	-0.32119405697970854	
+rppa	f1_ridge	uterine carcinosarcoma	130	-0.11792995837018685	
+rppa	f1_ridge	uterine corpus endometrioid carcinoma	130	-0.17607450571684952	
+rppa	f1_lgbm	adrenocortical cancer	131	-0.11234595736784277	
+rppa	f1_lgbm	bladder urothelial carcinoma	130	-0.1479855425818976	
+rppa	f1_lgbm	brain lower grade glioma	132	-0.22955828369982534	
+rppa	f1_lgbm	breast invasive carcinoma	131	-0.16337729793429384	
+rppa	f1_lgbm	cervical & endocervical cancer	130	-0.18028242221816979	
+rppa	f1_lgbm	cholangiocarcinoma	129	-0.2745287979957745	
+rppa	f1_lgbm	colon adenocarcinoma	130	-0.2603034179190086	
+rppa	f1_lgbm	diffuse large B-cell lymphoma	129	-0.1360912006971785	
+rppa	f1_lgbm	esophageal carcinoma	130	-0.1914635121839808	
+rppa	f1_lgbm	glioblastoma multiforme	130	-0.14570821890653704	
+rppa	f1_lgbm	head & neck squamous cell carcinoma	132	-0.21003485365748947	
+rppa	f1_lgbm	kidney chromophobe	131	-0.2514497722892752	
+rppa	f1_lgbm	kidney clear cell carcinoma	130	-0.22757191127330972	
+rppa	f1_lgbm	kidney papillary cell carcinoma	131	-0.22582156776945228	
+rppa	f1_lgbm	liver hepatocellular carcinoma	131	-0.23519724714591764	
+rppa	f1_lgbm	lung adenocarcinoma	132	-0.17021434817789674	
+rppa	f1_lgbm	lung squamous cell carcinoma	132	-0.1668763333006416	
+rppa	f1_lgbm	mesothelioma	131	-0.19859860550357455	
+rppa	f1_lgbm	ovarian serous cystadenocarcinoma	131	-0.06351795345266925	
+rppa	f1_lgbm	pancreatic adenocarcinoma	131	-0.3010293806851012	
+rppa	f1_lgbm	pheochromocytoma & paraganglioma	130	-0.18560733496098003	
+rppa	f1_lgbm	prostate adenocarcinoma	131	-0.30090595249256286	
+rppa	f1_lgbm	rectum adenocarcinoma	130	-0.23602770610900536	
+rppa	f1_lgbm	sarcoma	130	-0.08449487546600497	
+rppa	f1_lgbm	skin cutaneous melanoma	130	-0.13422772988484905	
+rppa	f1_lgbm	stomach adenocarcinoma	131	-0.21825947449429772	
+rppa	f1_lgbm	testicular germ cell tumor	129	-0.09053931156509047	
+rppa	f1_lgbm	thymoma	129	-0.11237558928346127	
+rppa	f1_lgbm	thyroid carcinoma	131	-0.2992206439824495	
+rppa	f1_lgbm	uterine carcinosarcoma	130	-0.09752240856109573	
+rppa	f1_lgbm	uterine corpus endometrioid carcinoma	130	-0.1569630905433866	
+rppa	f1s_ridge	adrenocortical cancer	131	-0.1594331490984024	
+rppa	f1s_ridge	bladder urothelial carcinoma	130	-0.18040799453086442	
+rppa	f1s_ridge	brain lower grade glioma	132	-0.2728034551664344	
+rppa	f1s_ridge	breast invasive carcinoma	131	-0.18197656521538505	
+rppa	f1s_ridge	cervical & endocervical cancer	130	-0.20535836374761499	
+rppa	f1s_ridge	cholangiocarcinoma	129	-0.30049183805841556	
+rppa	f1s_ridge	colon adenocarcinoma	130	-0.2827748938487265	
+rppa	f1s_ridge	diffuse large B-cell lymphoma	129	-0.17664105209154085	
+rppa	f1s_ridge	esophageal carcinoma	130	-0.21696509245312995	
+rppa	f1s_ridge	glioblastoma multiforme	130	-0.18052141327419438	
+rppa	f1s_ridge	head & neck squamous cell carcinoma	132	-0.2321661575421932	
+rppa	f1s_ridge	kidney chromophobe	131	-0.2816510654247795	
+rppa	f1s_ridge	kidney clear cell carcinoma	130	-0.2432371194673338	
+rppa	f1s_ridge	kidney papillary cell carcinoma	131	-0.25715426888947146	
+rppa	f1s_ridge	liver hepatocellular carcinoma	131	-0.2783654569271731	
+rppa	f1s_ridge	lung adenocarcinoma	132	-0.19231550038070902	
+rppa	f1s_ridge	lung squamous cell carcinoma	132	-0.1904178775743264	
+rppa	f1s_ridge	mesothelioma	131	-0.2286311752046908	
+rppa	f1s_ridge	ovarian serous cystadenocarcinoma	131	-0.08658043200610392	
+rppa	f1s_ridge	pancreatic adenocarcinoma	131	-0.3220439409704629	
+rppa	f1s_ridge	pheochromocytoma & paraganglioma	130	-0.23640890806634865	
+rppa	f1s_ridge	prostate adenocarcinoma	131	-0.3320240964792114	
+rppa	f1s_ridge	rectum adenocarcinoma	130	-0.2567809023142017	
+rppa	f1s_ridge	sarcoma	130	-0.12175873179345968	
+rppa	f1s_ridge	skin cutaneous melanoma	130	-0.17467496960359735	
+rppa	f1s_ridge	stomach adenocarcinoma	131	-0.2398604380786263	
+rppa	f1s_ridge	testicular germ cell tumor	129	-0.11894375627257976	
+rppa	f1s_ridge	thymoma	129	-0.14681697946887262	
+rppa	f1s_ridge	thyroid carcinoma	131	-0.34249801423793585	
+rppa	f1s_ridge	uterine carcinosarcoma	130	-0.12975182282788117	
+rppa	f1s_ridge	uterine corpus endometrioid carcinoma	130	-0.18919378031846523	
+rppa	f1s_lgbm	adrenocortical cancer	131	-0.14217659830080756	
+rppa	f1s_lgbm	bladder urothelial carcinoma	130	-0.16757380147920278	
+rppa	f1s_lgbm	brain lower grade glioma	132	-0.2488285476795989	
+rppa	f1s_lgbm	breast invasive carcinoma	131	-0.1767306533876807	
+rppa	f1s_lgbm	cervical & endocervical cancer	130	-0.19067152433230708	
+rppa	f1s_lgbm	cholangiocarcinoma	129	-0.2874461226096842	
+rppa	f1s_lgbm	colon adenocarcinoma	130	-0.2628015127659584	
+rppa	f1s_lgbm	diffuse large B-cell lymphoma	129	-0.15132674242023186	
+rppa	f1s_lgbm	esophageal carcinoma	130	-0.20560823163023342	
+rppa	f1s_lgbm	glioblastoma multiforme	130	-0.15891079339621536	
+rppa	f1s_lgbm	head & neck squamous cell carcinoma	132	-0.21834737228705284	
+rppa	f1s_lgbm	kidney chromophobe	131	-0.2692052023896001	
+rppa	f1s_lgbm	kidney clear cell carcinoma	130	-0.23001186970589185	
+rppa	f1s_lgbm	kidney papillary cell carcinoma	131	-0.2388019588410935	
+rppa	f1s_lgbm	liver hepatocellular carcinoma	131	-0.2656348115428984	
+rppa	f1s_lgbm	lung adenocarcinoma	132	-0.18423506544327925	
+rppa	f1s_lgbm	lung squamous cell carcinoma	132	-0.17882779206929766	
+rppa	f1s_lgbm	mesothelioma	131	-0.2097016416733917	
+rppa	f1s_lgbm	ovarian serous cystadenocarcinoma	131	-0.07457886555257182	
+rppa	f1s_lgbm	pancreatic adenocarcinoma	131	-0.30976459951157065	
+rppa	f1s_lgbm	pheochromocytoma & paraganglioma	130	-0.2097854083618137	
+rppa	f1s_lgbm	prostate adenocarcinoma	131	-0.31778536135814406	
+rppa	f1s_lgbm	rectum adenocarcinoma	130	-0.23692626039644596	
+rppa	f1s_lgbm	sarcoma	130	-0.11040711542127435	
+rppa	f1s_lgbm	skin cutaneous melanoma	130	-0.1551285810271985	
+rppa	f1s_lgbm	stomach adenocarcinoma	131	-0.22873670975932636	
+rppa	f1s_lgbm	testicular germ cell tumor	129	-0.09738216147638981	
+rppa	f1s_lgbm	thymoma	129	-0.13128960025721897	
+rppa	f1s_lgbm	thyroid carcinoma	131	-0.3299098892731848	
+rppa	f1s_lgbm	uterine carcinosarcoma	130	-0.10857241933576385	
+rppa	f1s_lgbm	uterine corpus endometrioid carcinoma	130	-0.1759235285062143	
+procan	f0		2644	-0.1150837383879214	Haematopoietic and Lymphoid
+procan	f0		1335	-0.08197717319583427	Large Intestine
+procan	f0		2139	-0.029371021990183238	Lung
+procan	f1_ridge		2644	0.16146388259869127	Haematopoietic and Lymphoid
+procan	f1_ridge		1335	0.20856894329902276	Large Intestine
+procan	f1_ridge		2139	0.25152567662910535	Lung
+procan	f1_lgbm		2644	0.24754001096791092	Haematopoietic and Lymphoid
+procan	f1_lgbm		1335	0.27816796761273677	Large Intestine
+procan	f1_lgbm		2139	0.327778247145407	Lung
+procan	f1s_ridge		2644	-0.14273801564082134	Haematopoietic and Lymphoid
+procan	f1s_ridge		1335	-0.10804084160959446	Large Intestine
+procan	f1s_ridge		2139	-0.05343430660064345	Lung
+procan	f1s_lgbm		2644	-0.11840864180496717	Haematopoietic and Lymphoid
+procan	f1s_lgbm		1335	-0.08045192820894918	Large Intestine
+procan	f1s_lgbm		2139	-0.0259250618538883	Lung

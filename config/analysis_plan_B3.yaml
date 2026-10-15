@@ -1,0 +1,122 @@
+# Analysis plan B3. Commit this file before any section-3 or section-4 fit.
+# Do not edit after those results are inspected.
+# Already frozen F0/F1 files are not rewritten.
+seed: 20261001
+cpu_cap: none
+ram_gb: 48
+stage2_plan: config/analysis_plan_B2.yaml
+frozen_f0_f1_commit: a07290ac491702431a9fc4cad52c1634e459ae70
+
+decisions_report2:
+  1: leave_64_xena_antibodies_unmapped
+  2: no_manual_aliases
+  3: add_hgnc_prev_symbol_for_new_calculations_only
+  4: slc35e2_not_used_as_a_feature
+  5: conformal_half_width_infinite_when_k_gt_n
+
+tcga_rna_id:
+  order: [exact_symbol, numeric_entrez, hgnc_prev_symbol]
+  alias_symbol: do_not_use
+  entrez_rule: stage2_protein_coding_one_to_one
+  prev_symbol_separator: "|"
+  prev_symbol_requires:
+    - previous_symbol_maps_to_exactly_one_approved_symbol
+    - approved_symbol_in_G_RNA
+    - no_row_whose_id_equals_that_approved_symbol
+    - approved_symbol_does_not_receive_two_or_more_rows
+  ambiguous: drop
+  duplicate_row_id_SLC35E2: not_used
+
+ar_set:
+  # n_measured is the stage-1 tumor protein count (all tumor protein samples).
+  include: P_union_genes_with_n_measured_ge_30_in_at_least_3_cancers
+  require_in_G_RNA: true
+  min_cancers: 3
+  min_measured: 30
+
+ar_final:
+  selection: ten_cancer_LOCO_mean_spearman
+  refit_each_fold: [slope, residual, extra_genes, ridge]
+  tie_break: smaller_lambda_then_larger_alpha
+  fallback_lambda: 0
+  fallback_alpha: 10000
+  final_fit: all_10_cancers_with_chosen_alpha_lambda
+  missing_external_gene_z: 0
+  output: results/ar_final_models.parquet
+
+f1s:
+  features:
+    - rho_mean
+    - rho_sd
+    - rho_min
+    - rho_max
+    - n_defined_cancers
+    - holdout_rna_mean_percentile
+    - holdout_rna_sd_percentile
+    - train_rna_mean_percentile_mean
+    - train_protein_rate_mean
+  percentile: "100 * average_rank / n_genes_with_finite_value"
+  percentile_universe: G_RNA_genes_with_finite_value_in_that_context
+  rank_ties: average
+  model_rules: same_as_stage2_F1
+  training_universe: P
+  final_half_width: pooled_section_3_2_holdout_absolute_residuals
+  development_intervals: per_holdout_inner_OOF
+  clip_to_spearman_range: false
+
+within_gene:
+  min_defined_cancers: 8
+  f0_note: structurally_pulled_negative_because_holdout_is_left_out_of_the_mean
+  gene_centered_min_cancers: 2
+
+ccle:
+  lineages: [Lung, Skin]
+  min_cell_lines: 30
+  rna: depmap_24q4_log2_tpm_plus_1
+  ar_and_s0_rna: zscore_within_lineage_ddof_0
+  absent_gene_for_ar: z_equals_0
+  reliability_rna_features: raw_log2_not_zscore
+  absent_gene_for_reliability_features: median_fill
+  side_by_side_with_stage1_r1_universe: P_genes_with_both_defined
+  full_ar_set_also_reported: true
+  procan_join: cmp_model_list_BROAD_ID_equals_depmap_ModelID
+  same_lineage_labels: {Lung: Lung, Skin: Skin}
+
+scale_check:
+  quantiles: [0.01, 0.25, 0.50, 0.75, 0.99]
+  contexts: [cptac_10, tcga_31, sanger_3, ccle_lung_skin]
+  protein_values: not_used
+
+freeze_outputs:
+  ar_tcga: results/frozen_ar_tcga.parquet
+  ar_procan: results/frozen_ar_procan.parquet
+  f1s_rppa: results/frozen_forecasts_rppa_F1s.tsv
+  f1s_procan: results/frozen_forecasts_procan_F1s.tsv
+  hashes: config/frozen_hashes.tsv
+  do_not_modify:
+    - results/frozen_forecasts_rppa.tsv
+    - results/frozen_forecasts_procan.tsv
+
+confirm:
+  refuse_without_unlock_or_fake: true
+  do_not_run_unlock_this_stage: true
+  fake_seed: 1
+  bootstrap_draws: 2000
+  bootstrap_seed: 20261001
+  bootstrap_statistic: mean_of_unit_level_mean_delta
+  bootstrap_interval: two_sided_percentile_95
+  wilcoxon_alternative: greater
+  wilcoxon_zero_method: wilcox
+  s0_rna: raw_log2_not_zscore
+  rppa_fake: "0.5 * within_disease_rna_z + N(0,1)"
+  procan_fake: "0.5 * within_lineage_sanger_rna_z + N(0,1), then 20% missing"
+  fake_does_not_copy_locked_values_or_missingness: true
+  seen_antibodies_excluded: true
+  # Each bootstrap test calls default_rng(bootstrap_seed) again.
+  bootstrap_seed_scope: restart_for_each_test
+  # A unit's mean delta is the mean of its defined contexts. Contexts with n<30 or a constant vector are omitted.
+  unit_mean: mean_of_defined_context_deltas
+  # Within-unit Spearman is undefined below the stage-2 inner minimum of 3.
+  within_unit_min_contexts: 3
+  centered_min_contexts: 2
+  # F0 within-unit Spearman is not tested. The frozen F0 value does not change across contexts.

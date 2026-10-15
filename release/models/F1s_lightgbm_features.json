@@ -1,0 +1,25 @@
+{
+  "features": [
+    "rho_mean",
+    "rho_sd",
+    "rho_min",
+    "rho_max",
+    "n_defined_cancers",
+    "holdout_rna_mean_percentile",
+    "holdout_rna_sd_percentile",
+    "train_rna_mean_percentile_mean",
+    "train_protein_rate_mean"
+  ],
+  "median_fill": [
+    0.47078178619868416,
+    0.1384220486652657,
+    0.2027827497579775,
+    0.6935854908145772,
+    9.0,
+    75.20691270626203,
+    31.56524907605018,
+    74.58227057415021,
+    1.0
+  ],
+  "lightgbm_version": "4.7.0"
+}

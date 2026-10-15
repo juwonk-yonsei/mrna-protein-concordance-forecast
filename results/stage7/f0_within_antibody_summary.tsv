@@ -1,0 +1,7 @@
+label	predictor	n_antibodies	n_defined	median_spearman	note	ci_low	ci_high	bootstrap_draws	bootstrap_seed
+사후	b_sd	134	130	0.2026209677419355					
+사후	f0	134	0		F0 is constant within an antibody, so its within-antibody Spearman is undefined.				
+사후	f1s_lgbm	134	130	0.25459333983138605					
+사후	f1s_ridge	134	130	0.2653225806451613					
+사후	f1s_lgbm_minus_b_sd	130	130	0.0242085700068842	Stored B5 antibody-resample interval of the median within-antibody Spearman difference. Not recomputed.	-0.0160790203848187	0.0959348781314704	2000.0	20261001.0
+사후	f1s_ridge_minus_b_sd	130	130	0.0334677419354838	Stored B5 antibody-resample interval of the median within-antibody Spearman difference. Not recomputed.	-0.0004032258064515	0.0899193548387096	2000.0	20261001.0

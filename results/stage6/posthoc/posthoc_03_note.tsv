@@ -1,0 +1,2 @@
+label	n_genes_in_all_three	n_genes_one_row_each	rule
+사후	49	49	Values are filled only when RPPA and ProCan each have one row for the gene. Multiple rows are not averaged.

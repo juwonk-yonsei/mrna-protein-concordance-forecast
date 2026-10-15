@@ -1,0 +1,18 @@
+brand	generic	bla	first_approval	label_revision	moa_quote	hgnc_symbol	approved_by_cutoff	search_date	note
+ADCETRIS	BRENTUXIMAB VEDOTIN	BLA125388	2011-08-19	2025-11-11	CD30 is a member of the tumor necrosis factor receptor family and is expressed on the surface of sALCL cells and on Hodgkin Reed-Sternberg (HRS) cells in cHL. Brentuximab vedotin is an antibody-drug conjugate (ADC).	TNFRSF8	1	2026-10-15	
+ADCETRIS	BRENTUXIMAB VEDOTIN	BLA125399	2011-08-19	2025-11-11	CD30 is a member of the tumor necrosis factor receptor family and is expressed on the surface of sALCL cells and on Hodgkin Reed-Sternberg (HRS) cells in cHL. Brentuximab vedotin is an antibody-drug conjugate (ADC).	TNFRSF8	1	2026-10-15	no label record for BLA125399; mechanism quoted from BLA125388, the other application of the same brand
+KADCYLA	ADO-TRASTUZUMAB EMTANSINE	BLA125427	2013-02-22	2026-04-01	Ado-trastuzumab emtansine is a HER2-targeted antibody-drug conjugate.	ERBB2	1	2026-10-15	
+BESPONSA	INOTUZUMAB OZOGAMICIN	BLA761040	2017-08-17	2026-02-06	Inotuzumab ozogamicin is a CD22-directed antibody drug conjugate (ADC).	CD22	1	2026-10-15	
+MYLOTARG	GEMTUZUMAB OZOGAMICIN	BLA761060	2017-09-01	2025-12-19	Gemtuzumab ozogamicin is a CD33-directed antibody-drug conjugate (ADC).	CD33	1	2026-10-15	
+TRODELVY	SACITUZUMAB GOVITECAN-HZIY	BLA761115	2020-04-22	2026-06-24	Sacituzumab govitecan-hziy is a Trop-2-directed antibody-drug conjugate.	TACSTD2	1	2026-10-15	
+POLIVY	POLATUZUMAB VEDOTIN-PIIQ	BLA761121	2019-06-10	2026-08-24	Polatuzumab vedotin-piiq is a CD79b-directed antibody-drug conjugate with activity against dividing B cells.	CD79B	1	2026-10-15	
+PADCEV	ENFORTUMAB VEDOTIN-EJFV	BLA761137	2019-12-18	2026-08-04	The antibody is a human IgG1 kappa directed against Nectin-4, an adhesion protein located on the surface of cells. Enfortumab vedotin-ejfv is an ADC.	NECTIN4	1	2026-10-15	
+ENHERTU	FAM-TRASTUZUMAB DERUXTECAN-NXKI	BLA761139	2019-12-20	2026-05-15	Fam-trastuzumab deruxtecan-nxki is a HER2-directed antibody-drug conjugate.	ERBB2	1	2026-10-15	
+ZYNLONTA	LONCASTUXIMAB TESIRINE-LPYL	BLA761196	2021-04-23	2026-06-12	Loncastuximab tesirine-lpyl is an antibody-drug conjugate (ADC) targeting CD19.	CD19	1	2026-10-15	
+TIVDAK	TISOTUMAB VEDOTIN-TFTV	BLA761208	2021-09-20	2025-11-20	Tisotumab vedotin-tftv is a tissue factor (TF)-directed antibody drug conjugate (ADC).	F3	1	2026-10-15	
+ELAHERE	MIRVETUXIMAB SORAVTANSINE-GYNX	BLA761310	2022-11-14	2025-07-14	The antibody is a chimeric IgG1 directed against folate receptor alpha (FRα). Mirvetuximab soravtansine-gynx is an antibody-drug conjugate (ADC).	FOLR1	1	2026-10-15	
+EMRELIS	TELISOTUZUMAB VEDOTIN-TLLV	BLA761384	2025-05-14	2025-05-25	Telisotuzumab vedotin-tllv is a c-Met-directed antibody drug conjugate (ADC).	MET	1	2026-10-15	
+DATROWAY	DATOPOTAMAB DERUXTECAN-DLNK	BLA761394	2025-01-17	2026-05-27	Datopotamab deruxtecan-dlnk, is a Trop-2-directed antibody-drug conjugate.	TACSTD2	1	2026-10-15	
+BLENREP	BELANTAMAB MAFODOTIN-BLMF	BLA761440	2025-10-23	2025-10-23	The antibody component is an afucosylated IgG1 directed against BCMA, a protein expressed on normal B lymphocytes and multiple myeloma cells. Belantamab mafodotin‑blmf is an antibody‑drug conjugate (ADC).	TNFRSF17	1	2026-10-15	
+DECNUPAZ	PIVEKIMAB SUNIRINE-PVZY	BLA761460	2026-05-27	2026-05-27	Pivekimab sunirine-pvzy is a CD123 (alpha-subunit of the interleukin-3 receptor)-directed antibody-drug conjugate (ADC).	IL3RA	1	2026-10-15	
+DATROWAY	DATOPOTAMAB DERUXTECAN-DLNK	BLA761464	2025-06-23	2026-05-27	Datopotamab deruxtecan-dlnk, is a Trop-2-directed antibody-drug conjugate.	TACSTD2	1	2026-10-15	no label record for BLA761464; mechanism quoted from BLA761394, the other application of the same brand

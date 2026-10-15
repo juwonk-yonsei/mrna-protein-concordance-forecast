@@ -1,0 +1,5 @@
+item	value	n_merged	n_finite
+rppa_pred_max_abs	0.03052829671891788	4154	4154
+procan_pred_max_abs	0.04350081490676183	12159	12159
+rppa_feature_rows_differ	0.0	4154	4154
+procan_feature_rows_differ	0.0	12159	12159

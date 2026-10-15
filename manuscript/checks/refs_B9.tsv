@@ -1,0 +1,13 @@
+key	data	literature	doi	crossref_title	first_author	year	match	evidence
+ccle_rna	CCLE RNA-seq	Ghandi et al. 2019 Nature	10.1038/s41586-019-1186-3	Next-generation characterization of the Cancer Cell Line Encyclopedia	Ghandi	2019	yes	Crossref works API
+ccle_protein	CCLE proteome	Nusinow et al. 2020 Cell	10.1016/j.cell.2019.12.023	Quantitative Proteomics of the Cancer Cell Line Encyclopedia	Nusinow	2020	yes	Crossref works API
+ccle_original	CCLE original	Barretina et al. 2012 Nature	10.1038/nature11003	The Cancer Cell Line Encyclopedia enables predictive modelling of anticancer drug sensitivity	Barretina	2012	yes	Crossref works API
+tcga_pancan	TCGA PanCanAtlas	Hoadley et al. 2018 Cell	10.1016/j.cell.2018.03.022	Cell-of-Origin Patterns Dominate the Molecular Classification of 10,000 Tumors from 33 Types of Cancer	Hoadley	2018	yes	Crossref works API
+tcga	TCGA	Weinstein et al. 2013 Nat Genet	10.1038/ng.2764	The Cancer Genome Atlas Pan-Cancer analysis project	Weinstein	2013	yes	Crossref lists Weinstein as a first author with the Cancer Genome Atlas Research Network
+numpy	NumPy	Harris et al. 2020 Nature	10.1038/s41586-020-2649-2	Array programming with NumPy	Harris	2020	yes	Crossref works API
+scipy	SciPy	Virtanen et al. 2020 Nat Methods	10.1038/s41592-019-0686-2	SciPy 1.0: fundamental algorithms for scientific computing in Python	Virtanen	2020	yes	Crossref works API
+pandas	pandas	McKinney 2010 SciPy	10.25080/Majora-92bf1922-00a	Data Structures for Statistical Computing in Python	McKinney	2010	yes	Crossref works API
+matplotlib	matplotlib	Hunter 2007 Comput Sci Eng	10.1109/MCSE.2007.55	Matplotlib: A 2D Graphics Environment	Hunter	2007	yes	Crossref works API
+sklearn	scikit-learn	Pedregosa et al. 2011 JMLR		Scikit-learn: Machine Learning in Python	Pedregosa	2011	no_doi	https://jmlr.org/papers/v12/pedregosa11a.html title sentence: Scikit-learn: Machine Learning in Python
+lightgbm	LightGBM	Ke et al. 2017 NeurIPS		LightGBM: A Highly Efficient Gradient Boosting Decision Tree	Ke	2017	no_doi	https://proceedings.neurips.cc/paper/2017/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html title sentence: LightGBM: A Highly Efficient Gradient Boosting Decision Tree
+depmap_24q4	DepMap 24Q4 expression	README_24Q4.txt					no	README_24Q4.txt was opened and has no dataset DOI citation sentence

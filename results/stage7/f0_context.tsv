@@ -1,0 +1,141 @@
+label	dataset	context	predictor	n_pairs	spearman
+사후	RPPA	adrenocortical cancer	f0	131	0.37186918235915967
+사후	RPPA	bladder urothelial carcinoma	f0	130	0.5372199581421248
+사후	RPPA	brain lower grade glioma	f0	132	0.2431667010545474
+사후	RPPA	breast invasive carcinoma	f0	131	0.4953095289574578
+사후	RPPA	cervical & endocervical cancer	f0	130	0.4123017259627763
+사후	RPPA	cholangiocarcinoma	f0	129	0.3877347366443268
+사후	RPPA	colon adenocarcinoma	f0	130	0.4038920872344176
+사후	RPPA	diffuse large B-cell lymphoma	f0	129	0.5030881156567573
+사후	RPPA	esophageal carcinoma	f0	130	0.2588988811500882
+사후	RPPA	glioblastoma multiforme	f0	130	0.37480112845047847
+사후	RPPA	head & neck squamous cell carcinoma	f0	132	0.42106142023101506
+사후	RPPA	kidney chromophobe	f0	131	0.2910027562781572
+사후	RPPA	kidney clear cell carcinoma	f0	130	0.3975281839420903
+사후	RPPA	kidney papillary cell carcinoma	f0	131	0.3050881844016537
+사후	RPPA	liver hepatocellular carcinoma	f0	131	0.28513316059053756
+사후	RPPA	lung adenocarcinoma	f0	132	0.5036728213896815
+사후	RPPA	lung squamous cell carcinoma	f0	132	0.4079616272415739
+사후	RPPA	mesothelioma	f0	131	0.3970745448321893
+사후	RPPA	ovarian serous cystadenocarcinoma	f0	131	0.40551192180743517
+사후	RPPA	pancreatic adenocarcinoma	f0	131	0.5402937472946354
+사후	RPPA	pheochromocytoma & paraganglioma	f0	130	0.2503909160189296
+사후	RPPA	prostate adenocarcinoma	f0	131	0.28096919093492745
+사후	RPPA	rectum adenocarcinoma	f0	130	0.3345665106825499
+사후	RPPA	sarcoma	f0	130	0.39959850097882166
+사후	RPPA	skin cutaneous melanoma	f0	130	0.3691719418901838
+사후	RPPA	stomach adenocarcinoma	f0	131	0.4039531023978991
+사후	RPPA	testicular germ cell tumor	f0	129	0.3431043282440845
+사후	RPPA	thymoma	f0	129	0.4131658949575405
+사후	RPPA	thyroid carcinoma	f0	131	0.4331516050022061
+사후	RPPA	uterine carcinosarcoma	f0	130	0.37267618563441385
+사후	RPPA	uterine corpus endometrioid carcinoma	f0	130	0.47075677242732095
+사후	RPPA	adrenocortical cancer	f1s_lgbm	131	0.4211925479101052
+사후	RPPA	bladder urothelial carcinoma	f1s_lgbm	130	0.6047358287017438
+사후	RPPA	brain lower grade glioma	f1s_lgbm	132	0.35735417655867635
+사후	RPPA	breast invasive carcinoma	f1s_lgbm	131	0.5886723963059841
+사후	RPPA	cervical & endocervical cancer	f1s_lgbm	130	0.41818132160755983
+사후	RPPA	cholangiocarcinoma	f1s_lgbm	129	0.35669772570714303
+사후	RPPA	colon adenocarcinoma	f1s_lgbm	130	0.4441109396550547
+사후	RPPA	diffuse large B-cell lymphoma	f1s_lgbm	129	0.5997875670840788
+사후	RPPA	esophageal carcinoma	f1s_lgbm	130	0.3426921028554261
+사후	RPPA	glioblastoma multiforme	f1s_lgbm	130	0.42457769462917694
+사후	RPPA	head & neck squamous cell carcinoma	f1s_lgbm	132	0.46943695115651723
+사후	RPPA	kidney chromophobe	f1s_lgbm	131	0.3890514066086585
+사후	RPPA	kidney clear cell carcinoma	f1s_lgbm	130	0.47023173879200864
+사후	RPPA	kidney papillary cell carcinoma	f1s_lgbm	131	0.3565686222174772
+사후	RPPA	liver hepatocellular carcinoma	f1s_lgbm	131	0.3451449314044734
+사후	RPPA	lung adenocarcinoma	f1s_lgbm	132	0.5546169379033983
+사후	RPPA	lung squamous cell carcinoma	f1s_lgbm	132	0.4644174628103917
+사후	RPPA	mesothelioma	f1s_lgbm	131	0.43051833662520683
+사후	RPPA	ovarian serous cystadenocarcinoma	f1s_lgbm	131	0.49529173116959374
+사후	RPPA	pancreatic adenocarcinoma	f1s_lgbm	131	0.604489403726045
+사후	RPPA	pheochromocytoma & paraganglioma	f1s_lgbm	130	0.4321976266233323
+사후	RPPA	prostate adenocarcinoma	f1s_lgbm	131	0.2996103133507714
+사후	RPPA	rectum adenocarcinoma	f1s_lgbm	130	0.4180720752707261
+사후	RPPA	sarcoma	f1s_lgbm	130	0.4941730735091289
+사후	RPPA	skin cutaneous melanoma	f1s_lgbm	130	0.42892023651831923
+사후	RPPA	stomach adenocarcinoma	f1s_lgbm	131	0.4391768536806705
+사후	RPPA	testicular germ cell tumor	f1s_lgbm	129	0.4465563506261181
+사후	RPPA	thymoma	f1s_lgbm	129	0.4904964221824687
+사후	RPPA	thyroid carcinoma	f1s_lgbm	131	0.4587519350878129
+사후	RPPA	uterine carcinosarcoma	f1s_lgbm	130	0.43886165317019216
+사후	RPPA	uterine corpus endometrioid carcinoma	f1s_lgbm	130	0.5066544674923869
+사후	RPPA	adrenocortical cancer	f1s_ridge	131	0.4405968077723803
+사후	RPPA	bladder urothelial carcinoma	f1s_ridge	130	0.61006158762239
+사후	RPPA	brain lower grade glioma	f1s_ridge	132	0.27220027862856305
+사후	RPPA	breast invasive carcinoma	f1s_ridge	131	0.5850798056904927
+사후	RPPA	cervical & endocervical cancer	f1s_ridge	130	0.44483196547815756
+사후	RPPA	cholangiocarcinoma	f1s_ridge	129	0.4047635352803809
+사후	RPPA	colon adenocarcinoma	f1s_ridge	130	0.4384902156249573
+사후	RPPA	diffuse large B-cell lymphoma	f1s_ridge	129	0.5668213327370304
+사후	RPPA	esophageal carcinoma	f1s_ridge	130	0.32348113452320804
+사후	RPPA	glioblastoma multiforme	f1s_ridge	130	0.4276311297436808
+사후	RPPA	head & neck squamous cell carcinoma	f1s_ridge	132	0.46612888919035966
+사후	RPPA	kidney chromophobe	f1s_ridge	131	0.36073773554689587
+사후	RPPA	kidney clear cell carcinoma	f1s_ridge	130	0.45873356184025454
+사후	RPPA	kidney papillary cell carcinoma	f1s_ridge	131	0.34158970800192173
+사후	RPPA	liver hepatocellular carcinoma	f1s_ridge	131	0.3064004697592484
+사후	RPPA	lung adenocarcinoma	f1s_ridge	132	0.5486634699169853
+사후	RPPA	lung squamous cell carcinoma	f1s_ridge	132	0.4540862913703412
+사후	RPPA	mesothelioma	f1s_ridge	131	0.4442748091603053
+사후	RPPA	ovarian serous cystadenocarcinoma	f1s_ridge	131	0.5124592964287621
+사후	RPPA	pancreatic adenocarcinoma	f1s_ridge	131	0.5916831260342711
+사후	RPPA	pheochromocytoma & paraganglioma	f1s_ridge	130	0.33418727553291727
+사후	RPPA	prostate adenocarcinoma	f1s_ridge	131	0.30714781401804303
+사후	RPPA	rectum adenocarcinoma	f1s_ridge	130	0.3915088284695954
+사후	RPPA	sarcoma	f1s_ridge	130	0.4694834013846973
+사후	RPPA	skin cutaneous melanoma	f1s_ridge	130	0.4303513635308416
+사후	RPPA	stomach adenocarcinoma	f1s_ridge	131	0.44220359792878877
+사후	RPPA	testicular germ cell tumor	f1s_ridge	129	0.4358396690518784
+사후	RPPA	thymoma	f1s_ridge	129	0.49555008944543827
+사후	RPPA	thyroid carcinoma	f1s_ridge	131	0.48589120802861263
+사후	RPPA	uterine carcinosarcoma	f1s_ridge	130	0.4116975515164757
+사후	RPPA	uterine corpus endometrioid carcinoma	f1s_ridge	130	0.5133348809897718
+사후	RPPA	adrenocortical cancer	b_sd	131	0.10956066833929429
+사후	RPPA	bladder urothelial carcinoma	b_sd	130	0.4661022272596922
+사후	RPPA	brain lower grade glioma	b_sd	132	0.08616614402070409
+사후	RPPA	breast invasive carcinoma	b_sd	131	0.3985960604281215
+사후	RPPA	cervical & endocervical cancer	b_sd	130	0.2549454451105436
+사후	RPPA	cholangiocarcinoma	b_sd	129	0.2008639882381046
+사후	RPPA	colon adenocarcinoma	b_sd	130	0.2462494366985757
+사후	RPPA	diffuse large B-cell lymphoma	b_sd	129	0.17840451699463328
+사후	RPPA	esophageal carcinoma	b_sd	130	0.17283589834628357
+사후	RPPA	glioblastoma multiforme	b_sd	130	0.3125237269387811
+사후	RPPA	head & neck squamous cell carcinoma	b_sd	132	0.25584780827850334
+사후	RPPA	kidney chromophobe	b_sd	131	0.12714461111407677
+사후	RPPA	kidney clear cell carcinoma	b_sd	130	0.24626036133225906
+사후	RPPA	kidney papillary cell carcinoma	b_sd	131	0.21335077136603856
+사후	RPPA	liver hepatocellular carcinoma	b_sd	131	0.03224256659371163
+사후	RPPA	lung adenocarcinoma	b_sd	132	0.30608443384658734
+사후	RPPA	lung squamous cell carcinoma	b_sd	132	0.26336660527098454
+사후	RPPA	mesothelioma	b_sd	131	0.19483264826776278
+사후	RPPA	ovarian serous cystadenocarcinoma	b_sd	131	0.2846153846153846
+사후	RPPA	pancreatic adenocarcinoma	b_sd	131	0.38738589654620187
+사후	RPPA	pheochromocytoma & paraganglioma	b_sd	130	0.088754455202174
+사후	RPPA	prostate adenocarcinoma	b_sd	131	0.15104895104895105
+사후	RPPA	rectum adenocarcinoma	b_sd	130	0.24810116210790806
+사후	RPPA	sarcoma	b_sd	130	0.18892242144505592
+사후	RPPA	skin cutaneous melanoma	b_sd	130	0.2057354326837728
+사후	RPPA	stomach adenocarcinoma	b_sd	131	0.377232690973149
+사후	RPPA	testicular germ cell tumor	b_sd	129	0.3689959749552773
+사후	RPPA	thymoma	b_sd	129	0.349849060822898
+사후	RPPA	thyroid carcinoma	b_sd	131	0.25935514866812576
+사후	RPPA	uterine carcinosarcoma	b_sd	130	0.19031531223968645
+사후	RPPA	uterine corpus endometrioid carcinoma	b_sd	130	0.30617105245189746
+사후	ProCan	Haematopoietic and Lymphoid	f0	2644	0.40437667470594646
+사후	ProCan	Large Intestine	f0	1335	0.40375741610119414
+사후	ProCan	Lung	f0	2139	0.35973228849938577
+사후	ProCan	Haematopoietic and Lymphoid	f1s_lgbm	2644	0.4415270519743752
+사후	ProCan	Large Intestine	f1s_lgbm	1335	0.4399878746581731
+사후	ProCan	Lung	f1s_lgbm	2139	0.3911122497417813
+사후	ProCan	Haematopoietic and Lymphoid	f1s_ridge	2644	0.45304701042187234
+사후	ProCan	Large Intestine	f1s_ridge	1335	0.432511279343289
+사후	ProCan	Lung	f1s_ridge	2139	0.3999440145211074
+사후	ProCan	Haematopoietic and Lymphoid	b_sd	2644	0.1293890181242018
+사후	ProCan	Large Intestine	b_sd	1335	0.26134155093915573
+사후	ProCan	Lung	b_sd	2139	0.1345623013870949
+사후	APOLLO	LUAD	f0	7196	0.7190687490182122
+사후	APOLLO	LUAD	f1s_lgbm	7196	0.7466855844306967
+사후	APOLLO	LUAD	f1s_ridge	7196	0.7236848127998539
+사후	APOLLO	LUAD	b_sd	7196	0.4915933010450559

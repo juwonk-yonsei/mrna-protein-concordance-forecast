@@ -1,0 +1,100 @@
+# Analysis plan B15. Commit this file before the file check and before any fit.
+# Do not edit the criterion after that commit.
+label: 사후, 재현 진단 4차(CSV 왕복)
+seed: 20261001
+cpu_cap: none
+ram_gb: 48
+project_venv_unchanged: true
+no_thread_cap: true
+no_num_threads: true
+no_histogram_args: true
+
+sources:
+  predictions_commit: 224779714bffd58b02059f51de48d92d1324a24f
+  predictions_blob: 80d0d9935a037c4949760aa3e01ef5c9020009b4
+  extracted_to: /tmp/b15/f1s_predictions.tsv
+  fit_file_blob: 4377890f13e9e9df9a3bb254896d0e7bf0384cce
+
+features:
+  - rho_mean
+  - rho_sd
+  - rho_min
+  - rho_max
+  - n_defined_cancers
+  - holdout_rna_mean_percentile
+  - holdout_rna_sd_percentile
+  - train_rna_mean_percentile_mean
+  - train_protein_rate_mean
+
+section_2_1:
+  rows: every data row of the extracted file
+  significant_digits: >
+    From the raw token, drop the sign and the exponent, drop the decimal
+    point, then drop leading zeros. The remaining length is the count.
+    A token that is only zeros has count 1. Missing tokens are not finite.
+  significant_digit_summary: minimum, numpy median, maximum
+  exact_integer_text: >
+    The token matches an optional sign, digits, an optional .0 tail, and an
+    optional exponent, and the parsed value is finite and equal to an integer.
+    These tokens stay in the reported distribution. They are left out of the
+    truncation maximum.
+  float32_equal: np.float32(v).astype(np.float64) == v on finite parsed values
+  repr_equal: float(repr(float(v))) == float(v) on finite parsed values
+  nonfinite: count of parsed values that are not finite
+  dtype: pandas read_csv default dtype name
+  output: results/stage15/roundtrip_check.tsv
+
+section_2_2:
+  quote: f1s_feature_row, design_f1s, and the to_csv call that writes f1s_predictions.tsv
+  float_format: record whether that to_csv call passes float_format
+  float32_inputs: name a feature column only if its values are taken from a float32 array
+
+section_2_3:
+  run_only_if: overall form is float32_origin
+  recovery: cast the nine parsed feature columns to float32 and back to float64
+  training_rows: in_P and finite actual
+  query_features: not cast
+  params: scripts/08_stage3.py lgbm_params
+  forbidden_args:
+    - num_threads
+    - force_col_wise
+    - force_row_wise
+  repeats: 2
+  datasets:
+    - RPPA
+    - ProCan
+    - APOLLO
+  limit: 1.0e-12
+  output: results/stage15/roundtrip_refit.tsv
+
+classification:
+  digit_truncation: >
+    A column with at least one finite non-integer token whose maximum
+    significant-digit count is below 17 and whose float32 equality fraction
+    is below 1.
+  float32_origin: >
+    A column with at least one finite non-integer token, float32 equality
+    fraction exactly 1, and maximum non-integer significant-digit count
+    below 17.
+  exact_integer: a column whose finite tokens are all exact integer text
+  no_loss: >
+    A column that is not exact_integer, not digit_truncation, and not
+    float32_origin, with maximum non-integer significant-digit count at
+    least 17 and repr equality fraction exactly 1.
+  unrecovered: any other column
+  overall_priority:
+    - if any column is digit_truncation or unrecovered, do not fit, OPTION Z
+    - else if any column is float32_origin, run section 2.3
+    - else do not fit, OPTION Z
+
+section_2_4:
+  limit: 1.0e-12
+  option_Y: >
+    Both repeats reproduce RPPA and ProCan within the limit and neither
+    repeat reproduces APOLLO within the limit. Export
+    release/models/F1s_lightgbm_rppa_procan.txt and
+    release/models/F1s_lightgbm_rppa_procan_settings.json. Reloading the
+    model must match the saved predictions with maximum absolute difference 0.
+  option_Z: every other outcome, including no loss, digit truncation, unrecovered loss, and a failed falsification
+  stop: true
+  forbidden_after_this: other precisions, other column sets, and other parameters

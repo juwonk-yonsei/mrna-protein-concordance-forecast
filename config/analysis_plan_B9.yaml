@@ -1,0 +1,31 @@
+# Analysis plan B9. Commit this file before any F0 minus L* calculation.
+# Do not edit the contrasts after that commit.
+label: 사후
+seed: 20261001
+bootstrap_draws: 2000
+seed_restart: new_default_rng_for_each_contrast
+cpu_cap: none
+ram_gb: 48
+read_paths_yaml_n_threads: false
+import_04_models: false
+import_02_cptac_audit: false
+retrain: false
+source: results/stage8/lookup_assignment.tsv
+new_lookup: false
+
+units:
+  RPPA: xena_antibody
+  ProCan: protein_id
+  APOLLO: gene_symbol
+
+min_pairs_for_spearman: 3
+rank_ties: average
+constant_score_is_undefined: true
+interval: percentile_2.5_and_97.5_of_finite_draws
+
+contrasts:
+  differences:
+    - [f0, Lstar]
+    - [f1s_lgbm, f0]
+  difference_strata: [all, L1, L2]
+  count_only_strata: [L3, L4]

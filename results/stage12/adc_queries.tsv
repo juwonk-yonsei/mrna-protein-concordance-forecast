@@ -1,0 +1,24 @@
+endpoint	query	n_hits	note
+label	"""antibody-drug conjugate"""	20	label text contains the phrase
+drugsfda	openfda.generic_name:vedotin	5	planned generic-name stem query
+drugsfda	openfda.generic_name:mafodotin	0	planned generic-name stem query
+drugsfda	openfda.generic_name:deruxtecan	2	planned generic-name stem query
+drugsfda	openfda.generic_name:govitecan	1	planned generic-name stem query
+drugsfda	openfda.generic_name:emtansine	1	planned generic-name stem query
+drugsfda	openfda.generic_name:soravtansine	1	planned generic-name stem query
+drugsfda	openfda.generic_name:tesirine	1	planned generic-name stem query
+drugsfda	openfda.generic_name:ozogamicin	2	planned generic-name stem query
+drugsfda	openfda.generic_name:duocarmazine	0	planned generic-name stem query
+drugsfda	openfda.generic_name:tirumotecan	0	planned generic-name stem query
+drugsfda	products.active_ingredients.name:vedotin	6	added after openfda.generic_name:mafodotin returned 0 and missed Blenrep
+drugsfda	products.active_ingredients.name:mafodotin	1	added after openfda.generic_name:mafodotin returned 0 and missed Blenrep
+drugsfda	products.active_ingredients.name:deruxtecan	3	added after openfda.generic_name:mafodotin returned 0 and missed Blenrep
+drugsfda	products.active_ingredients.name:govitecan	1	added after openfda.generic_name:mafodotin returned 0 and missed Blenrep
+drugsfda	products.active_ingredients.name:emtansine	1	added after openfda.generic_name:mafodotin returned 0 and missed Blenrep
+drugsfda	products.active_ingredients.name:soravtansine	1	added after openfda.generic_name:mafodotin returned 0 and missed Blenrep
+drugsfda	products.active_ingredients.name:tesirine	1	added after openfda.generic_name:mafodotin returned 0 and missed Blenrep
+drugsfda	products.active_ingredients.name:ozogamicin	2	added after openfda.generic_name:mafodotin returned 0 and missed Blenrep
+drugsfda	products.active_ingredients.name:duocarmazine	0	added after openfda.generic_name:mafodotin returned 0 and missed Blenrep
+drugsfda	products.active_ingredients.name:tirumotecan	0	added after openfda.generic_name:mafodotin returned 0 and missed Blenrep
+label	"""belantamab"""	2	added because the Blenrep application number has no openFDA label record
+drugsfda	products.active_ingredients.name:sunirine	1	phrase hit whose payload stem is not in the planned list

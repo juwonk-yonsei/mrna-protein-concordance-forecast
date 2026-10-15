@@ -1,0 +1,35 @@
+label	cohort	context	n	spearman_f_delta	median_f
+사후	TCGA	adrenocortical cancer	121	-0.05967560722707296	0.04
+사후	TCGA	bladder urothelial carcinoma	120	-0.10809702617139914	0.04
+사후	TCGA	brain lower grade glioma	122	-0.028197342660299947	0.04
+사후	TCGA	breast invasive carcinoma	121	-0.27203767206013163	0.04
+사후	TCGA	cervical & endocervical cancer	120	-0.010931780902612136	0.04
+사후	TCGA	cholangiocarcinoma	119	-0.21356036930268252	0.04
+사후	TCGA	colon adenocarcinoma	120	-0.20098297797263986	0.02
+사후	TCGA	diffuse large B-cell lymphoma	119	-0.09974397449389223	0.04
+사후	TCGA	esophageal carcinoma	120	-0.19797947353621853	0.06
+사후	TCGA	glioblastoma multiforme	120	0.05103309805876533	0.02
+사후	TCGA	head & neck squamous cell carcinoma	121	-0.047236816654882115	0.04
+사후	TCGA	kidney chromophobe	121	0.023026027950198518	0.02
+사후	TCGA	kidney clear cell carcinoma	120	-0.1232421787931873	0.03
+사후	TCGA	kidney papillary cell carcinoma	121	0.023794558372457784	0.04
+사후	TCGA	liver hepatocellular carcinoma	121	-0.19391676532492874	0.04
+사후	TCGA	lung adenocarcinoma	121	-0.008633646640729194	0.04
+사후	TCGA	lung squamous cell carcinoma	121	-0.155108965793178	0.04
+사후	TCGA	mesothelioma	121	-0.17152364871388598	0.04
+사후	TCGA	ovarian serous cystadenocarcinoma	121	-0.03311529179713924	0.04
+사후	TCGA	pancreatic adenocarcinoma	121	-0.11961331948443492	0.04
+사후	TCGA	pheochromocytoma & paraganglioma	120	-0.22354582008681476	0.04
+사후	TCGA	prostate adenocarcinoma	121	-0.16111782479730924	0.04
+사후	TCGA	rectum adenocarcinoma	120	-0.1865146283812255	0.02
+사후	TCGA	sarcoma	120	-0.022069330498594504	0.06
+사후	TCGA	skin cutaneous melanoma	120	-0.07253540332467205	0.04
+사후	TCGA	stomach adenocarcinoma	121	-0.14019828074360097	0.04
+사후	TCGA	testicular germ cell tumor	119	-0.11995877816817303	0.06
+사후	TCGA	thymoma	119	-0.012721610613447608	0.04
+사후	TCGA	thyroid carcinoma	121	-0.14862184195872757	0.04
+사후	TCGA	uterine carcinosarcoma	120	-0.0589768112047813	0.06
+사후	TCGA	uterine corpus endometrioid carcinoma	120	-0.06438181124727535	0.04
+사후	ProCan	Haematopoietic and Lymphoid	2525	-0.021874262977674756	0.02
+사후	ProCan	Large Intestine	1306	-0.034121094789024246	0.02
+사후	ProCan	Lung	2076	-0.008681141534976268	0.06

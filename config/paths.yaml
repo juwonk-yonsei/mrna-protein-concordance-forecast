@@ -1,0 +1,9 @@
+# Paths are relative to the project root (directory that contains this file's parent).
+raw_dir: data/raw
+processed_dir: data/processed
+reference_dir: data/reference
+results_dir: results
+logs_dir: logs
+reports_dir: reports
+seed: 20261001
+n_threads: 16

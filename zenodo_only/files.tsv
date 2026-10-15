@@ -1,0 +1,4 @@
+path	bytes	sha256	reason
+release/models/r1r2_model_compressed.npz	121062358	4c1b0f6f7a75cbb91b1043f01005d154e01ec2ba74d28da0402918beccf6d4cc	over 100 MB; not in this folder
+results/stage6/frozen/r1r2_model.npz	121062358	4c1b0f6f7a75cbb91b1043f01005d154e01ec2ba74d28da0402918beccf6d4cc	over 100 MB; not in this folder
+results/reliability_training_rows.tsv	167968559	9a00d5dd5b304770929711b407b1c9203072411ad33c465be16e69c1559c4976	over 100 MB; not in this folder

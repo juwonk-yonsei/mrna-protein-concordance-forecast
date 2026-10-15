@@ -1,0 +1,7 @@
+label	dataset	layer	n_pairs	n_units	n_genes	n_genes_in_P	n_feature_missing	n_feature_mismatch	global_mean
+사후, B10 결과를 본 뒤 정함	APOLLO	a	6382	6382	6382	6196			0.4560891222827946
+사후, B10 결과를 본 뒤 정함	APOLLO	b	600	600	600	0	0	0	0.4560891222827946
+사후, B10 결과를 본 뒤 정함	ProCan	a	3356	2091	2091	1967			0.4560891222827946
+사후, B10 결과를 본 뒤 정함	ProCan	b	0	0	0	0	0	0	0.4560891222827946
+사후, B10 결과를 본 뒤 정함	RPPA	a	1206	127	127	99			0.4560891222827946
+사후, B10 결과를 본 뒤 정함	RPPA	b	0	0	0	0	0	0	0.4560891222827946

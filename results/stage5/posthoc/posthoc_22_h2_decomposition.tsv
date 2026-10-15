@@ -1,0 +1,21 @@
+label	table	lineage	lambda	in_P	n	median_delta
+사후	lineage_x_lambda	Haematopoietic and Lymphoid	0.0		20	0.0
+사후	lineage_x_lambda	Haematopoietic and Lymphoid	0.25		61	0.005439800478061
+사후	lineage_x_lambda	Haematopoietic and Lymphoid	0.5		183	-0.0004627198277638
+사후	lineage_x_lambda	Haematopoietic and Lymphoid	0.75		835	0.0006172024830323
+사후	lineage_x_lambda	Haematopoietic and Lymphoid	1.0		1426	-0.00704369196702045
+사후	lineage_x_lambda	Large Intestine	0.25		7	0.0120967741935483
+사후	lineage_x_lambda	Large Intestine	0.5		68	0.01209677419354835
+사후	lineage_x_lambda	Large Intestine	0.75		425	0.0124582869855394
+사후	lineage_x_lambda	Large Intestine	1.0		806	0.014377085650722949
+사후	lineage_x_lambda	Lung	0.0		8	0.0
+사후	lineage_x_lambda	Lung	0.25		38	0.01673538159606265
+사후	lineage_x_lambda	Lung	0.5		136	-0.0032320186138971
+사후	lineage_x_lambda	Lung	0.75		690	0.00389717520794625
+사후	lineage_x_lambda	Lung	1.0		1204	0.007362223749744899
+사후	lineage_x_in_P	Haematopoietic and Lymphoid		False	208	0.0
+사후	lineage_x_in_P	Haematopoietic and Lymphoid		True	2317	-0.0037023324694557
+사후	lineage_x_in_P	Large Intestine		False	25	0.0090953265078706
+사후	lineage_x_in_P	Large Intestine		True	1281	0.0129032258064516
+사후	lineage_x_in_P	Lung		False	127	0.0030263685325782
+사후	lineage_x_in_P	Lung		True	1949	0.0048780487804878

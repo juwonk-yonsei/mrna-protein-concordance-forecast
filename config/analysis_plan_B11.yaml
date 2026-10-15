@@ -1,0 +1,89 @@
+# Analysis plan B11. Commit this file before any L1-split or forecast-v2 calculation.
+# Do not edit the strata or the contrasts after that commit.
+label: 사후, B10 결과를 본 뒤 정함
+seed: 20261001
+bootstrap_draws: 2000
+seed_restart: new_default_rng_for_each_contrast
+cpu_cap: none
+ram_gb: 48
+read_paths_yaml_n_threads: false
+import_04_models: false
+import_02_cptac_audit: false
+retrain_for_l1_split: false
+interval: percentile_2.5_and_97.5_of_finite_draws
+rank_ties: average
+
+l1_split:
+  assignment: results/stage8/lookup_assignment.tsv
+  build: results/stage8/lookup_build.tsv
+  global_mean_column: global_mean
+  stratum: L1
+  require_finite: [actual, f0, l1, l2, f1s_lgbm]
+  f0_is_global_mean: absolute_difference_at_most_1e-8
+  layers:
+    a: F0 is a gene-specific value (not the global mean)
+    b: F0 is the global mean
+  lpool_column: l2
+  contrasts:
+    - [f1s_lgbm, lpool]
+    - [lpool, l1]
+    - [f1s_lgbm, l1]
+  unit_column: unit
+  min_pairs_for_spearman: 3
+  constant_score_is_undefined: true
+  p_genes: results/P_genes.txt
+  outputs:
+    - results/stage11/l1_split_diff.tsv
+    - results/stage11/l1_split_counts.tsv
+  feature_default_check:
+    # Gene-level columns only. Query RNA percentiles are not part of the default.
+    columns: [n_defined_cancers, rho_mean, rho_sd, rho_min, rho_max]
+    n_defined_cancers: 0
+    rho_sd: 0
+    rho_mean_min_max_equals_global_mean: true
+    tolerance: 1.0e-8
+    rppa: results/stage9/cache_rppa_features.tsv
+    rppa_keys: [xena_antibody, cancer]
+    procan: results/stage9/cache_procan_features.tsv
+    procan_keys: [protein_id, lineage]
+    # apollo_gene_pred.tsv stores f0, which the freeze script set equal to rho_mean.
+    # It does not store n_defined_cancers. Recover the five columns with
+    # scripts/08_stage3.py f1s_feature_row on the development rho dictionary
+    # used by scripts/19_stage6_freeze.py. Do not fit a model.
+    apollo_prediction: results/stage6/frozen/apollo_gene_pred.tsv
+    count_mismatches_on: layer_b_only
+    missing_feature_row_is_a_mismatch: true
+
+forecast_v2:
+  source: results/stage10/forecast_all_genes.tsv.gz
+  output: results/stage11/forecast_all_genes_v2.tsv.gz
+  # lookup_build.tsv stores the global mean and two counts, not per-gene rho.
+  # cptac_pooled_rho is the stage-8 l2 formula: the mean of finite CPTAC rho
+  # values for that gene in the stage-8 dictionary.
+  rho_dictionary: scripts/25_stage8_lookup.py lookup_rho
+  # extra_cptac_rho runs only for gene symbols already in lookup_assignment.tsv,
+  # the set used when l2 was stored. Genes outside that dictionary and outside
+  # s0/adc_loco stay missing. Do not compute new correlations for the other genes.
+  extra_gene_set: gene_symbol values in results/stage8/lookup_assignment.tsv
+  l2_check: genes with a finite l2 in lookup_assignment must match cptac_pooled_rho at max abs 0
+  columns:
+    cptac_pooled_rho: mean of the finite CPTAC rho values; empty when there are none
+    cptac_n_cohorts: number of values in that mean; 0 when the mean is empty
+    cptac_matched_cohort: CPTAC cohort from the map below; empty when the TCGA cancer is absent from the map
+    cptac_matched_rho: the dictionary value for that one cohort and gene; empty when the cohort is absent or the value is absent
+  tcga_to_cptac:
+    breast invasive carcinoma: BRCA
+    kidney clear cell carcinoma: CCRCC
+    colon adenocarcinoma: COAD
+    rectum adenocarcinoma: COAD
+    glioblastoma multiforme: GBM
+    head & neck squamous cell carcinoma: HNSCC
+    lung adenocarcinoma: LUAD
+    lung squamous cell carcinoma: LSCC
+    ovarian serous cystadenocarcinoma: OV
+    pancreatic adenocarcinoma: PDAC
+    uterine corpus endometrioid carcinoma: UCEC
+  cancer_names: results/stage10/s_by_cancer.tsv
+  prediction_columns: [forecast, lower80, upper80, lower90, upper90]
+  prediction_max_abs: 0
+  v1_unchanged: true

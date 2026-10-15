@@ -1,0 +1,2 @@
+label	n_targets_with_spearman	n_targets	spearman_of_target_concordance_vs_mean_rho_hat	n_targets_in_that_spearman	note	map_commit
+사후	24	29	0.04434782608695652	24	HPA는 암종 사이 수준 비교이고, ρ̂는 암종 안 환자 사이 일치도이다.	9e5de1954a5251c9a278df1b34d623bb2c70c974
